@@ -1,0 +1,22 @@
+version: "3.8"
+services:
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:80"  # Le conteneur Nginx écoute sur le port 80
+    depends_on:
+      - backend
+
+  backend:
+    build: ./backend
+    ports:
+      - "4000:4000"
+    environment:
+      - AGENT_URL=http://ai-agent:5000
+    depends_on:
+      - ai-agent
+
+  ai-agent:
+    build: ./ai-agent
+    ports:
+      - "5000:5000"
