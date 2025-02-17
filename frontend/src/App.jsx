@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react'
 import axios from 'axios';
+import ChatInterface from './components/ChatInterface';
 
 function App() {
   const [responseData, setResponseData] = useState(null);
@@ -26,8 +27,9 @@ function App() {
           <pre>{JSON.stringify(responseData, null, 2)}</pre>
         </div>
       )}
+      <ChatInterface />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
