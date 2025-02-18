@@ -1,22 +1,19 @@
 import React, { useState } from "react";
+import fetch from '../api/api'
 
 const ChatInterface = () => {
   const [messages, setMessages] = useState([
-    { text: "Hello! How can I assist you today?", sender: "bot" }
+    { text: "Hello! How can I assist you today ?", sender: "bot" }
   ]);
   const [input, setInput] = useState("");
 
-  const handleSend = () => {
+  const handleSend = async () => {
     if (!input.trim()) return;
-
     const newMessage = { text: input, sender: "user" };
     setMessages((prev) => [...prev, newMessage]);
+    const response = fetch(input)
+    setMessages((prev) => [...prev, { text: response, sender: "bot" }]);
     setInput("");
-
-    setTimeout(() => {
-      const botResponse = { text: "I'm here to help! 😊", sender: "bot" };
-      setMessages((prev) => [...prev, botResponse]);
-    }, 1000);
   };
 
   return (
