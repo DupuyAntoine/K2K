@@ -1,5 +1,7 @@
 import express from 'express';
-import { processQuestion } from '../services/agentService.js';
+import { processQuestion, processResponse } from '../services/agentService.js';
+// import { processQuestion } from '../services/resourceService.js';
+// import { processQuestion } from '../services/sparqlService.js';
 
 const router = express.Router();
 
@@ -9,12 +11,14 @@ router.get('/query', async (req, res, next) => {
     const { request } = req.query;
     
     // Appel à l'agent IA pour traiter la question
-    const aiResponse = await processQuestion(request);
+    const responseInteraction = await processQuestion(request);
+    const responseConstruction = await processResponse(request);
     
     // Réponse agrégée
     res.json({
       request,
-      aiResponse
+      responseInteraction,
+      responseConstruction
     });
   } catch (error) {
     next(error);
