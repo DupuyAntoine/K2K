@@ -11,9 +11,10 @@ const ChatInterface = () => {
     if (!input.trim()) return;
     const newMessage = { text: input, sender: "user" };
     setMessages((prev) => [...prev, newMessage]);
-    const response = await fetch(input)
-    setMessages((prev) => [...prev, { text: response, sender: "bot" }]);
     setInput("");
+    const data = await fetch(input)
+    setMessages((prev) => [...prev, { text: data.responseInteraction.text, sender: "bot" }]);
+    setMessages((prev) => [...prev, { text: data.responseConstruction.text, sender: "bot" }]);
   };
 
   return (
