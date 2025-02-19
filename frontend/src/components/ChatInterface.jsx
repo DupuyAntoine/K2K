@@ -12,7 +12,7 @@ const ChatInterface = () => {
     const newMessage = { text: input, sender: "user" };
     setMessages((prev) => [...prev, newMessage]);
     setInput("");
-    const data = await fetch(input)
+    const data = await fetch(input);
     setMessages((prev) => [...prev, { text: data.responseInteraction.text, sender: "bot" }]);
     setMessages((prev) => [...prev, { text: data.responseConstruction.text, sender: "bot" }]);
   };
