@@ -12,11 +12,18 @@ services:
     ports:
       - "4000:4000"
     environment:
-      - AGENT_URL=http://ai-agent:5000
+      - AGENT_URL=${AGENT_URL}
     depends_on:
       - ai-agent
+      - endpoint
 
   ai-agent:
     build: ./ai-agent
     ports:
       - "5000:5000"
+
+  endpoint:
+    build: ./endpoint
+    ports:
+      - "8890:8890"  # Port du SPARQL endpoint Virtuoso
+      - "1111:1111"  # Port pour isql (administration)
