@@ -131,7 +131,6 @@ dist
 
 ### runtime-created files
 
-data/
 virtuoso/
 downloadURLs.txt
 paths.*
