@@ -1600,6 +1600,11 @@ dqv:value rdf:type owl:DatatypeProperty ;
 #    Classes
 #################################################################
 
+###  http://w3id.org/data-fw#Dataset
+
+:Dataset rdfs:subClassOf dcat:Dataset ,
+                         qb:DataSet .
+
 ###  http://purl.org/dc/dcmitype/Service
 <http://purl.org/dc/dcmitype/Service> rdf:type owl:Class .
 
@@ -1639,10 +1644,6 @@ dct:PeriodOfTime rdf:type owl:Class .
 ###  http://purl.org/eis/vocab/daq#QualityGraph
 <http://purl.org/eis/vocab/daq#QualityGraph> rdf:type owl:Class ;
                                              owl:equivalentClass dqv:QualityMeasurementDataset .
-
-
-###  http://purl.org/linked-data/cube#DataSet
-qb:DataSet owl:equivalentClass :Dataset .
 
 
 ###  http://purl.org/vocommons/voaf#Vocabulary
@@ -1788,7 +1789,6 @@ dcat:DataService rdf:type owl:Class ;
 
 ###  http://www.w3.org/ns/dcat#Dataset
 dcat:Dataset rdf:type owl:Class ;
-             owl:equivalentClass :Dataset ;
              rdfs:subClassOf dcat:Resource ;
              rdfs:comment "1つのエージェントによって公開またはキュレートされ、1つ以上の形式でアクセスまたはダウンロードできるデータの集合。"@ja ,
                           "A collection of data, published or curated by a single source, and available for access or download in one or more representations."@en ,
