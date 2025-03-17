@@ -13,9 +13,8 @@ response_agent = ResponseAgent(model="llama-3.3-70b-versatile")
 def process_interact():
     data = request.get_json()
     req = data.get('request', '')
-    
-    # Traitement simulé avec Llama 3.3
-    response_text = interaction_agent.process_query(req)
+    data_model = data.get('graph', '')
+    response_text = interaction_agent.process_query(req, data_model)
 
     return jsonify({ 'text': response_text })
 
@@ -24,7 +23,6 @@ def process_response():
     data = request.get_json()
     req = data.get('request', '')
     
-    # Traitement simulé avec Llama 3.3
     response_text = response_agent.construct_response(req)
 
     return jsonify({ 'text': response_text })
