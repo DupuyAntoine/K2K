@@ -12,6 +12,7 @@ services:
     ports:
       - "4000:4000"
     environment:
+      - ENDPOINT_URL=${ENDPOINT_URL}
       - AGENT_URL=${AGENT_URL}
     depends_on:
       - ai-agent
