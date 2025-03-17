@@ -1,20 +1,20 @@
-import { useState } from "react";
+import { useState } from "react"
 import fetch from '../api/api'
 
 const ChatInterface = () => {
   const [messages, setMessages] = useState([
     { text: "Hello! How can I assist you today ?", sender: "bot" }
   ]);
-  const [input, setInput] = useState("");
+  const [input, setInput] = useState("")
 
   const handleSend = async () => {
-    if (!input.trim()) return;
-    const newMessage = { text: input, sender: "user" };
-    setMessages((prev) => [...prev, newMessage]);
-    setInput("");
+    if (!input.trim()) return
+    const newMessage = { text: input, sender: "user" }
+    setMessages((prev) => [...prev, newMessage])
+    setInput("")
     const data = await fetch(input);
-    setMessages((prev) => [...prev, { text: data.responseInteraction.text, sender: "bot" }]);
-    setMessages((prev) => [...prev, { text: data.responseConstruction.text, sender: "bot" }]);
+    setMessages((prev) => [...prev, { text: data.responseInteraction.text, sender: "bot" }])
+    setMessages((prev) => [...prev, { text: data.responseConstruction.text, sender: "bot" }])
   };
 
   return (
@@ -23,7 +23,7 @@ const ChatInterface = () => {
         {messages.map((msg, index) => (
           <div
             key={index}
-            className={`p-2 rounded-lg max-w-xs ${
+            className={`p-2 rounded-lg max-w-5xl ${
               msg.sender === "user"
                 ? "bg-blue-500 text-white self-end"
                 : "bg-gray-300 text-black self-start"
@@ -51,7 +51,7 @@ const ChatInterface = () => {
         </button>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default ChatInterface;
+export default ChatInterface
