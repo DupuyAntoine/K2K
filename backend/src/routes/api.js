@@ -11,16 +11,14 @@ router.get('/query', async (req, res, next) => {
     const { request } = req.query
 
     const { graph } = await selectAll()
-    console.log(graph)
-    // Appel à l'agent IA pour traiter la question
-    const responseInteraction = await processQuestion(request, graph)
-    const responseConstruction = await processResponse(request)
+
+    // Appel aux agents IA pour traiter la question
+    const interactionResults = await processQuestion(request, graph)
+    const response = await processResponse(interactionResults)
     
     // Réponse agrégée
     res.json({
-      request,
-      responseInteraction,
-      responseConstruction
+      response
     });
   } catch (error) {
     next(error)
