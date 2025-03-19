@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-// URL de l'agent IA (microservice). La variable d'environnement AGENT_URL permet de la configurer.
+// URL du module IA (microservice). La variable d'environnement AGENT_URL permet de la configurer.
 const AGENT_URL = process.env.AGENT_URL || 'http://localhost:5000'
 
 export const processQuestion = async (request, graph) => {

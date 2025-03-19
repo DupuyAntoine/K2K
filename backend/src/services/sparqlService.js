@@ -24,7 +24,7 @@ export const selectAll = async () => {
     
     const request = ENDPOINT_URL + '?' + querypart;
     const response = await axios.get(request, { query })
-    return response.data;
+    return response.data
   } catch (error) {
     console.error("Erreur lors de l'appel à l'agent IA:", error)
     throw error

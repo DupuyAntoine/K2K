@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 4000
 
 // Middlewares
-app.use(cors());
+app.use(cors())
 app.use(bodyParser.json())
 
 // Routes de l'API
@@ -17,8 +17,8 @@ app.use('/api', apiRoutes)
 app.use((err, req, res, next) => {
   console.error(err.stack)
   res.status(500).json({ error: 'Erreur interne du serveur' })
-});
+})
 
 app.listen(PORT, () => {
   console.log(`Backend Node.js en écoute sur le port ${PORT}`)
-});
+})
