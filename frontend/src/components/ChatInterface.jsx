@@ -1,3 +1,4 @@
+import ReactMarkdown from 'react-markdown'
 import { useState } from "react"
 import fetch from '../api/api'
 
@@ -13,8 +14,9 @@ const ChatInterface = () => {
     setMessages((prev) => [...prev, newMessage])
     setInput("")
     const data = await fetch(input);
-    setMessages((prev) => [...prev, { text: data.responseInteraction.text, sender: "bot" }])
-    setMessages((prev) => [...prev, { text: data.responseConstruction.text, sender: "bot" }])
+    console.log(data)
+    setMessages((prev) => [...prev, { text: data.response.text, sender: "bot" }])
+    //setMessages((prev) => [...prev, { text: data.responseConstruction.text, sender: "bot" }])
   };
 
   return (
@@ -29,7 +31,7 @@ const ChatInterface = () => {
                 : "bg-gray-300 text-black self-start"
             }`}
           >
-            {msg.text}
+            <ReactMarkdown>{msg.text}</ReactMarkdown>
           </div>
         ))}
       </div>
