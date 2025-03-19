@@ -10,7 +10,6 @@ class ResponseAgent:
       "données suivantes : '{}', assemble une réponse claire composée "
       "de la liste des jeux de données et les fichiers associés sélectionnés et justifie pourquoi "
       "ces jeux de données ont été recommandés particulièrement."
-      "N'invente pas des jeux de données hors de ce qui t'a été transmis."
     ).format(data_results)
     response = self.model.generate(prompt)
     return response
