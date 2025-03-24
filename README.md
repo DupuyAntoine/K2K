@@ -39,7 +39,7 @@ ENDPOINT_URL=http://endpoint:8890/sparql/
 
 ### 3. Démarrage des services avec Docker
 
-Tous les services (backend, frontend, agents IA, RDF4J) sont gérés via **Docker Compose**.
+Tous les services (backend, frontend, agents IA, Virtuoso) sont gérés via **Docker Compose**.
 
 ```sh
 docker-compose up --build
