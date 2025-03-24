@@ -14,9 +14,8 @@ def process_interact():
     data = request.get_json()
     req = data.get('request', '')
     data_model = data.get('graph', '')
-    response_text = interaction_agent.process_query(req, data_model)
-
-    return jsonify({ 'text': response_text })
+    response = interaction_agent.process_query(req, data_model)
+    return jsonify(response)
 
 @app.route('/response', methods=['POST'])
 def process_response():
