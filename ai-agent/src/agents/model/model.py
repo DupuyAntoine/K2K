@@ -1,3 +1,4 @@
+import os
 from groq import Groq  # type: ignore
 
 # Initialisation du modèle Llama 3.1 via Groq
@@ -7,7 +8,7 @@ class Model:
     # Initialize a Groq client with your API key.
     # Replace "your_api_key" with your actual API key.
     self.client = Groq(
-        api_key = "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"
+        api_key = os.environ["GROQ_API_KEY"]
     )  # Charger le modèle sur le runtime Groq
 
   def generate(self, prompt, tools = []):
