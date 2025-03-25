@@ -11,7 +11,17 @@ export const processQuestion = async (request, graph) => {
     console.error("Erreur lors de l'appel à l'agent IA:", error);
     throw error
   }
-};
+}
+
+export const processExctract = async (interaction, graph) => {
+  try {
+    const response = await axios.post(`${AGENT_URL}/extract`, { interaction, graph })
+    return response.data
+  } catch (error) {
+    console.error("Erreur lors de l'appel à l'agent IA:", error)
+    throw error
+  }
+}
 
 export const processResponse = async (request) => {
   try {
@@ -21,4 +31,4 @@ export const processResponse = async (request) => {
     console.error("Erreur lors de l'appel à l'agent IA:", error)
     throw error
   }
-};
+}
