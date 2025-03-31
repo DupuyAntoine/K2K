@@ -2,12 +2,13 @@ from flask import Flask, request, jsonify # type: ignore
 from agents.interaction_agent import InteractionAgent
 from agents.response_agent import ResponseConstructionAgent
 from agents.file_extraction_agent import FileExtractionAgent  # Import de l'agent d'extraction de fichiers
-
+from agents.evaluation.eval import run_tests
 # "llama-3.3-70b-versatile"
 
 app = Flask('Agent App')
 
 interaction_agent = InteractionAgent(model="llama-3.3-70b-versatile")
+extraction_agent = FileExtractionAgent(model="llama-3.3-70b-versatile")
 response_agent = ResponseConstructionAgent(model="llama-3.3-70b-versatile")
 
 @app.route('/interact', methods=['POST'])
@@ -23,7 +24,7 @@ def process_extract():
     data = request.get_json()
     interaction = data.get('interaction', '')
     data_model = data.get('graph', '')
-    files = interaction_agent.process_query(interaction, data_model)
+    files = extraction_agent.extract_files(interaction, data_model)
     return jsonify(files)
 
 @app.route('/response', methods=['POST'])
@@ -35,6 +36,14 @@ def process_response():
     response = response_agent.construct_response(interaction, files)
 
     return jsonify({ 'text': response })
+
+@app.route('/eval', methods=['POST'])
+def process_eval():
+    data = request.get_json()
+    data_model = data.get('graph', '')
+    response = run_tests(data_model, interaction_agent, extraction_agent, response_agent)
+    return response
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
