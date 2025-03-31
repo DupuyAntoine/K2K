@@ -32,3 +32,13 @@ export const processResponse = async (request) => {
     throw error
   }
 }
+
+export const processEval = async (graph) => {
+  try {
+    const response = await axios.post(`${AGENT_URL}/eval`, { graph })
+    return response
+  } catch (error) {
+    console.error("Erreur lors de l'appel à l'agent IA:", error)
+    throw error
+  }
+}
