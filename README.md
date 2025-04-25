@@ -28,7 +28,7 @@ Créez un fichier `.env` à la racine du projet et ajoutez-y les variables néce
 #########################
 
 AGENT_URL=http://ai-agent:5000
-GROQ_API_KEY=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
+GROQ_API_KEY=*********************************************
 
 #########################
 ### Endpoint Settings ###
