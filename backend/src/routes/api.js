@@ -1,5 +1,5 @@
 import express from 'express';
-import { processQuestion, processExctract, processResponse, processEval } from '../services/agentService.js';
+import { processQuestion, processExtract, processResponse, processEval } from '../services/agentService.js';
 import { selectAll } from '../services/sparqlService.js';
 // import { processQuestion } from '../services/resourceService.js';
 
@@ -14,7 +14,7 @@ router.get('/query', async (req, res, next) => {
 
     // Appel aux agents IA pour traiter la question
     const interaction = await processQuestion(request, graph)
-    const files = await processExctract(interaction, graph)
+    const files = await processExtract(interaction, graph)
     const response = await processResponse(interaction, files)
 
     // Réponse agrégée
@@ -24,7 +24,7 @@ router.get('/query', async (req, res, next) => {
   } catch (error) {
     next(error)
   }
-});
+})
 
 router.get('/eval', async (req, res, next) => {
   try {
@@ -40,6 +40,6 @@ router.get('/eval', async (req, res, next) => {
   } catch (error) {
     next(error)
   }
-});
+})
 
 export default router

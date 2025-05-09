@@ -13,7 +13,7 @@ export const processQuestion = async (request, graph) => {
   }
 }
 
-export const processExctract = async (interaction, graph) => {
+export const processExtract = async (interaction, graph) => {
   try {
     const response = await axios.post(`${AGENT_URL}/extract`, { interaction, graph })
     return response.data

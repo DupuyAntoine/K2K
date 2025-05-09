@@ -148,3 +148,6 @@ paths.*
 ## File-based project format:
 *.ipr
 *.iws
+
+## Deepeval
+.deepeval
