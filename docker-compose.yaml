@@ -3,7 +3,7 @@ services:
   frontend:
     build: ./frontend
     ports:
-      - "3000:80"  # Le conteneur Nginx écoute sur le port 80
+      - "3000:80"
     depends_on:
       - backend
 
@@ -24,9 +24,26 @@ services:
       - "5000:5000"
     environment:
       - GROQ_API_KEY=${GROQ_API_KEY}
-      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - OLLAMA_API=${OLLAMA_API}
+    depends_on:
+      - ollama
+
   endpoint:
     build: ./endpoint
     ports:
       - "8890:8890"  # Port du SPARQL endpoint Virtuoso
       - "1111:1111"  # Port pour isql (administration)
+
+  ollama:
+    build: ./ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_models:/root/.ollama
+    deploy:
+      resources:
+        limits:
+          memory: 8000M
+
+volumes:
+  ollama_models:

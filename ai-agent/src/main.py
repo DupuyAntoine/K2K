@@ -1,9 +1,8 @@
 from flask import Flask, request, jsonify # type: ignore
 from agents.interaction_agent import InteractionAgent
 from agents.response_agent import ResponseConstructionAgent
-from agents.file_extraction_agent import FileExtractionAgent  # Import de l'agent d'extraction de fichiers
+from agents.file_extraction_agent import FileExtractionAgent
 from agents.evaluation.eval import run_tests
-# "llama-3.3-70b-versatile"
 
 app = Flask('Agent App')
 
@@ -40,8 +39,8 @@ def process_response():
 @app.route('/eval', methods=['POST'])
 def process_eval():
     data = request.get_json()
-    data_model = data.get('graph', '')
-    response = run_tests(data_model, interaction_agent, extraction_agent, response_agent)
+    # data_model = data.get('graph', '')
+    response = run_tests(None, interaction_agent, extraction_agent, response_agent)
     return response
 
 

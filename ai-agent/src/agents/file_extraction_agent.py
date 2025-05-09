@@ -14,20 +14,20 @@ class FileExtractionAgent:
         """
 
         prompt = (
-            "🗂 **Agent d'extraction de fichiers**\n\n"
+            "**Agent d'extraction de fichiers**\n\n"
             "Tu es spécialisé dans l'extraction de fichiers associés aux jeux de données. "
             "À partir du graphe RDF fourni, identifie les fichiers pertinents en fonction de la requête traitée.\n\n"
             
-            "🔍 **Données à analyser** :\n"
-            "👉 Graphe RDF : {graph}\n"
-            "👉 Réponse de l'agent d'interaction : '{interaction_response}'\n\n"
+            "**Données à analyser** :\n"
+            "Graphe RDF : {graph}\n"
+            "Réponse de l'agent d'interaction : '{interaction_response}'\n\n"
 
-            "📌 **Processus d'extraction** :\n"
-            "1️⃣ Identifier les jeux de données mentionnés dans la réponse de l'agent d'interaction.\n"
-            "2️⃣ Lister les fichiers associés à ces jeux de données.\n"
-            "3️⃣ Extraire les noms des fichiers et leurs URLs de téléchargement.\n\n"
+            "**Processus d'extraction** :\n"
+            "1️- Identifier les jeux de données mentionnés dans la réponse de l'agent d'interaction.\n"
+            "2️- Lister les fichiers associés à ces jeux de données.\n"
+            "3️- Extraire les noms des fichiers et leurs URLs de téléchargement.\n\n"
 
-            "🚀 Fournis une liste formatée avec le nom du fichier et son lien de téléchargement."
+            "Fournis une liste formatée avec le nom du fichier et son lien de téléchargement."
         ).format(graph=graph, interaction_response=interaction_response)
 
         files = self.model.generate(prompt)
