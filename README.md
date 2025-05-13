@@ -15,7 +15,7 @@ Avant d'installer et de lancer le projet, assurez-vous d'avoir les éléments su
 
 ### 1. Cloner le projet
 ```sh
-git clone https://github.com/DupuyAntoine/K2K.git
+git clone https://github.com/\*\*\*/K2K.git
 cd K2K
 ```
 

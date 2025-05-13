@@ -33,22 +33,6 @@
                             dct:created "2024-02-01" ;
                             dct:description "DATA-FW has been developed as part of the MOCK-UP PhD project, which aims to enhance the FAIRness of domain datasets and facilitate dataset discovery by utilizing the characteristics of these datasets to meet user needs. This vocabulary dataset is intended to describe datasets using standard vocabularies, namely the DCAT and RDF Data Cube. The DUV and DQV vocabularies are used to represent the uses of datasets and the quality of the metadata, data or quality policies from which the dataset benefits. FOAF is used to describe the actors interacting with the dataset."@en ;
                             dct:license <https://creativecommons.org/licenses/by/4.0/> ;
-                            bibo:editor [ rdf:type foaf:Person ;
-                                          rdfs:seeAlso <https://www.umr-cnrm.fr/spip.php?article569> ;
-                                          foaf:name "Christophe Baehr"
-                                        ] ,
-                                        [ rdf:type foaf:Person ;
-                                          rdfs:seeAlso <https://orcid.org/0000-0003-2840-005X> ;
-                                          foaf:name "Cassia Trojahn"
-                                        ] ,
-                                        [ rdf:type foaf:Person ;
-                                          rdfs:seeAlso <https://orcid.org/0000-0003-3653-3223> ;
-                                          foaf:name "Nathalie Aussenac-Gilles"
-                                        ] ,
-                                        [ rdf:type foaf:Person ;
-                                          rdfs:seeAlso <https://orcid.org/0000-0003-4237-2462> ;
-                                          foaf:name "Antoine Dupuy"
-                                        ] ;
                             rdfs:label "Dataset Framework Ontology (DATA-FW)"@en ;
                             owl:versionInfo "1.0.0" .
 
@@ -2312,25 +2296,6 @@ dqv:value rdf:type owl:NamedIndividual ,
 <https://www.w3.org/> rdf:type owl:NamedIndividual .
 
 
-[ rdf:type foaf:Person ;
-  rdfs:seeAlso <https://www.umr-cnrm.fr/spip.php?article569> ;
-  foaf:name "Christophe Baehr"
-] .
-
-[ rdf:type foaf:Person ;
-   rdfs:seeAlso <https://orcid.org/0000-0003-2840-005X> ;
-   foaf:name "Cassia Trojahn"
- ] .
-
-[ rdf:type foaf:Person ;
-   rdfs:seeAlso <https://orcid.org/0000-0003-3653-3223> ;
-   foaf:name "Nathalie Aussenac-Gilles"
- ] .
-
-[ rdf:type foaf:Person ;
-   rdfs:seeAlso <https://orcid.org/0000-0003-4237-2462> ;
-   foaf:name "Antoine Dupuy"
- ] .
 
 [ rdf:type foaf:Person ;
    foaf:homepage <http://makxdekkers.com/> ;
