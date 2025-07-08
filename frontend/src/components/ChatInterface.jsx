@@ -1,11 +1,18 @@
 import ReactMarkdown from 'react-markdown'
 import { useState } from "react"
-import { fetch, evaluation } from '../api/api'
+import { fetch } from '../api/api'
 
 const ChatInterface = () => {
   const [messages, setMessages] = useState([
-    { text: "Hello! How can I assist you today ?", sender: "bot" }
-  ]);
+    { 
+      text: `Hello! How can I assist you today?\n\n
+      Disclaimer: This system is currently in a limited testing phase and is designed exclusively 
+      for conversations related to Earth observation data search. It will not engage in general conversation, 
+      greetings, or unrelated discussions. Please note that bugs and unexpected behavior may occur on
+      the following shared notepad : https://annuel.framapad.org/p/feedbackk2k-afcw?lang=fr.`,
+      sender: "bot"
+    }
+  ])
   const [input, setInput] = useState("")
 
   const handleSend = async () => {
@@ -16,12 +23,6 @@ const ChatInterface = () => {
     const data = await fetch(input)
     setMessages((prev) => [...prev, { text: data.response.text, sender: "bot" }])
     //setMessages((prev) => [...prev, { text: data.responseConstruction.text, sender: "bot" }])
-  }
-
-  const handleEval = async () => {
-    const data = await evaluation()
-    print(data)
-    setMessages((prev) => [...prev, { text: data, sender: "bot" }])
   }
 
   return (
@@ -55,12 +56,6 @@ const ChatInterface = () => {
           onClick={handleSend}
         >
           Send
-        </button>
-        <button
-          className="ml-2 px-4 py-2 bg-blue-500 text-white rounded-lg"
-          onClick={handleEval}
-        >
-          Eval
         </button>
       </div>
     </div>
