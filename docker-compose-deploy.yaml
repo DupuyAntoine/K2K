@@ -1,0 +1,38 @@
+version: "3.8"
+services:
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+  backend:
+    build: ./backend
+    ports:
+      - "4000:4000"
+    environment:
+      - ENDPOINT_URL=${ENDPOINT_URL}
+      - AGENT_URL=${AGENT_URL}
+    depends_on:
+      - ai-agent
+      - endpoint
+
+  ai-agent:
+    build: ./ai-agent
+    ports:
+      - "5000:5000"
+    environment:
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - OLLAMA_API=${OLLAMA_API}
+    depends_on:
+      - ollama
+
+  endpoint:
+    build: ./endpoint
+    ports:
+      - "8890:8890"  # Port du SPARQL endpoint Virtuoso
+      - "1111:1111"  # Port pour isql (administration)
+
+volumes:
+  ollama_models:
