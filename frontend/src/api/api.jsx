@@ -2,6 +2,8 @@ import axios from 'axios';
 
 const API_URL = "http://localhost:4000/api/query"
 
+axios.defaults.headers.post['Access-Control-Allow-Origin'] = '*'
+
 export const fetch = async (req) => {
   try {
     // Appel à l'API backend
