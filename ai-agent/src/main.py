@@ -2,10 +2,13 @@ from flask import Flask, request, jsonify # type: ignore
 from agents.interaction_agent import InteractionAgent
 from agents.response_agent import ResponseConstructionAgent
 from agents.file_extraction_agent import FileExtractionAgent
-from agents.evaluation.eval import run_tests
+from agents.evaluation.eval import run_tests, run_tests_noagent
+from agents.no_agent import NoAgent
+
 
 app = Flask('Agent App')
 
+no_agent = NoAgent(model="llama-3.3-70b-versatile")
 interaction_agent = InteractionAgent(model="llama-3.3-70b-versatile")
 extraction_agent = FileExtractionAgent(model="llama-3.3-70b-versatile")
 response_agent = ResponseConstructionAgent(model="llama-3.3-70b-versatile")
@@ -39,8 +42,8 @@ def process_response():
 @app.route('/eval', methods=['POST'])
 def process_eval():
     data = request.get_json()
-    # data_model = data.get('graph', '')
-    response = run_tests(None, interaction_agent, extraction_agent, response_agent)
+    data_model = data.get('graph', '')
+    response = run_tests_noagent(data_model, no_agent)
     return response
 
 

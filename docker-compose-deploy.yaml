@@ -4,9 +4,13 @@ services:
     build: ./frontend
     ports:
       - "3000:80"
+    environment:
+      - BACKEND_URL=${BACKEND_URL}
     depends_on:
       - backend
-
+    networks:
+    - k2k-net
+  
   backend:
     build: ./backend
     ports:
@@ -17,6 +21,8 @@ services:
     depends_on:
       - ai-agent
       - endpoint
+    networks:
+    - k2k-net
 
   ai-agent:
     build: ./ai-agent
@@ -24,15 +30,17 @@ services:
       - "5000:5000"
     environment:
       - GROQ_API_KEY=${GROQ_API_KEY}
-      - OLLAMA_API=${OLLAMA_API}
-    depends_on:
-      - ollama
+    networks:
+    - k2k-net
 
   endpoint:
     build: ./endpoint
     ports:
       - "8890:8890"  # Port du SPARQL endpoint Virtuoso
       - "1111:1111"  # Port pour isql (administration)
+    networks:
+    - k2k-net
 
-volumes:
-  ollama_models:
+networks:
+  k2k-net:
+    driver: bridge

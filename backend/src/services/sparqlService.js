@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 
-const ENDPOINT_URL = process.env.ENDPOINT_URL || 'http://localhost:8890'
+const ENDPOINT_URL = process.env.ENDPOINT_URL || 'http://localhost:8890/sparql/'
 
 export const selectAll = async () => {
   try {

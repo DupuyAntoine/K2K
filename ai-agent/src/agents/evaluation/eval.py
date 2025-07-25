@@ -96,21 +96,36 @@ def run_tests(graph, iagent, eagent, ragent):
       retrieval_context=[expected_answer, response_prompt],
       )
 
-      # ar = answer_relevancy.measure(test_case)
-      # cp = contextual_precision.measure(test_case)
-      # crec = contextual_recall.measure(test_case)
-      # crel = contextual_relevancy.measure(test_case)
-      # f = faithfulness.measure(test_case)
-
       evaluation = evaluate(test_cases=[test_case], metrics=[answer_relevancy, contextual_precision, contextual_recall, contextual_relevancy, faithfulness])
 
-      # evaluation = {
-      #   "answer_relevancy": ar.score,
-      #   "contextual_precision": cp.score,
-      #   "contextual_recall": crec.score,
-      #   "contextual_relevancy": crel.score,
-      #   "faithfulness": f.score
-      # }
+      with open("results_eval.txt", "a") as f:
+        for test_result in evaluation.test_results:
+            for metric_data in test_result.metrics_data:
+              f.write(metric_data.name + " : " + str(metric_data.score) + "\n")
+
+      results.append(evaluation)
+      i += 1
+
+  return results
+
+def run_tests_noagent(graph, noagent):
+  print("Running tests...")
+  results = []
+  i = 0
+  while i < 25:
+    for query, expected_answer in queries:
+      response = noagent.generate_response(graph, query)
+      contextual_precision = ContextualPrecisionMetric()
+      contextual_recall = ContextualRecallMetric()
+      answer_relevancy = AnswerRelevancyMetric(threshold=0.8)
+      faithfulness = FaithfulnessMetric()
+      test_case = LLMTestCase(
+      input=query,
+      actual_output=response,
+      expected_output=expected_answer,
+      retrieval_context=[graph, expected_answer],
+      )
+      evaluation = evaluate(test_cases=[test_case], metrics=[answer_relevancy, contextual_precision, contextual_recall, faithfulness])
       with open("results_eval.txt", "a") as f:
         for test_result in evaluation.test_results:
             for metric_data in test_result.metrics_data:

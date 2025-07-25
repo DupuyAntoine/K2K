@@ -151,3 +151,9 @@ paths.*
 
 ## Deepeval
 .deepeval
+
+## Endpont
+*.xml
+
+## SSH
+*.pem

@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_URL = "http://localhost:4000/api/query"
+// const API_URL = "http://localhost:4000/api/query"
+const API_URL = import.meta.env.BACKEND_URL
 
 export const fetch = async (req) => {
   try {
