@@ -1,7 +1,9 @@
 import express from 'express'
 import cors from 'cors'
 import bodyParser from 'body-parser'
-import apiRoutes from './routes/api.js'
+import chatRoutes from './routes/chatRoutes.js'
+import conversationRoutes from './routes/conversationRoutes.js'
+import domainRoutes from './routes/domainRoutes.js'
 
 const app = express();
 const PORT = process.env.PORT || 4000
@@ -11,7 +13,9 @@ app.use(cors())
 app.use(bodyParser.json())
 
 // Routes de l'API
-app.use('/api', apiRoutes)
+app.use('/api/chat', chatRoutes)
+app.use('/api/conversations', conversationRoutes)
+app.use('/api/domains', domainRoutes)
 
 // Gestion globale des erreurs
 app.use((err, req, res, next) => {

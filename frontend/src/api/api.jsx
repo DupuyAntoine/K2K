@@ -1,18 +1,34 @@
 import axios from 'axios';
 
-// const API_URL = "http://localhost:4000/api/query"
-const API_URL = import.meta.env.BACKEND_URL
+export async function fetchDomains() {
+  const res = await fetch("http://localhost:4000/api/domains")
+  print(res)
+  return res.json()
+}
 
-axios.defaults.headers.post['Access-Control-Allow-Origin'] = '*'
+export async function fetchConversations(domain) {
+  const res = await fetch(`http://localhost:4000/api/conversations/${domain}`)
+  return res.json()
+}
 
-export const fetch = async (req) => {
+export async function createConversation(domain) {
+  console.log(domain)
+  const res = await axios.post("http://localhost:4000/api/conversations", {
+    domain
+  })
+  return res
+}
+
+export async function sendUserMessage({ message, domain, conversationId }) {
   try {
-    // Appel à l'API backend
-    const response = await axios.get(API_URL, {
-      params: { request: req }
+    const res = await axios.post("http://localhost:4000/api/chat/query", {
+      message,
+      domain,
+      conversationId
     })
-    return response.data
+    return res.data
   } catch (error) {
-    console.error("Erreur lors de l'appel à l'API:", error)
+    console.error("API error:", error)
+    throw error
   }
 }

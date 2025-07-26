@@ -1,6 +1,6 @@
 from agents.model.model import Model
 
-class FileExtractionAgent:
+class DataIdentificationAgent:
     def __init__(self, model):
         self.model = Model(model_name=model)
 

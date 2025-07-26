@@ -1,15 +1,16 @@
 from agents.model.model import Model
 
-class InteractionAgent:
+class QueryAnalystAgent:
   def __init__(self, model):
     self.model = Model(model_name=model)
-    self.context = []
-    self.graph = None
+    self.context = None
+    self.ontology = None
+    self.history = None
 
-  def process_query(self, user_query, data_model = None):
-    if not self.graph:
-      self.graph = data_model
-    self.context.append(user_query)
+  def process_query(self, user_query, context, history, ontology):
+    self.ontology = ontology
+    self.context = context
+    self.history = history
     prompt = (
       "**Assistant de recherche intelligent**\n\n"
       "Tu es un assistant spécialisé dans la recherche de données. "
@@ -18,8 +19,9 @@ class InteractionAgent:
       
       "**Analyse de la requête** :\n"
       "Requête utilisateur : '{query}'\n"
-      "Modèle de données : {data_model}\n"
-      "Contexte du dialogue : {context}\n"
+      "Modèle de données (ontologie de représentation des jeux de données) : {ontology}\n"
+      "Données contextuelles au domaine, pour t'aider à déterminer les critères de la requête utilisateur : {context}\n"
+      "Historique du dialogue avec l'utilisateur : {history}\n"
 
       "**Processus d’assistance** :\n"
       "1️ **Déterminer les informations fournies** : Quels critères sont déjà mentionnés ?\n"
@@ -34,8 +36,9 @@ class InteractionAgent:
       "Adopte un ton amical et engageant. Fournis des réponses claires et adaptées au contexte."
     ).format(
         query=user_query, 
-        data_model=self.graph, 
-        context=self.context, 
+        ontology=self.ontology, 
+        context=self.context,
+        history=self.history
     )
-    interaction = self.model.generate(prompt)
-    return interaction
+    analysis = self.model.generate(prompt)
+    return analysis
