@@ -3,35 +3,11 @@ import fs from 'fs/promises'
 import fssync from 'fs'
 import axios from 'axios'
 import { parse } from 'csv-parse'
+import { extractAndSelectChunksFromContext } from '../utils/tfidf.js'
+import { fetchOntology } from '../utils/sparql.js'
 
 const DATA_BASE_DIR = path.resolve('data')
 const AGENT_API_URL = process.env.AGENT_URL
-const SPARQL_ENDPOINT = process.env.ENDPOINT_URL
-const SPARQL_GRAPH = 'http://k2000.org/graph'
-
-async function fetchOntology() {
-  try {
-    const query = `
-      SELECT ?s ?p ?o
-      FROM <${SPARQL_GRAPH}>
-      WHERE {
-        ?s ?p ?o
-      }
-    `
-
-    const response = await axios.post(SPARQL_ENDPOINT, query, {
-      headers: {
-        'Content-Type': 'application/sparql-query',
-        'Accept': 'application/sparql-results+json'
-      }
-    })
-
-    return response.data
-  } catch (error) {
-    console.error("Erreur lors de l'appel SPARQL :", error.message)
-    throw error
-  }
-}
 
 async function parseCsvStream(filePath) {
   return new Promise((resolve, reject) => {
@@ -112,7 +88,8 @@ export async function handleUserQuery(req, res) {
     const contextDir = path.join(domainDir, 'contexts')
     const convoPath = path.join(domainDir, 'conversations', `${conversationId}.json`)
 
-    const domainContext = await loadContextFiles(contextDir)
+    const domainContextRaw = await loadContextFiles(contextDir)
+    const reducedContext = extractAndSelectChunksFromContext(domainContextRaw, message, 10)
 
     let conversation = []
     try {
@@ -126,7 +103,7 @@ export async function handleUserQuery(req, res) {
 
     const agentRes = await axios.post(AGENT_API_URL, {
       message,
-      context: domainContext,
+      context: reducedContext,
       history: conversation,
       ontology
     })

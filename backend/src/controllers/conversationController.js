@@ -66,3 +66,17 @@ export async function createConversation(req, res) {
     res.status(500).json({ error: 'Failed to create conversation' })
   }
 }
+
+export async function getConversationById(req, res) {
+  const { domain, id } = req.params
+  const convoPath = path.join('data', domain, 'conversations', `${id}.json`)
+
+  try {
+    const raw = await fs.readFile(convoPath, 'utf-8')
+    const json = JSON.parse(raw)
+    res.json(json)
+  } catch (err) {
+    console.error(`Erreur lecture conversation ${id} :`, err.message)
+    res.status(404).json({ error: 'Conversation not found' })
+  }
+}
