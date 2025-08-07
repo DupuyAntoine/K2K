@@ -1,56 +1,80 @@
 import PropTypes from 'prop-types'
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import ReactMarkdown from "react-markdown"
-import { sendUserMessage } from "../api/api"
+import { sendUserMessage, fetchConversation } from "../api/api"
 
 export default function ConversationPanel({ domain, conversationId, setFiles }) {
-  const [messages, setMessages] = useState([
-    {
-      sender: "bot",
-      text: `Hello! How can I assist you today?\n\n_Disclaimer: This system is in a testing phase for Earth Observation data. Please use the shared feedback pad: https://annuel.framapad.org/p/feedbackk2k-afcw?lang=fr_`
-    }
-  ])
+  const [messages, setMessages] = useState([])
   const [input, setInput] = useState("")
   const [loading, setLoading] = useState(false)
 
-const handleSend = async () => {
-  if (!input.trim() || !domain) return;
+useEffect(() => {
+  if (!domain || !conversationId) return
 
-  const userMsg = { text: input, sender: "user" };
-  setMessages((prev) => [...prev, userMsg]);
-  setInput("");
-  setLoading(true);
+  let cancelled = false
 
-  try {
-    const res = await sendUserMessage({
-      message: input,
-      domain,
-      conversationId,
-    });
-
-    const botMsg = {
-      text: res.response || "[Empty response]",
-      sender: "bot",
-    };
-
-    setMessages((prev) => [...prev, botMsg]);
-
-    if (res.files && Array.isArray(res.files)) {
-      setFiles(res.files)
-    } else {
-      setFiles([])
-    }
-  } catch (error) {
-    setMessages((prev) => [
-      ...prev,
-      { text: "Failed to contact agent.", sender: "bot" },
-    ])
-    console.error("API error:", error)
-    setFiles([])
+  const defaultBotGreeting = {
+    sender: "bot",
+    text: `Hello! How can I assist you today?\n\n_Disclaimer: This system is in a testing phase for Earth Observation data. Please use the shared feedback pad: https://annuel.framapad.org/p/feedbackk2k-afcw?lang=fr_`
   }
 
-  setLoading(false);
-}
+  const loadConversation = async () => {
+    try {
+      const data = await fetchConversation(domain, conversationId)
+      if (!cancelled) {
+        const history = data.messages || []
+        setMessages([defaultBotGreeting, ...history])
+        setFiles(data.files || [])
+      }
+    } catch (err) {
+      console.error("Erreur chargement conversation :", err)
+      if (!cancelled) {
+        setMessages([defaultBotGreeting])
+        setFiles([])
+      }
+    }
+  }
+
+  loadConversation()
+
+  return () => {
+    cancelled = true
+  }
+}, [domain, conversationId, setFiles])
+
+  const handleSend = async () => {
+    if (!input.trim() || !domain) return
+
+    const userMsg = { text: input, sender: "user" }
+    setMessages((prev) => [...prev, userMsg])
+    setInput("")
+    setLoading(true)
+
+    try {
+      const res = await sendUserMessage({
+        message: input,
+        domain,
+        conversationId
+      })
+
+      const botMsg = {
+        text: res.response || "[Empty response]",
+        sender: "bot"
+      }
+
+      setMessages((prev) => [...prev, botMsg])
+      setFiles(res.files || [])
+    } catch (error) {
+      setMessages((prev) => [
+        ...prev,
+        { text: "Failed to contact agent.", sender: "bot" }
+      ])
+      console.error("API error:", error)
+      setFiles([])
+    }
+
+    setLoading(false)
+  }
 
   return (
     <div className="flex flex-col h-full">
@@ -93,5 +117,5 @@ const handleSend = async () => {
 ConversationPanel.propTypes = {
   domain: PropTypes.string.isRequired,
   conversationId: PropTypes.string.isRequired,
-  setFiles: PropTypes.func.isRequired,
+  setFiles: PropTypes.func.isRequired
 }

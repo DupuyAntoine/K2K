@@ -30,22 +30,26 @@ export default function App() {
           activeId={activeConversation?.id}
         />
       </aside>
-      <main className="flex-1 p-4">
+      <main className="flex-1 p-4 flex">
         {domain && activeConversation ? (
-          <ConversationPanel
-            domain={domain}
-            conversationId={activeConversation.id}
-            setFiles={setFiles}
-          />
+          <>
+            <div className="flex-1 pr-4">
+              <ConversationPanel
+                domain={domain}
+                conversationId={activeConversation.id}
+                setFiles={setFiles}
+              />
+            </div>
+            {files.length > 0 && (
+              <div className="w-80 border-l pl-4">
+                <ConversationFilesPanel files={files} />
+              </div>
+            )}
+          </>
         ) : (
-          <div className="text-gray-500 italic text-center mt-20">
+          <div className="text-gray-500 italic text-center mt-20 w-full">
             Select a domain and conversation to start.
           </div>
-        )}
-        {activeConversation && files.length > 0 && (
-        <div className="w-1/4 bg-gray-50 overflow-y-auto border-l border-gray-300">
-          <ConversationFilesPanel files={files} />
-        </div>
         )}
       </main>
     </div>

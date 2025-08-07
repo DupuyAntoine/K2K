@@ -5,10 +5,23 @@ import { fetchConversations } from "../api/api"
 export default function ConversationList({ domain, conversations, setConversations, onSelect, activeId }) {
 
   useEffect(() => {
-    if (domain) {
-      fetchConversations(domain).then(setConversations)
+    if (!domain) return
+
+    // 1. Vider la liste pour éviter clignotement
+    setConversations([])
+
+    // 2. Charger les conversations du domaine courant
+    const load = async () => {
+      try {
+        const data = await fetchConversations(domain)
+        setConversations(data)
+      } catch (err) {
+        console.error("Erreur lors du chargement des conversations :", err)
+      }
     }
-  })
+
+    load()
+  }, [domain, setConversations]) // Exécuter seulement si le domaine change
 
   return (
     <div className="bg-white shadow rounded p-3 w-64">
@@ -27,7 +40,7 @@ export default function ConversationList({ domain, conversations, setConversatio
         ))}
       </ul>
     </div>
-  );
+  )
 }
 
 ConversationList.propTypes = {

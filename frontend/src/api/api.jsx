@@ -1,13 +1,18 @@
-import axios from 'axios';
+import axios from 'axios'
 
 export async function fetchDomains() {
   const res = await fetch("http://localhost:4000/api/domains")
-  print(res)
   return res.json()
 }
 
 export async function fetchConversations(domain) {
   const res = await fetch(`http://localhost:4000/api/conversations/${domain}`)
+  return res.json()
+}
+
+export async function fetchConversation(domain, conversationId) {
+  const res = await fetch(`http://localhost:4000/api/conversations/${domain}/${conversationId}`)
+  if (!res.ok) throw new Error("Failed to load conversation")
   return res.json()
 }
 

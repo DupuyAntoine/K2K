@@ -2,6 +2,7 @@ import PropTypes from "prop-types"
 
 export default function ConversationFilesPanel({ files }) {
   if (!files || files.length === 0) return null
+  console.log(files)
   return (
     <div className="w-72 p-4 border-l bg-white shadow">
       <h2 className="text-md font-semibold mb-2">Associated Files</h2>
@@ -14,7 +15,7 @@ export default function ConversationFilesPanel({ files }) {
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline"
             >
-              {file.name}
+              {file.title}
             </a>
           </li>
         ))}
@@ -26,8 +27,9 @@ export default function ConversationFilesPanel({ files }) {
 ConversationFilesPanel.propTypes = {
   files: PropTypes.arrayOf(
     PropTypes.shape({
-      name: PropTypes.string,
+      title: PropTypes.string,
       url: PropTypes.string,
+      description: PropTypes.string,
     })
   ),
 }
