@@ -1,7 +1,6 @@
 import os
 from groq import Groq  # type: ignore
 
-# Initialisation du modèle Llama 3.1 via Groq
 class Model:
   def __init__(self, model_name="llama-3.3-70b-versatile"):
     self.model = model_name

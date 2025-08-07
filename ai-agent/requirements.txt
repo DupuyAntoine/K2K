@@ -1,6 +1,6 @@
 Werkzeug==2.2.2
 Flask==2.2.2
 groq==0.18.0
-deepeval==2.6.4
-torch==2.6.0
-numpy==1.26.4
+langdetect==1.0.9
+iso639-lang==2.6.3
+requests==2.32.4
