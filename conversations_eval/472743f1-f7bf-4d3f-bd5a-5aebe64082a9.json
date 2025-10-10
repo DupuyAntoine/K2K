@@ -1,0 +1,76 @@
+{
+  "id": "472743f1-f7bf-4d3f-bd5a-5aebe64082a9",
+  "domain": "earthObservation",
+  "messages": [
+    {
+      "sender": "user",
+      "text": "Provide Chlorophyll concentration in the Mediterranean Area in summer 2018"
+    },
+    {
+      "sender": "bot",
+      "text": "You're looking for chlorophyll concentration data in the Mediterranean Area for summer 2018. I've searched through various datasets to find relevant information for you.\n\nAlthough I couldn't find an exact match with all the specifics you're looking for, I did find some datasets related to chlorophyll concentrations in different regions and time frames. Here are a few examples:\n\n1. **Matched Sentinel-2 spectral data and chlorophyll a concentrations 2015-2020**: This dataset includes Sentinel-2 spectral data matched with chlorophyll a concentration data from several sources, including the Water Quality Portal. While it's not limited to the Mediterranean Area or summer 2018, it does cover a broader period and area that might be useful. You can find it at https://pasteur.epa.gov/uploads/10.23719/1529420/S2_chla_matchups.xlsx.\n\n2. **Concentration of chlorophyll a derived from ocean color remote sensing**: This dataset provides chlorophyll a concentrations derived from ocean color remote sensing. It's a more general dataset but relevant to your interest in chlorophyll concentrations. The data can be accessed at https://console.cloud.google.com/storage/browser/nmfs_odp_nefsc/PARR/READ/EDAB/27408.\n\n3. **Indicators of Coastal Water Quality: Change in Chlorophyll-a Concentration 1998-2007**: This dataset includes tabular time series of chlorophyll-a concentrations for grid cells, derived from NASA's Sea-viewing Wide Field-of-view Sensor (SeaWiFS). Although it's focused on change over a decade rather than a specific summer, it could offer insights into broader trends. More information is available at https://scholar.google.com/scholar?q=10.7927%2FH48W3B88.\n\nTo better assist you, could you please clarify what format you would prefer the data in (e.g., CSV, JSON) and if you're looking for data from a specific producer or source (e.g., satellite, in-situ measurements)? This information will help narrow down the search to provide more targeted results."
+    }
+  ],
+  "files": [
+    {
+      "description": "The dataset includes Sentinel-2 spectral data for all bands spatiotemporally matched with available chlorophyll a concentration data from several data sources including the Water Quality Portal.",
+      "semantic_score": 0.8112242817878723,
+      "title": "Matched Sentinel-2 spectral data and chlorophyll a concentrations 2015-2020",
+      "url": "https://pasteur.epa.gov/uploads/10.23719/1529420/S2_chla_matchups.xlsx"
+    },
+    {
+      "description": "This child item dataset provides site information for 82 streams and rivers from which data was used to train and test a machine learning model of daily chlorophyll concentrations.\nThis dataset is part of a larger data release that contains model inputs, observed chlorophyll concentrations, model estimates of chlorophyll, and contributions of individual variables to modeled predictions.",
+      "semantic_score": 0.8072776794433594,
+      "title": "Daily Estimates of Chlorophyll Concentration for 82 U.S. Rivers: 1. Site Information",
+      "url": "https://data.usgs.gov/datacatalog/metadata/USGS.61fd7650d34e622189cef5cc.xml"
+    },
+    {
+      "description": "This personal geodatabase contains raster images of chlorophyll concentrations in the Gulf of Maine.  These raster images are monthly composites, and were calculated as means or as medians.   The image composites span from 9/1997 to 6/2005. These images were also reprocessed to remove land and no-data values (value = 252 and value = 0, 253, 251 respectively), as well as to calculate the real world values for chlorophyll in micrograms per liter.",
+      "semantic_score": 0.8032330274581909,
+      "title": "Monthly Composite Chlorophyll Concentrations - Gulf of Maine",
+      "url": "https://ccma.nos.noaa.gov/ecosystems/sanctuaries/stellwagen_nms/"
+    },
+    {
+      "description": "This personal geodatabase contains raster images of chlorophyll concentrations in the Gulf of Maine.  These raster images are seasonal composites, and were calculated as means or as medians. The seasons were defined as the following: 1) Fall= September, October, November; 2) Winter= December, January, February; 3) Spring= March, April, May; 4) Summer= June, July, August. For example, June '98, July '98, August '98 = Chlorophyll Summer '98. These images were also reprocessed to remove land and no data values (value = 252 and value = 0, 253, 251 respectively), as well as to calculate the real world values for chlorophyll in micrograms per liter.",
+      "semantic_score": 0.7968066930770874,
+      "title": "Seasonal Composite Chlorophyll Concentrations - Gulf of Maine",
+      "url": "https://ccma.nos.noaa.gov/ecosystems/sanctuaries/stellwagen_nms/"
+    },
+    {
+      "description": "Ocean color remote sensing  provide routine, synoptic observations of the ocean surface at spatial and temporal resolutions not attainable by moored or ship-based platforms.  Ocean color sensors measure the spectral distribution of reflected sunlight, which can be used to infer the contents of the water, including chlorophyll a concentrations, a proxy for phytoplankton biomass.  Phytoplankton are the base of the marine food web and are critical regulators of key biogeochemical processes.",
+      "semantic_score": 0.7951280474662781,
+      "title": "Concentration of chlorophyll a derived from ocean color remote sensing",
+      "url": "https://console.cloud.google.com/storage/browser/nmfs_odp_nefsc/PARR/READ/EDAB/27408"
+    },
+    {
+      "description": "Ocean observation data from the Northeastern Regional Association of Coastal & Ocean Observing Systems (NERACOOS). The NERACOOS region includes the northeast United States and Canadian Maritime provinces, as part of the United States Integrated Ocean Observing System (IOOS).  These data are served by Unidata's Thematic Realtime Environmental Distributed Data Services (THREDDS) Data Server (TDS) in a variety of interoperable data services and output formats.",
+      "semantic_score": 0.7942253351211548,
+      "title": "A01 Optics - Chlorophyll / Turbidity",
+      "url": "http://www.neracoos.org/erddap/tabledap/A01_optics_s_all.html"
+    },
+    {
+      "description": "The Change in Chlorophyll-a Concentrations 1998-2007 component of the Indicators of Coastal Water Quality Collection represents a tabular time series of the chlorophyll-a concentrations for each grid cell, derived from the \"Indicators of Coastal Water Quality: Annual Chlorophyll-a Concentration 1998-2007\" data set. Chlorophyll-a concentrations are derived from NASA's Sea-viewing Wide Field-of-view Sensor (SeaWiFS). The grid cells are organized by country, and the percentage of change from 1998-2007 is calculated for each cell. Each time series was assessed with a linear regression, and cells with statistically significant trends in chlorophyll-a concentrations are identified. The rows of the table are linked to a sequence grid from the \"Indicators of Coastal Water Quality: Ancillary Data\" collection to facilitate the mapping of the trend values for selected countries and areas of interest. The data are processed and compiled by the Columbia University Center for International Earth Science Information Network (CIESIN).",
+      "semantic_score": 0.7931462526321411,
+      "title": "Indicators of Coastal Water Quality: Change in Chlorophyll-a Concentration 1998-2007",
+      "url": "https://scholar.google.com/scholar?q=10.7927%2FH48W3B88"
+    },
+    {
+      "description": "This data release contains modeled daily chlorophyll concentration for 82 streams and rivers across the conterminous United States. Estimates of daily chlorophyll concentration were generated using an extreme gradient boosting (XGBoost) (Chen &amp; Guestrin, 2016) machine learning model and various measures of water quality, reach characteristics, and meteorology.\nChild Items in this data release contain:\nSite information: This child item contains station identifiers, location information, location type, stream order, and associated NHDPlusv2.1 reach common unique identifiers (ComID). The file format is tab-delimted with 1 row per station.\nModel inputs and outputs: This child item contains XGBoost model inputs, observed chlorophyll concentrations, model estimates of chlorophyll and SHapley Additive exPlanations (SHAP) values. SHAP values were used to assess the contribution of variables to estimated chlorophyll.\nApproval status: This child item contains the data source of chlorophyll data and the approval status for all USGS NWIS data at the time the data was downloaded (10/27/2021).",
+      "semantic_score": 0.7867457866668701,
+      "title": "Daily Estimates of Chlorophyll Concentration and for 82 U.S. Rivers",
+      "url": "https://data.usgs.gov/datacatalog/metadata/USGS.61fd6865d34e622189ced573.xml"
+    },
+    {
+      "description": "The Annual Chlorophyll-a Concentrations component of the Indicators of Coastal Water Quality Collection consists of gridded satellite measurements of chlorophyll-a concentrations (in nanogram/cubic meter) in a band extending between 10 and 100 km from the shoreline. Chlorophyll-a concentrations are derived from NASA's Sea-viewing Wide Field-of-view Sensor (SeaWiFS). The grids are based on annual composites of SeaWiFS satellite data provided by the SeaWiFS Project, NASA/Goddard Space Flight Center and GeoEye in the form of HDF files at a resolution of 5 arc-minutes (approximately 9 x 9 km at the equator). The source files are true-color images generated from sub-sampled, calibrated, Rayleigh-corrected level-2 data, which are derived from raw radiance counts by applying sensor calibration, atmospheric corrections, and bio-optical algorithms. To arrive at chlorophyll-a concentrations, radiance counts were converted using the conversion formula provided as part of the original data files. The gridding is done by the Columbia University Center for International Earth Science Information Network (CIESIN).",
+      "semantic_score": 0.7866484522819519,
+      "title": "Indicators of Coastal Water Quality: Annual Chlorophyll-a Concentration 1998-2007",
+      "url": "https://scholar.google.com/scholar?q=10.7927%2FH4DN4300"
+    },
+    {
+      "description": "Monitoring data from Minnesota and from national surveys of lakes and streams that were used in the analysis for the paper: Predicting lake chlorophyll from stream phosphorus concentrations. \n\nmod.mn.R.txt: R script for fitting TP-Chl model using Minnesota data\nmod.nat.R.txt: R script for fitting TP-Chl model using national data\ndat.nat.1.csv: National stream TP data\ndat.nat.2.csv: National lake Chl data\ndat.mn.1.csv: Minnesota lake Chl data\ndat.mn.2.csv: Minnesota stream TP data. Citation information for this dataset can be found in Data.gov's References section.",
+      "semantic_score": 0.7784456014633179,
+      "title": "Predicting lake chlorophyll from stream phosphorus concentrations (2024): Data and Scripts",
+      "url": "https://pasteur.epa.gov/uploads/10.23719/1532140/dat.nat.1.csv"
+    }
+  ]
+}

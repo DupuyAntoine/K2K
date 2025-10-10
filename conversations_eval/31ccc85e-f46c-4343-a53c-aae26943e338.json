@@ -1,0 +1,76 @@
+{
+  "id": "31ccc85e-f46c-4343-a53c-aae26943e338",
+  "domain": "earthObservation",
+  "messages": [
+    {
+      "sender": "user",
+      "text": "Provide CSV datasets of carbon emissions in North America between 2010 and 2020"
+    },
+    {
+      "sender": "bot",
+      "text": "I've searched for datasets related to carbon emissions in North America between 2010 and 2020. Based on your request, I've found several relevant datasets that might interest you. \n\nHere are the datasets I've found:\n1. **State carbon dioxide emissions data**: This dataset from the U.S. Energy Information Administration provides annual state-level estimates of energy consumption, prices, and expenditures for jet fuel. While it's not exclusively focused on carbon emissions, it does offer insights into energy-related emissions. You can access this data at [https://www.eia.gov/environment/emissions/state/](https://www.eia.gov/environment/emissions/state/).\n2. **Hestia Fossil Fuel Carbon Dioxide Emissions for Indianapolis, Indiana**: The Hestia Project quantifies, simulates, and visualizes greenhouse gases such as carbon dioxide emitted in urban regions. This specific dataset focuses on Indianapolis, Indiana, and provides data at the county level with a 200 m grid resolution, available from 2010 to 2015. You can find more information at [https://doi.org/10.18434/T4/1503341](https://doi.org/10.18434/T4/1503341).\n3. **Anthropogenic Carbon Emission System, 2012-2017, Version 2**: This dataset estimates hourly carbon dioxide (CO2) emissions from the combustion of fossil fuels at a 1-km resolution for the coterminous United States. It covers various emission source sectors and is available in NetCDF format. The data can be accessed through [https://search.earthdata.nasa.gov/search?q=NACP_ACES_V2_1943&ac=true](https://search.earthdata.nasa.gov/search?q=NACP_ACES_V2_1943&ac=true).\n\nTo provide more tailored results, could you please specify if you're looking for data from a particular country or region within North America, or if there are specific sectors or sources of carbon emissions you're interested in? This will help me refine the search to better meet your needs. \n\nAdditionally, if you're looking for datasets in a specific CSV format, please let me know, and I'll do my best to find or convert the data accordingly. \n\nPlease feel free to provide any additional details or clarification regarding your request. I'm here to assist you in finding the most relevant datasets for your needs."
+    }
+  ],
+  "files": [
+    {
+      "description": "Annual state-level estimates of energy consumption, prices, and expenditures for jet fuel.",
+      "semantic_score": 0.8442168235778809,
+      "title": "State carbon dioxide emissions data",
+      "url": "https://www.eia.gov/environment/emissions/state/"
+    },
+    {
+      "description": "Hestia Project quantifies, simulates and visualizes greenhouse gases such as carbon dioxide emitted in urban regions.  Indianapolis data is provided at the county level (200 m grid resolution), and at hourly and yearly time frames.  It builds upon work conducted at the national scale by the Vulcan Project. These high spatial and temporal resolution datasets are available from 2010 to 2015.",
+      "semantic_score": 0.8120290040969849,
+      "title": "Hestia Fossil Fuel Carbon Dioxide Emissions for Indianapolis, Indiana",
+      "url": "https://doi.org/10.18434/T4/1503341"
+    },
+    {
+      "description": "Hestia Project quantifies, simulates and visualizes greenhouse gases such as carbon dioxide emitted in urban regions.  Indianapolis data is provided at the county level (200 m grid resolution), and at hourly and yearly time frames.  It builds upon work conducted at the national scale by the Vulcan Project. These high spatial and temporal resolution datasets are available from 2010 to 2015.",
+      "semantic_score": 0.8120290040969849,
+      "title": "Hestia Fossil Fuel Carbon Dioxide Emissions for Indianapolis, Indiana",
+      "url": "https://doi.org/10.18434/T4/1503341"
+    },
+    {
+      "description": "Hestia Project quantifies, simulates and visualizes greenhouse gases such as carbon dioxide emitted in urban regions.  Baltimore, Maryland activity is provided at the county level (200 m grid resolution), and at hourly and yearly time frames.  It builds upon work conducted at the national scale by the Vulcan Project. These high spatial and temporal resolution datasets are available from 2010.",
+      "semantic_score": 0.8098312616348267,
+      "title": "Hestia Fossil Fuel Carbon Dioxide Emissions for Baltimore, Maryland",
+      "url": "https://doi.org/10.18434/T4/1503342"
+    },
+    {
+      "description": "Hestia Project quantifies, simulates and visualizes greenhouse gases such as carbon dioxide emitted in urban regions.  Baltimore, Maryland activity is provided at the county level (200 m grid resolution), and at hourly and yearly time frames.  It builds upon work conducted at the national scale by the Vulcan Project. These high spatial and temporal resolution datasets are available from 2010.",
+      "semantic_score": 0.8098312616348267,
+      "title": "Hestia Fossil Fuel Carbon Dioxide Emissions for Baltimore, Maryland",
+      "url": "https://doi.org/10.18434/T4/1503342"
+    },
+    {
+      "description": "This dataset provides estimates of hourly carbon dioxide (CO2) emissions from the combustion of fossil fuels at 1-km resolution for the coterminous United States (CONUS) covering the years 2012 through 2017. Emissions from the ACES model are reported for ten distinct emissions source sectors: Airports and Aircraft, Commercial Buildings, Electric Power Generation facilities, Industrial point and non-point sources, Commercial Marine Vessels, Nonroad vehicles and equipment, Oil and Gas wells and facilities, Onroad vehicles, Railway engines and yards, and Residential buildings. All emissions are reported hourly on a 1-km x 1-km spatial grid. The data are provided in NetCDF version 4 format.",
+      "semantic_score": 0.802159309387207,
+      "title": "Anthropogenic Carbon Emission System, 2012-2017, Version 2",
+      "url": "https://search.earthdata.nasa.gov/search?q=NACP_ACES_V2_1943&ac=true"
+    },
+    {
+      "description": "VCPy was developed to predict evaporative emissions of VOCs from volatile chemical products. The data contains python code and inputs for VCPy v1.0 as well as an excel file containing values from the main text figures in the work of Seltzer et al. (Atmospheric Chemistry and Physics, 2021).",
+      "semantic_score": 0.8002381324768066,
+      "title": "Reactive Organic Carbon Emissions from Volatile Chemical Products",
+      "url": "https://pasteur.epa.gov/uploads/10.23719/1520157/maintext_figs.xlsx"
+    },
+    {
+      "description": "This dataset provides carbon monoxide and carbon dioxide flux from fires constrained by satellite observations.The NASA Carbon Monitoring System (CMS) is designed to make significant contributions in characterizing, quantifying, understanding, and predicting the evolution of global carbon sources and sinks through improved monitoring of carbon stocks and fluxes. The System will use the full range of NASA satellite observations and modeling/analysis capabilities to establish the accuracy, quantitative uncertainties, and utility of products for supporting national and international policy, regulatory, and management activities. CMS will maintain a global emphasis while providing finer scale regional information, utilizing space-based and surface-based data and will rapidly initiate generation and distribution of products both for user evaluation and to inform near-term policy development and planning.",
+      "semantic_score": 0.7998655438423157,
+      "title": "Global Fire carbon emissions from CMS-Flux inversions assimilating atmospheric carbon monoxide observations",
+      "url": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/CMS/GlobFireCarbon_1.png"
+    },
+    {
+      "description": "Hestia Fossil Fuel Carbon Dioxide Emissions Inventory for Urban Regions (Hestia FFCO2) provides data products for Los Angeles Basin, Northeast corridor, Indianapolis, and other U.S. Cities. Hestia FFCO2 datasets quantify greenhouse gases (GHG), such as carbon dioxide, emitted by urban regions, since cities are major contributors of anthropogenic GHG emissions. The Hestia FFCO2 datasets provide high spatial and temporal resolution CO2 concentrations at sub-county resolutions and annual/hourly time scales, specific to the region. This data product builds upon the Vulcan Project, which grids U.S. national emissions.  Hestia FFCO2 datasets are currently available from 2010 for Los Angeles, Indianapolis, Salt Lake City, the city of Baltimore, and the Baltimore/Washington Region (Northeast Corridor).",
+      "semantic_score": 0.7973302602767944,
+      "title": "Hestia Fossil Fuel Carbon Dioxide Emissions Inventory for Urban Regions",
+      "url": "https://doi.org/10.18434/t4/1502503"
+    },
+    {
+      "description": "Hestia Fossil Fuel Carbon Dioxide Emissions Inventory for Urban Regions (Hestia FFCO2) provides data products for Los Angeles Basin, Northeast corridor, Indianapolis, and other U.S. Cities. Hestia FFCO2 datasets quantify greenhouse gases (GHG), such as carbon dioxide, emitted by urban regions, since cities are major contributors of anthropogenic GHG emissions. The Hestia FFCO2 datasets provide high spatial and temporal resolution CO2 concentrations at sub-county resolutions and annual/hourly time scales, specific to the region. This data product builds upon the Vulcan Project, which grids U.S. national emissions.  Hestia FFCO2 datasets are currently available from 2010 for Los Angeles, Indianapolis, Salt Lake City, the city of Baltimore, and the Baltimore/Washington Region (Northeast Corridor).",
+      "semantic_score": 0.7973302602767944,
+      "title": "Hestia Fossil Fuel Carbon Dioxide Emissions Inventory for Urban Regions",
+      "url": "https://doi.org/10.18434/t4/1502503"
+    }
+  ]
+}

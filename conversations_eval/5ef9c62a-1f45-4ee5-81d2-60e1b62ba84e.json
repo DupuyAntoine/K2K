@@ -1,0 +1,76 @@
+{
+  "id": "5ef9c62a-1f45-4ee5-81d2-60e1b62ba84e",
+  "domain": "earthObservation",
+  "messages": [
+    {
+      "sender": "user",
+      "text": "Provide NETCDF datasets of deforestation areas in South America between 2000 and 2010"
+    },
+    {
+      "sender": "bot",
+      "text": "Based on your request for NETCDF datasets of deforestation areas in South America between 2000 and 2010, I've conducted a search to find relevant datasets that match your criteria. Unfortunately, the search results did not yield any datasets that exactly match your request for NETCDF files specifically focused on deforestation areas in South America during the specified time period.\n\nHowever, several datasets related to deforestation, land cover change, and environmental monitoring in South America and other regions were found. Here's a summary of some relevant datasets that might be useful for your research, although they may not perfectly align with your initial request:\n\n1. **CMS: Estimated Deforested Area Biomass, Tropical America, Africa, and Asia, 2000** - This dataset provides estimates of pre-deforestation aboveground live woody biomass at 30-m resolution for deforested areas, including parts of South America, for the year 2000. It's available from NASA's Earthdata repository.\n2. **LBA-ECO LC-22 Field Validation of MODIS Deforestation Detection, Brazil, 2003-2004** - While focused on Brazil, this dataset contains field observations and GPS points related to deforested areas, which could be relevant for understanding deforestation patterns in South America.\n3. **LBA-ECO LC-14 Modeled Deforestation Scenarios, Amazon Basin: 2002-2050** - This dataset models future deforestation scenarios across the Amazon Basin, including parts of South America, from 2002 to 2050. It could provide insights into potential deforestation trends.\n4. **LBA-ECO ND-01 Watershed Deforestation from Landsat TM Series, Rondonia, Brazil: 1999** - Although from 1999, this dataset provides estimates of watershed deforestation in Rondonia, Brazil, and demonstrates how deforestation can be assessed at the watershed level.\n\nTo find NETCDF datasets specifically, I recommend checking repositories like the NASA Earthdata portal or the European Space Agency's (ESA) Earth Observation datasets, which often host a wide range of environmental and land cover datasets, including those in NETCDF format.\n\nFor a more precise match, consider specifying the region within South America you're interested in or broadening the time frame slightly. Additionally, checking for datasets that might be in other formats but could be converted to NETCDF or used in conjunction with NETCDF files for analysis might be beneficial.\n\nIf you have any follow-up questions or need further clarification on these datasets, please let me know."
+    }
+  ],
+  "files": [
+    {
+      "description": "This data set provides estimates of pre-deforestation aboveground live woody biomass (AGLB) at 30-m resolution for deforested areas of tropical America, tropical Africa, and tropical Asia for the year 2000. The biomass estimates are only for areas where deforestation occurred during the period 2000 through 2012. These estimates represent biomass loss over this time period and can be used to derive average annual carbon emissions from tropical deforestation.",
+      "semantic_score": 0.819394588470459,
+      "title": "CMS: Estimated Deforested Area Biomass, Tropical America, Africa, and Asia, 2000",
+      "url": "https://search.earthdata.nasa.gov/search?q=CMS_Pantropical_Forest_Biomass_1337&ac=true"
+    },
+    {
+      "description": "The West Africa Coastal Vulnerability Mapping: Deforestation, 2000-2012, layer was created from the Global Forest Change data set which represents global tree cover extent, loss, and gain mapped for the period from 2000 to 2012 at a spatial resolution of 30m, with loss allocated annually. The Global Forest Change data set defines trees as all vegetation taller than 5m in height. Forest loss (deforestation) is defined as a stand-replacement disturbance, or a change from a forest to non-forest state. The data on forest loss were aggregated to a one kilometer resolution and subsetted to 200 kilometers from the coast to produce this data set. Raster values represent the percentage of the grid cell area that experienced forest cover loss from 2000 to 2012.",
+      "semantic_score": 0.8158344030380249,
+      "title": "West Africa Coastal Vulnerability Mapping: Deforestation, 2000-2012",
+      "url": "https://scholar.google.com/scholar?q=10.7927%2FH4SJ1HHX"
+    },
+    {
+      "description": "Understanding the impact of road investments on deforestation is part of a complete evaluation of the expansion of infrastructure for development.We find evidence of spatial spillovers from roads in the Brazilian Amazon: deforestation rises in the census tracts that lack roads but are in the same county as and within 100 km of a tract with a new paved or unpaved road. At greater distances from the new roads the evidence is mixed, including negative coefficients of inconsistent significance between 100 and 300km, and if anything, higher neighbor deforestation at distances over 300 km.",
+      "semantic_score": 0.8148585557937622,
+      "title": "LBA-ECO LC-24 Historical Roads of the Legal Amazon: 1968-1993",
+      "url": "https://search.earthdata.nasa.gov/search?q=LC24_Historical_Roads_Amazon_1043&ac=true"
+    },
+    {
+      "description": "This data set contains field observations, corresponding GPS points, and point and polygons of deforested areas in the state of Mato Grosso, Brazil, for the period August 2003 to July 2004. The field observations were conducted in the forested areas between Nova Mutum and Sinop, MT. These data were part of a study to validate Moderate Resolution Imaging Spectroradiometer (MODIS) data at 250-m resolution for the detection of deforested areas.There are 16 data files with this data set. This includes 10 shapefile (.shp) and six comma-separated files (.csv).",
+      "semantic_score": 0.8037119507789612,
+      "title": "LBA-ECO LC-22 Field Validation of MODIS Deforestation Detection, Brazil, 2003-2004",
+      "url": "https://search.earthdata.nasa.gov/search?q=LC22_MODIS_Field_Val_2004_1262&ac=true"
+    },
+    {
+      "description": "This data set contains field observations, corresponding GPS points, and point and polygons of deforested areas in the state of Mato Grosso, Brazil, for the period  March 17-24,2005. Fieldwork was conducted in the regions surrounding Sinop, Mato Grosso, with specific emphasis on large clearings occurring in the Xingu Basin. The field campaign was designed to validate preliminary MODIS deforestation products designed to detect deforestation during the wet season. There are five data files with this data set: four shapefiles (.shp) and one comma-separated file (.csv).",
+      "semantic_score": 0.8022818565368652,
+      "title": "LBA-ECO LC-22 Field Validation of MODIS Deforestation Detection, Brazil, 2005",
+      "url": "https://search.earthdata.nasa.gov/search?q=LC22_MODIS_Field_Val_2005_1260&ac=true"
+    },
+    {
+      "description": "This data set provides (1) areal estimates of deforestation events (>25 ha) that were identified from 2001-2004 in Mato Grosso by the Brazilian Institute for Space Research (INPE) as part of the Program for the Estimation of Deforestation in the Brazilian Amazon (PRODES) and (2) the classification of the post-deforestation land use as either cropland, cattle pasture, or not in production (deforested areas that were never fully cleared or returned immediately to secondary forest) in the years after the large deforestation events from 2001-2005. Data are provided in ESRI shapefile format. There are five compressed (*.zip) data files with this data set. Each shapefile represents one year of post-deforestation land use. Land use in the years following deforestation was estimated using annual time series of MODIS NDVI (normalized difference vegetation index) and EVI (enhanced vegetation index). Metrics of vegetation phenology derived annual time series of MODIS NDVI and EVI data were analyzed using a decision-tree classifier to characterize the major cover type in each area of new deforestation. Post-deforestation land use for each large deforestation event was classified based on the classification of MODIS phenology metrics for all years following deforestation during 2002-2005.",
+      "semantic_score": 0.8002329468727112,
+      "title": "LBA-ECO LC-22 Post-deforestation Land Use, Mato Grosso, Brazil: 2001-2005",
+      "url": "https://search.earthdata.nasa.gov/search?q=LC22_Post_Deforestation_LULC_1099&ac=true"
+    },
+    {
+      "description": "This data set contains a 1999 Landsat ETM+ mosaic image land of cover classification showing forested and deforestation areas in Uruara, Para, Brazil.  This image may be overlain with the cadastral property map of the same area (see related data set LBA-ECO LC-24 Cadastral Property Map of Uruara, Para, Brazil: ca.1975). This data sets contains a single geotiff image distributed as deforested_large.zip.",
+      "semantic_score": 0.7997053265571594,
+      "title": "LBA-ECO LC-24 Landsat ETM+ Forest Cover Classification, Uruara, Para, Brazil: 1999",
+      "url": "https://search.earthdata.nasa.gov/search?q=LC21_Foliar_Nutrients_1234&ac=true"
+    },
+    {
+      "description": "This data set provides the results of the two modeled scenarios for future patterns of deforestation across the Amazon Basin from 2002 to 2050. This larger defined Amazon Basin (PanAmazon area) includes the Amazon River watershed, the Legal Amazon in Brazil, and the Guiana region. The model SimAmazonia was used to simulate monthly deforestation in the Amazon Basin from 2002 to 2050 for two scenarios: (1) a \"Business-as-Usual\" scenario, which considered the deforestation trends across the basin and projected the rates by using historical images and their variations from 1997 to 2002 and then added to that the effect of paving a set of major roads, and (2) a \"Governance\" scenario, that also considered the current deforestation trends, but assumed a 50% limit  imposed for deforested land within each basin's subregion, and that existing and proposed Protected Areas (PAs), play a decisive role in limiting deforestation as well (Soares et al., 2006).The provided data products include one GeoTiff (*.tif) for each year (2002 to 2050) for both model scenarios for a total of 98 files. The files have been compressed in two *.zip files, one for each model scenario. There is also one comma-delimited file that contains the model input data derived from satellite deforestation maps.",
+      "semantic_score": 0.7990715503692627,
+      "title": "LBA-ECO LC-14 Modeled Deforestation Scenarios,  Amazon Basin: 2002-2050",
+      "url": "https://search.earthdata.nasa.gov/search?q=LC14_Amazon_Scenarios_1153&ac=true"
+    },
+    {
+      "description": "This data set contains modeled estimates of carbon flux, biomass, and annual burning emissions across the Brazilian state of Mato Grosso from 2000-2006. The model, DEforestation CArbon Flux (DECAF), was used to provide annual carbon fluxes from large deforestation events (>25 ha) based on post-deforestation land use, and the frequency and duration of active fires during the deforestation process. Carbon fluxes associated with the conversion of Cerrado to mechanized crop production, fires in Cerrado, and managed pasture cover types were also estimated. Model data outputs provided include:  * Estimated aboveground live biomass from DECAF in 2000 and 2004.* Annual biomass burning emissions estimates for 2001-2005 from low, middle, and high emissions scenarios with DECAF. There are 15 GeoTIFF files for annual emissions which represent the carbon emissions per pixel in grams of carbon per m2 (g C m-2). Model data inputs provided include: * Annual burn trajectories for 2001 - 2005, including deforestation, Cerrado land cover conversion, and fires in pasture and Cerrado ecosystems unrelated to agricultural expansion. These data were assembled from three sources: MODIS 500-m burned area maps, annual deforestation based on data from the INPE PRODES program, and the conversion of Cerrado savannah/woodland to cropland estimated from land cover information from MODIS phenology metrics.* Annual land cover data 2001-2004 for the portion of Mato Grosso covered by MODIS phenology metrics, tile h12v10, updated based on annual land cover changes in Amazon forest and Cerrado cover types.* Monthly Normalized Difference Vegetation Index (NDVI) for MODIS tile h12v10 from 10/2000 - 09/2006, based on cloud and gap-filled 16-day NDVI data from MODIS Collection 4 16-day NDVI composites  MOD13 product (Huete et al., 2002).There are six compressed (*.gz) files with this data set.",
+      "semantic_score": 0.7916874885559082,
+      "title": "LBA-ECO LC-39 Modeled Carbon Flux from Deforestation, Mato Grosso, Brazil: 2000-2006",
+      "url": "https://search.earthdata.nasa.gov/search?q=LC39_DECAF_Model_1190&ac=true"
+    },
+    {
+      "description": "This data set provides estimates of watershed deforestation, as a proportion of the total area of watersheds, in Rondonia, Brazil for 1999. Deforestation maps were determined for the main agricultural and surrounding forested areas of Rondonia using multiple Landsat TM scenes (Biggs et al. 2008). Cumulative deforestation estimates were derived from this time series of Landsat scenes from 1975 to 1999. To obtain watershed-level estimates of deforestation, watershed boundaries and stream networks were delineated by a flow accumulation algorithm using a 90-m resolution digital elevation model (DEM) from NASA's Shuttle Radar Topography Mission (SRTM). The results were watersheds of seven Strahler stream orders (1-7) with stream networks that closely matched those of the 1:100,000 topographic maps for the area. The watershed boundaries, classified by stream order, were overlain on the time series of deforestation maps to determine the cumulative deforestation extent in 1999. This data set contains six ESRI ArcGIS shapefiles of the watershed boundaries for streams orders 2-7, the smallest watershed (second order) to the largest inclusive watershed (seventh order). The cumulative deforestation estimates, as a proportion of total area for each watershed, are available as a comma-delimited text file that can be related to the individual watershed boundary shapefiles. Cumulative deforestation data are available for first order streams, although not as a shapefile. There are six zipped ESRI ArcGIS shapefiles (*.zip) and one ASCII comma separated file with this data set.",
+      "semantic_score": 0.7869559526443481,
+      "title": "LBA-ECO ND-01 Watershed Deforestation from Landsat TM Series, Rondonia, Brazil: 1999",
+      "url": "https://search.earthdata.nasa.gov/search?q=ND01_Watershed_Defor_1159&ac=true"
+    }
+  ]
+}

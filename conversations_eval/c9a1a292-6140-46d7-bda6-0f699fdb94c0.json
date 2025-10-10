@@ -1,0 +1,76 @@
+{
+  "id": "c9a1a292-6140-46d7-bda6-0f699fdb94c0",
+  "domain": "earthObservation",
+  "messages": [
+    {
+      "sender": "user",
+      "text": "Provide CSV datasets of earthquake events in Arctic between 1980 and 1990"
+    },
+    {
+      "sender": "bot",
+      "text": "It appears you're looking for datasets containing earthquake events that occurred within the Arctic region between 1980 and 1990, specifically in CSV format. After conducting a search, I found several datasets that might be relevant to your request, although none directly match the specific criteria of Arctic earthquakes between 1980 and 1990 in CSV format.\n\n1. **1988 Spitak Earthquake Database**: This dataset, available at https://www.ngdc.noaa.gov/hazard/fliers/se-0207.shtml, contains extensive data related to the 1988 Spitak earthquake in Armenia. While it doesn't specifically focus on the Arctic region, it does provide comprehensive earthquake data that could be useful for comparative studies or understanding earthquake dynamics.\n\n2. **Comprehensive Global Database of Earthquake-Induced Landslide Events and their Impacts (ver. 2.0, February 2022)**: Found at https://data.usgs.gov/datacatalog/metadata/USGS.5ec70f9d82ce476925eddc9e.xml, this database includes global data on earthquake-induced landslides from 1772 through August 2021. It might be beneficial for studying broader trends or impacts of earthquakes, though it may require filtering to isolate Arctic events between 1980 and 1990.\n\n3. **Utah FORGE: Earthquake Information and Data**: Located at https://www.usgs.gov/programs/earthquake-hazards/science/information-region-utah, this site offers information and data related to Utah earthquakes, maintained by the USGS Earthquake Hazards Program. It could be a starting point for exploring earthquake data, even though it's not specific to the Arctic region.\n\n4. **Event deposit characteristics from percussion driven gravity cores collected in Alaskan lakes and fjords following the 2018 Anchorage earthquake**: Available at https://doi.org/10.5066/P924775B, this dataset focuses on sediment cores collected after the 2018 Anchorage earthquake. Although it doesn't fall within your specified time frame, it does relate to Alaska, which is part of the Arctic region, and could be useful for studies on earthquake impacts in similar environments.\n\nTo better assist you, I would like to clarify a few points:\n- Are you open to exploring datasets that might not be exclusively focused on the Arctic but could provide relevant comparative data or insights into earthquake events?\n- Would you like me to suggest specific organizations or databases (like the USGS) that might have more targeted data for your needs?\n- Are there any specific variables within earthquake data (e.g., magnitude, depth) that you're particularly interested in?\n\nPlease let me know if there's any additional information I can provide or if you'd like me to refine the search based on more specific criteria."
+    }
+  ],
+  "files": [
+    {
+      "description": "This is a .kml earthquake animation covering the period of 1991 - 2011 for the Utah Milford FORGE site. It displays seismic events using different sized bubbles according to magnitude. It covers the general Utah FORGE area (large shaded rectangle) with the final site displayed as a smaller polygon along the northwestern margin. Earthquakes are subdivided into clusters and the time, date, and magnitude of each event is included. Nearby seismic stations are symbolized with triangles.\n\nThis was created by the University of Utah Seismograph Stations (UUSS).",
+      "semantic_score": 0.8146301507949829,
+      "title": "Utah FORGE: Site Earthquake Animation",
+      "url": "https://gdr.openei.org/files/795/UUSS-FORGE-Seismic_Cluster-Analysis.kml"
+    },
+    {
+      "description": "The 2008 Wells, Nevada Earthquake Sequence: Source Constraints using Calibrated Multiple Event Relocation and InSAR",
+      "semantic_score": 0.8112000823020935,
+      "title": "Earthquake Relocations for the 2008 Wells, Nevada Earthquake Sequence",
+      "url": "https://doi.org/10.5066/F7WS8RFK"
+    },
+    {
+      "description": "This site contains information and data related to Utah earthquakes. It is maintained by the USGS Earthquake Hazards Program. This site contains information relevant to the Utah FORGE project.",
+      "semantic_score": 0.8095874786376953,
+      "title": "Utah FORGE: Earthquake Information and Data",
+      "url": "https://www.usgs.gov/programs/earthquake-hazards/science/information-region-utah"
+    },
+    {
+      "description": "This dataset includes deposit thickness and grain size measurements from sediment cores collected from lacustrine and fjord basins in southcentral Alaska following the 2018 Anchorage earthquake. The cores were collected with a percussion driven gravity corer for use in regional hazard assessments relating to Alaska’s seismic hazard.",
+      "semantic_score": 0.7967885732650757,
+      "title": "Event deposit characteristics from percussion driven gravity cores collected in Alaskan lakes and fjords following the 2018 Anchorage earthquake",
+      "url": "https://doi.org/10.5066/P924775B"
+    },
+    {
+      "description": "The 1988 Spitak Earthquake database is an extensive collection of geophysical and geological data, maps, charts, images and descriptive text pertaining to the catastrophic earthquake in Armenia. This earthquake was unique both in catastrophic effects and in study coverage. Research groups from the former U.S.S.R., U.S.A., France, and Japan studied the earthquake area. The database was developed as a cooperative effort between centers in Russia and the United States. The goal was to provide seismologists around the world with a complete set of data for the devastating earthquake. The database contains practically all material relevant to the 1988 Spitak earthquake and its aftereffects. It also includes the geological and geophysical information collected during the years prior to the event, important for understanding the event. Almost 2,000 files and 170 megabytes of data are contained in the collection. The database is static and is no longer being updated.",
+      "semantic_score": 0.7966277003288269,
+      "title": "1988 Spitak Earthquake Database",
+      "url": "https://www.ngdc.noaa.gov/hazard/fliers/se-0207.shtml"
+    },
+    {
+      "description": "This dataset includes qualitative interpretations of event deposits from sediment cores collected from lacustrine and fjord basins in southcentral Alaska following the 2018 Anchorage earthquake. The cores were collected with a percussion driven gravity corer for use in regional hazard assessments relating to Alaska’s seismic hazard.",
+      "semantic_score": 0.7941757440567017,
+      "title": "Summary of event deposit characteristics from percussion driven gravity cores collected in Alaskan lakes and fjords following the 2018 Anchorage earthquake",
+      "url": "https://data.usgs.gov/datacatalog/metadata/USGS.86380837-b6e8-4d8e-9a94-94bc4309f1ef.xml"
+    },
+    {
+      "description": "We generated digital elevation models (DEMs) using pre- and post-event in-track stereo 0.5 m resolution panchromatic Worldview 1 and 2 images (©2019, DigitalGlobe) using the Surface Extraction from TIN-based Searchspace Minimization (SETSM) software [Noh and Howat, 2015] running on the University of Iowa Argon supercomputer (Table S1). The post-event DEMs exhibit along-track striping artifacts common to the Worldview 2 sensor. While de-striping tools, for example within NASAs Ames Stereo Pipeline [Shean et al., 2016], are commonly applied to resolve this issue, a de-striping correction has not been developed for this latitude.",
+      "semantic_score": 0.7892910242080688,
+      "title": "2016 Mw 6.0 Petermann Ranges earthquake, Australia: Pre- and post-earthquake digital elevation models",
+      "url": "https://doi.org/10.5066/P9353101"
+    },
+    {
+      "description": "This inventory was originally created by Gorum and others (2011) describing the landslides triggered by the M 7.9 Wenchuan, China earthquake that occurred on 12 May 2008 at 06:28:01 UTC. Care should be taken when comparing with other inventories because different authors use different mapping techniques. This inventory also could be associated with other earthquakes such as aftershocks or triggered events. Please check the author methods summary and the original data source for more information on these details and to confirm the viability of this inventory for your specific use.   With the exception of the data from USGS sources, the inventory data and associated metadata were not acquired by the U.S. Geological Survey (USGS) and thus have not been reviewed for accuracy and completeness by the USGS.  They are presented as part of this data series for convenience of the user only, as part of an effort to make published ground-failure inventories more accessible from a single aggregated site. No warranty, expressed or implied, is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.",
+      "semantic_score": 0.7855949997901917,
+      "title": "Earthquake-induced landslides triggered by the May 12, 2008, Wenchuan earthquake",
+      "url": "https://doi.org/10.5066/F7W957Q0"
+    },
+    {
+      "description": "This point cloud datatset covers a 5 km wide swath along an approximately 240 km long section of the 2013 Balochistan earthquake rupture in Pakistan. Point cloud data produced from 13 stereo data sets of 0.5 m resolution, panchromatic Pleiades images acquired by Airbus (funded by NERC, UK). The images were processed using the LPS module of the ERDAS Imagine 2013 software (version 13.00.00, Build 281). A pixel-by-pixel matching procedure was implemented with a window size of 5-by-5 pixels and a correlation coefficient of 0.3 to 0.7.     For further details see: Zhou, Y., J. R. Elliott, B. Parsons, and R. T. Walker (2015), The 2013 Balochistan earthquake: An extraordinary or completely ordinary event?, Geophysical Research Letters, 43(7), 3134-3142, doi:10.1002/2015GL065096",
+      "semantic_score": 0.7804545760154724,
+      "title": "2013 Balochistan earthquake, Pakistan",
+      "url": "https://doi.org/10.5069/G9VD6WJ1"
+    },
+    {
+      "description": "Currently, there are many datasets describing landslides caused by individual earthquakes, and global inventories of earthquake-induced landslides (EQIL). However, until recently, there were no datasets that provide a comprehensive description of the impacts of earthquake-induced landslide events. In this data release, we present an up-to-date, comprehensive global database containing all literature-documented earthquake-induced landslide events for the 249-year period from 1772 through August 2021. The database represents an update of the catalog developed by Seal et al. (2020), which summarized events through March 2020 and was based on the catalog developed by Nowicki Jessee et al. (2020). The revised catalog contains 281 historical earthquakes, 162 of which include documented landslide fatality counts. This represents an addition of 17 earthquakes since the previous version, 9 with documented landslide fatalities, and a removal of 2 duplicate entries. The database includes (where available) information on earthquake size (moment magnitude (Mw), surface-wave magnitude (Ms), and body-wave magnitude (mb)), depth, earthquake fault type, date and time, location, the availability of a ShakeMap, which estimates the spatial distribution of ground shaking from the USGS ShakeMap system (Worden and Wald, 2016), the availability of a geospatial landslide inventory, information about landslide occurrence (number of landslides, area or volume of landsliding, area affected by landsliding, landslide magnitude), earthquake/landslide impact (total fatalities, landslide fatalities, and number of injuries due to the effects of the earthquake), and USGS Ground Failure Tool estimates (estimated area and population exposed to landsliding). The full dataset of all known landslide-triggering events is provided as “EQIL Database 2022.csv,” including information on the data source(s) for each data component. A subset of the dataset, showing only those events for which landslide fatality counts are available, is provided as “EQIL Database LSFatality 2022.csv.” This subset only includes those columns from \"EQIL Database 2022.csv\" which are necessary for landslide fatality data analysis and omits columns such as source columns and secondary values.",
+      "semantic_score": 0.7771296501159668,
+      "title": "Comprehensive Global Database of Earthquake-Induced Landslide Events and their Impacts (ver. 2.0, February 2022)",
+      "url": "https://data.usgs.gov/datacatalog/metadata/USGS.5ec70f9d82ce476925eddc9e.xml"
+    }
+  ]
+}

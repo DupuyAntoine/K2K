@@ -1,0 +1,15 @@
+query,precision@k,recall@k,MRR,AP,nDCG@k,BERTScore,NLI_consistency
+Provide CSV datasets of surface temperature anomalies in France between 1980 and 1990.,0.3333333333333333,1.0,1.0,1.0,1.0,0.8031105995178223,0.9988189339637756
+Provide JSON datasets of precipitation totals in Asia between 1990 and 2000.,0.0,0.0,0.0,0.0,0.0,0.8394043445587158,0.0
+Provide NETCDF datasets of deforestation areas in South America between 2000 and 2010.,0.0,0.0,0.0,0.0,0.0,0.8328431248664856,0.0
+Provide CSV datasets of sea surface temperature in Atlantic between 2010 and 2020.,0.0,0.0,0.0,0.0,0.0,0.8501302003860474,0.0
+Provide JSON datasets of earthquake events in Japan between 1990 and 2000.,0.0,0.0,0.0,0.0,0.0,0.8595955967903137,0.0
+Provide XLS datasets of ozone measurements in France between 1990 and 2000.,0.6666666666666666,0.2857142857142857,1.0,0.8260204081632653,0.9197207891481876,0.845599889755249,0.9994251472609383
+Provide CSV datasets of ocean color in Pacific Ocean between 2000 and 2010.,1.0,0.6,1.0,0.9266666666666665,1.0,0.8487440347671509,0.9996359467506408
+Provide GEOJSON datasets of vegetation indices in France between 2010 and 2020.,0.0,0.0,0.0,0.0,0.0,0.835537850856781,0.0
+Provide CSV datasets of sea level rise in global between 2015 and 2023.,0.0,0.0,0.0,0.0,0.0,0.8398422598838806,0.0
+Provide JSON datasets of glacier mass balance in Europe between 1980 and 1990.,0.0,0.0,0.0,0.0,0.0,0.8638058304786682,0.0
+Provide CSV datasets of soil moisture in Asia between 1990 and 2000.,0.0,0.0,0.0,0.0,0.0,0.8291068077087402,0.0
+Provide CSV datasets of land surface albedo in South America between 2000 and 2010.,0.6666666666666666,0.6666666666666666,1.0,0.9166666666666666,1.0,0.8177887797355652,0.9713004430135092
+Provide CSV datasets of carbon emissions in North America between 2010 and 2020.,0.6666666666666666,0.3333333333333333,1.0,0.8734126984126983,1.0,0.8625666499137878,0.9995462993780772
+Provide JSON datasets of river discharge in Africa between 2015 and 2023.,0.0,0.0,0.0,0.0,0.0,0.8720595240592957,0.0

@@ -1,0 +1,76 @@
+{
+  "id": "383325e7-acb5-4934-a343-59996c27ae4c",
+  "domain": "earthObservation",
+  "messages": [
+    {
+      "sender": "user",
+      "text": "Provide CSV datasets of sea surface height anomalies in North America between 2010 and 2020"
+    },
+    {
+      "sender": "bot",
+      "text": "I've searched for datasets related to sea surface height anomalies in North America between 2010 and 2020. Unfortunately, none of the retrieved datasets precisely match your request for CSV format and the specified time period. However, I can suggest some relevant datasets that might be useful for your research:\n\n1. **Sea Surface Height**: This dataset provides monthly and annual summaries of global sea surface height anomalies. Although it's not limited to North America, it does cover the region and is available from 1992 to 2016. The data is in a zip file and can be downloaded from [https://marinecadastre.gov/downloads/data/mc/SeaSurfaceHeight.zip](https://marinecadastre.gov/downloads/data/mc/SeaSurfaceHeight.zip).\n2. **NOAA CoastWatch, Sea Surface Height Anomalies from Altimetry, Global, 2017-present, EXPERIMENTAL**: This dataset offers global sea surface height anomalies from altimetry data, starting from 2017. It's available in various formats, including netCDF, which can be converted to CSV. You can access it through [https://coastwatch.pfeg.noaa.gov/erddap/griddap/nesdisSSH1day.html](https://coastwatch.pfeg.noaa.gov/erddap/griddap/nesdisSSH1day.html).\n3. **MEaSUREs Gridded Sea Surface Height Anomalies Version 2205**: This dataset contains gridded sea surface height anomalies on a 1/6th degree grid every 5 days, derived from various altimeter missions. While it doesn't exactly match your time period, it's a valuable resource for understanding sea surface height anomalies globally. The data can be found at [https://podaac.jpl.nasa.gov/CitingPODAAC](https://podaac.jpl.nasa.gov/CitingPODAAC).\n\nTo better assist you, could you please specify if you're looking for a particular dataset or source for sea surface height anomalies in North America? Are there any specific requirements for the resolution or frequency of the data you're interested in? This information will help me provide more targeted suggestions."
+    }
+  ],
+  "files": [
+    {
+      "description": "Monthly and annual summary of global sea surface height anomalies above mean sea surface, averaged from raw data. Raw data available from Oct. 2, 1992 to May 14, 2016, at 5 day intervals, with a spatial resolution of 0.17 degrees (Latitude) x 0.17 degrees (Longitude). Dataset contains the fully corrected heights, in meters.",
+      "semantic_score": 0.8283805251121521,
+      "title": "Sea Surface Height",
+      "url": "https://marinecadastre.gov/downloads/data/mc/SeaSurfaceHeight.zip"
+    },
+    {
+      "description": "The altimetry data are from RADS (http://rads.tudelft.nl/rads/rads.shtml), the Radar Altimetry Database System, first developed at Delft University of Technology, now also at the NOAA and the European Organisation for the Exploitation of Meteorological Satellites (EUMETSAT). The RADS data for each mission is updated with state of the art corrections for tides, atmospheric path delay, etc. Because they are all computed consistently between the various missions, this avoids the possibility of introducing biases and drifts because of the different implementation of the various corrections by different agencies. The goals of RADS are to provide a homogenous dataset of sea level anomalies, wave heights, and wind speeds, along with database selection and analysis tools.",
+      "semantic_score": 0.8113572001457214,
+      "title": "NOAA CoastWatch, Sea Surface Height Anomalies from Altimetry, Global, 2017-present, EXPERIMENTAL",
+      "url": "https://coastwatch.pfeg.noaa.gov/erddap/griddap/nesdisSSH1day.html"
+    },
+    {
+      "description": "The altimetry data are from RADS (http://rads.tudelft.nl/rads/rads.shtml), the Radar Altimetry Database System, first developed at Delft University of Technology, now also at the NOAA and the European Organisation for the Exploitation of Meteorological Satellites (EUMETSAT). The RADS data for each mission is updated with state of the art corrections for tides, atmospheric path delay, etc. Because they are all computed consistently between the various missions, this avoids the possibility of introducing biases and drifts because of the different implementation of the various corrections by different agencies. The goals of RADS are to provide a homogenous dataset of sea level anomalies, wave heights, and wind speeds, along with database selection and analysis tools.",
+      "semantic_score": 0.8081530928611755,
+      "title": "NOAA CoastWatch, Sea Surface Height Anomalies from Altimetry, Global, 2017-present, EXPERIMENTAL, Lon0360",
+      "url": "https://coastwatch.pfeg.noaa.gov/erddap/griddap/nesdisSSH1day_Lon0360.html"
+    },
+    {
+      "description": "ATL21 contains daily and monthly gridded polar sea surface height (SSH) anomalies, derived from the along-track ATLAS/ICESat-2 L3A Sea Ice Height product (ATL10, V6). The ATL10 product identifies leads in sea ice and establishes a reference sea surface used to estimate SSH in 10 km along-track segments. ATL21 aggregates the ATL10 along-track SSH estimates and computes daily and monthly gridded SSH anomaly in NSIDC Polar Stereographic Northern and Southern Hemisphere 25 km grids.",
+      "semantic_score": 0.80678790807724,
+      "title": "ATLAS/ICESat-2 L3B Daily and Monthly Gridded Polar Sea Surface Height Anomaly V003",
+      "url": "https://scholar.google.com/scholar?q=10.5067%2FATLAS%2FATL21.003"
+    },
+    {
+      "description": "ATL21 contains daily and monthly gridded polar sea surface height (SSH) anomalies, derived from the along-track ATLAS/ICESat-2 L3A Sea Ice Height product (ATL10, V6). The ATL10 product identifies leads in sea ice and establishes a reference sea surface used to estimate SSH in 10 km along-track segments. ATL21 aggregates the ATL10 along-track SSH estimates and computes daily and monthly gridded SSH anomaly in NSIDC Polar Stereographic Northern and Southern Hemisphere 25 km grids.",
+      "semantic_score": 0.80678790807724,
+      "title": "ATLAS/ICESat-2 L3B Daily and Monthly Gridded Polar Sea Surface Height Anomaly V003",
+      "url": "https://scholar.google.com/scholar?q=10.5067%2FATLAS%2FATL21.003"
+    },
+    {
+      "description": "This dataset provides gridded Sea Surface Height Anomalies (SSHA) above a mean sea surface, on a 1/6th degree grid every 5 days. It contains the fully corrected heights, with a delay of up to 3 months. The gridded data are derived from the along-track SSHA data of TOPEX/Poseidon, Jason-1, Jason-2, Jason-3 and Jason-CS (Sentinel-6) as reference data from the level 2 along-track data found at https://podaac.jpl.nasa.gov/dataset/MERGED_TP_J1_OSTM_OST_CYCLES_V51, plus ERS-1, ERS-2, Envisat, SARAL-AltiKa, CryoSat-2, Sentinel-3A, Sentinel-3B, depending on the date, from the RADS database. The date given in the grid files is the center of the 5-day window. The grids were produced from altimeter data using Kriging interpolation, which gives best linear prediction based upon prior knowledge of covariance.",
+      "semantic_score": 0.791880190372467,
+      "title": "MEaSUREs Gridded Sea Surface Height Anomalies Version 2205",
+      "url": "https://podaac.jpl.nasa.gov/CitingPODAAC"
+    },
+    {
+      "description": "This file contains an indicator for the Pacific Decadal Oscillation (PDO), based on satellite observations of sea surface height anomaly, measured by radar altimeter missions such as TOPEX/Poseidon, the Jason series, and Sentinel-6. The indicator values were calculated using NASA-SSH Simple Gridded Sea Surface Height from Standardized Reference Missions Only Version 1 https://podaac.jpl.nasa.gov/dataset/NASA_SSH_REF_SIMPLE_GRID_V1 . <br><br>Indicator values were calculated using cyclostationary empirical orthogonal functions (CSEOFs; Kim et al., 2015) computed by decomposing the gridded sea surface height anomalies over the time period from 1993 to 2019. After removing the linear trend from each individual gridded location, three sets of regional CSEOFs were generated, one each for El Nino-Southern Oscillation (ENSO), the PDO and Indian Ocean Diode (IOD). In each case, the dominant statistical mode represents the seasonal cycle. The second most dominant mode represents the variability explained by each respective indicator and is referred to as the “indicator mode”. The seasonal mode and indicator mode are then projected onto the along-track sea surface height anomalies to produce the indicator time series through the most current date. In this case, the PDO mode was used to produce the time series contained in this file.<br><br>The file with the filename \"NASA_SSH_PDO_INDICATOR.txt\" is always the most up-to-date time series containing the most recent data.",
+      "semantic_score": 0.7899044752120972,
+      "title": "NASA-SSH PDO Sea Surface Height Indicator",
+      "url": "https://search.earthdata.nasa.gov/search/granules?p=C3484829347-POCLOUD"
+    },
+    {
+      "description": "This file contains an indicator for the Indian Ocean Dipole (IOD), based on satellite observations of sea surface height anomaly, measured by radar altimeter missions such as TOPEX/Poseidon, the Jason series, and Sentinel-6. The indicator values were calculated using NASA-SSH Simple Gridded Sea Surface Height from Standardized Reference Missions Only Version 1 https://podaac.jpl.nasa.gov/dataset/NASA_SSH_REF_SIMPLE_GRID_V1 . <br><br>Indicator values were calculated using cyclostationary empirical orthogonal functions (CSEOFs; Kim et al., 2015) computed by decomposing the gridded sea surface height anomalies over the time period from 1993 to 2019. After removing the linear trend from each individual gridded location, three sets of regional CSEOFs were generated, one each for the El Nino-Southern Oscillation (ENSO), the Pacific Decadal Oscillation (PDO) and (IOD). In each case, the dominant statistical mode represents the seasonal cycle. The second most dominant mode represents the variability explained by each respective indicator and is referred to as the “indicator mode”. The seasonal mode and indicator mode are then projected onto the along-track sea surface height anomalies to produce the indicator time series through the most current date. In this case, the IOD mode was used to produce the time series contained in this file. <br><br>The file with the filename \"NASA_SSH_IOD_INDICATOR.txt\" is always the most up-to-date time series containing the most recent data.",
+      "semantic_score": 0.7895694971084595,
+      "title": "NASA-SSH IOD Sea Surface Height Indicator",
+      "url": "https://search.earthdata.nasa.gov/search/granules?p=C3478941029-POCLOUD"
+    },
+    {
+      "description": "These data are near-real-time (NRT) (within 7-9 hours of measurement) sea surface height anomalies (SSHA) from the AltiKa altimeter onboard the Satellite with ARgos and ALtiKa (SARAL).  SARAL is a French(CNES)/Indian(SARAL) collaborative mission to measure sea surface height using the Ka-band AltiKa altimeter and was launched February 25, 2013. The major difference between these data and the Operational Geophysical Data Record (OGDR) data produced by the project is that the orbit from SARAL has been adjusted using SSHA differences with those from the OSTM/Jason-2 GPS-OGDR-SSHA product at inter-satellite crossover locations. This produces a more accurate NRT orbit altitude for SARAL with accuracy of 1.5 cm (RMS), taking advantage of the 1 cm (radial RMS) accuracy of the GPS-based orbit used for the OSTM/Jason-2 GPS-OGDR-SSHA product. This dataset also contains all data from the project (reduced) OGDR, and improved altimeter wind speeds and sea state bias correction. More information on the SARAL mission can be found at: http://www.aviso.oceanobs.com/en/missions/current-missions/saral.html",
+      "semantic_score": 0.7894254922866821,
+      "title": "SARAL Near-Real-Time Value-added Operational Geophysical Data Record Sea Surface Height Anomaly",
+      "url": "https://podaac.jpl.nasa.gov/CitingPODAAC"
+    },
+    {
+      "description": "This file contains an indicator for the El Nino-Southern Oscillation (ENSO), based on satellite observations of sea surface height anomaly, measured by radar altimeter missions such as TOPEX/Poseidon, the Jason series, and Sentinel-6. The indicator values were calculated using NASA-SSH Simple Gridded Sea Surface Height from Standardized Reference Missions Only Version 1 https://podaac.jpl.nasa.gov/dataset/NASA_SSH_REF_SIMPLE_GRID_V1 . <br><br>Indicator values were calculated using cyclostationary empirical orthogonal functions (CSEOFs; Kim et al., 2015) computed by decomposing the gridded sea surface height anomalies over the time period from 1993 to 2019. After removing the linear trend from each individual gridded location, three sets of regional CSEOFs were generated, one each for ENSO, the Pacific Decadal Oscillation (PDO) and Indian Ocean Diode (IOD). In each case, the dominant statistical mode represents the seasonal cycle. The second most dominant mode represents the variability explained by each respective indicator and is referred to as the “indicator mode”. The seasonal mode and indicator mode are then projected onto the along-track sea surface height anomalies to produce the indicator time series through the most current date.  In this case, the ENSO mode was used to produce the time series contained in this file.<br><br>The file with the filename \"NASA_SSH_ENSO_INDICATOR.txt\" is always the most up-to-date time series containing the most recent data.",
+      "semantic_score": 0.788788378238678,
+      "title": "NASA-SSH ENSO Sea Surface Height Indicator",
+      "url": "https://search.earthdata.nasa.gov/search/granules?p=C3473420592-POCLOUD"
+    }
+  ]
+}

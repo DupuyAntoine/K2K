@@ -1,0 +1,76 @@
+{
+  "id": "0cac311a-219d-41e6-919a-9c889c16c42d",
+  "domain": "earthObservation",
+  "messages": [
+    {
+      "sender": "user",
+      "text": "Provide CSV datasets of ocean color indicators in Pacific Ocean between 2000 and 2010"
+    },
+    {
+      "sender": "bot",
+      "text": "Based on your request for CSV datasets of ocean color indicators in the Pacific Ocean between 2000 and 2010, I have searched through various datasets and found a few that may match your requirements.\n\nThe following datasets contain ocean color indicators and are available in CSV format:\n\n1. **OW NASA SeaWIFS Ocean Color**: This dataset contains satellite-derived sea-surface ocean color (chlorophyll-a) measurements collected by the Sea-viewing Wide Field-of-view Sensor (SeaWiFS) onboard the NASA SeaStar satellite. The data is available at weekly and monthly intervals at a spatial resolution of 0.1 degrees, and the temporal coverage ranges from 1997 to 2010. You can access the dataset at [https://oceanwatch.pifsc.noaa.gov/erddap/griddap/OceanWatch_seawifs_chla_monthly.html](https://oceanwatch.pifsc.noaa.gov/erddap/griddap/OceanWatch_seawifs_chla_monthly.html).\n2. **OW NASA MODIS Aqua Ocean Color**: This dataset contains satellite-derived sea-surface ocean color (chlorophyll-a) measurements collected by the Moderate Resolution Imaging Spectroradiometer (MODIS) sensor onboard the NASA Aqua satellite. The data is available at daily, weekly, and monthly intervals at a spatial resolution of 0.05 degrees, and the temporal coverage ranges from 2002 to present. You can access the dataset at [https://oceanwatch.pifsc.noaa.gov/erddap/griddap/OceanWatch_aqua_chla_monthly.html](https://oceanwatch.pifsc.noaa.gov/erddap/griddap/OceanWatch_aqua_chla_monthly.html).\n3. **Primary productivity derived from ocean color remote sensing**: This dataset provides primary productivity estimates modeled using chlorophyll a, photosynthetic available radiation, and sea surface temperature. The data is available in CSV format, but the temporal and spatial coverage are not explicitly specified. You can access the dataset at [https://console.cloud.google.com/storage/browser/nmfs_odp_nefsc/PARR/READ/EDAB/27414](https://console.cloud.google.com/storage/browser/nmfs_odp_nefsc/PARR/READ/EDAB/27414).\n\nPlease note that these datasets may not exactly match your request, as the specific ocean color indicators and geographic subset of the Pacific Ocean are not clearly defined. Additionally, the temporal coverage may not be limited to 2000-2010 for all datasets.\n\nIf you could provide more information on the specific ocean color indicators you are interested in (e.g., chlorophyll, sediment) and the geographic subset of the Pacific Ocean, I can try to refine the search and provide more targeted results."
+    }
+  ],
+  "files": [
+    {
+      "description": "The dataset contains satellite-derived sea-surface ocean color (chlorophyll-a) measurements collected by means of the Sea-viewing Wide Field-of-view Sensor (SeaWiFS) onboard the NASA SeaStar satellite. The data is available at weekly and monthly intervals at a spatial resolution of 0.1 degrees. The geographic coverage extends globally, and the temporal coverage ranges from 1997-present.",
+      "semantic_score": 0.8123452663421631,
+      "title": "OW NASA SeaWIFS Ocean Color",
+      "url": "https://oceanwatch.pifsc.noaa.gov/erddap/griddap/OceanWatch_seawifs_chla_monthly.html"
+    },
+    {
+      "description": "The KORUS-OC (Korea-United States Ocean Color) expedition was a venture among scientist from the Korean Institute of Ocean Science and Technology (KIOST), NASA, and other institutions to study the daily changes of the seas surrounding South Korea.",
+      "semantic_score": 0.8119080662727356,
+      "title": "Korea-United States Ocean Color expedition",
+      "url": "https://seabass.gsfc.nasa.gov/experiment/KORUS/"
+    },
+    {
+      "description": "The dataset contains satellite-derived sea-surface ocean color (chlorophyll-a) measurements collected by means of the Moderate Resolution Imaging Spectroradiometer (MODIS) sensor onboard the NASA Aqua satellite. The data is available at daily (2015 - present), weekly (2002 - present) and monthly (2002 - present) intervals at a spatial resolution of 0.05 degrees. The geographic coverage is global.",
+      "semantic_score": 0.8084624409675598,
+      "title": "OW NASA MODIS Aqua Ocean Color",
+      "url": "https://oceanwatch.pifsc.noaa.gov/erddap/griddap/OceanWatch_aqua_chla_monthly.html"
+    },
+    {
+      "description": "The dataset contains satellite-derived sea-surface ocean color (chlorophyll-a) measurements collected by means of the Visible Infrared Imaging Radiometer Suite (VIIRS) sensor onboard the NASA Suomi National Polar-Orbiting Partnership (Suomi NPP) spacecraft. The data is available at weekly and monthly intervals at a spatial resolution of 0.05 degrees, from 2012 to present. The geographic coverage is global.",
+      "semantic_score": 0.804157555103302,
+      "title": "OW NASA VIIRS Ocean Color",
+      "url": "https://oceanwatch.pifsc.noaa.gov/erddap/griddap/OceanWatch_nasa-viirs_chla_monthly.html"
+    },
+    {
+      "description": "Ocean color remote sensing  provide routine, synoptic observations of the ocean surface at spatial and temporal resolutions not attainable by moored or ship-based platforms.  Ocean color sensors measure the spectral distribution of reflected sunlight, which can be used to infer the contents of the water, including chlorophyll a concentrations, a proxy for phytoplankton biomass.  Phytoplankton are the base of the marine food web and are critical regulators of key biogeochemical processes.  Primary productivity esimates are modeled using chlorophyll a, photosynthetic available radiation, and sea surface temperature.",
+      "semantic_score": 0.7962314486503601,
+      "title": "Primary productivity derived from ocean color remote sensing",
+      "url": "https://console.cloud.google.com/storage/browser/nmfs_odp_nefsc/PARR/READ/EDAB/27414"
+    },
+    {
+      "description": "The Aerosol Robotic Network (AERONET), developed to sustain atmospheric studies at various scales with measurements from worldwide distributed autonomous sun-photometers has  been extended to support marine applications. This new network component called AERONET – Ocean Color (AERONET-OC), provides the additional capability of measuring the radiance emerging from the sea  (i.e., water-leaving radiance) with modified sun-photometers installed on offshore platforms like lighthouses, oceanographic and oil towers. AERONET-OC is instrumental in satellite ocean color validation activities through standardized measurements a) performed at different sites with a single measuring system and protocol, b) calibrated with an identical reference source and method, and c) processed with the same code.",
+      "semantic_score": 0.7954879999160767,
+      "title": "AERONET-OCEAN COLOR",
+      "url": "http://aeronet.gsfc.nasa.gov/cgi-bin/type_piece_of_map_seaprism_new?long1=-180&long2=180&lat1=-90&lat2=90&multiplier=2&what_map=4&nachal=1&formatter=0&level=1"
+    },
+    {
+      "description": "The Aerosol Robotic Network (AERONET), developed to sustain atmospheric studies at various scales with measurements from worldwide distributed autonomous sun-photometers has  been extended to support marine applications. This new network component called AERONET – Ocean Color (AERONET-OC), provides the additional capability of measuring the radiance emerging from the sea  (i.e., water-leaving radiance) with modified sun-photometers installed on offshore platforms like lighthouses, oceanographic and oil towers. AERONET-OC is instrumental in satellite ocean color validation activities through standardized measurements a) performed at different sites with a single measuring system and protocol, b) calibrated with an identical reference source and method, and c) processed with the same code.",
+      "semantic_score": 0.7954879999160767,
+      "title": "AERONET-OCEAN COLOR",
+      "url": "http://aeronet.gsfc.nasa.gov/cgi-bin/type_piece_of_map_seaprism_new?long1=-180&long2=180&lat1=-90&lat2=90&multiplier=2&what_map=4&nachal=1&formatter=0&level=2"
+    },
+    {
+      "description": "The Aerosol Robotic Network (AERONET), developed to sustain atmospheric studies at various scales with measurements from worldwide distributed autonomous sun-photometers has  been extended to support marine applications. This new network component called AERONET – Ocean Color (AERONET-OC), provides the additional capability of measuring the radiance emerging from the sea  (i.e., water-leaving radiance) with modified sun-photometers installed on offshore platforms like lighthouses, oceanographic and oil towers. AERONET-OC is instrumental in satellite ocean color validation activities through standardized measurements a) performed at different sites with a single measuring system and protocol, b) calibrated with an identical reference source and method, and c) processed with the same code.",
+      "semantic_score": 0.7954879999160767,
+      "title": "AERONET-OCEAN COLOR",
+      "url": "http://aeronet.gsfc.nasa.gov/cgi-bin/type_piece_of_map_seaprism_new?long1=-180&long2=180&lat1=-90&lat2=90&multiplier=2&what_map=4&nachal=1&formatter=0&level=3"
+    },
+    {
+      "description": "My Brother's Keeper (MBK) initiative is an interagency effort to improve measurably the expected educational and life outcomes for and address the persistent opportunity gaps faced by boys and young men of color (including African Americans, Hispanic Americans, and Native Americans). The MBK Task Force coordinates a Federal effort to improve significantly the expected life outcomes for boys and young men of color and their contributions to U.S. prosperity. The MBK Task Force collaborated with the Interagency Forum on Child and Family Statistics and federal statistical agencies to pull together new statistics for key indicators - derived from existing, publicly available datasets - cross tabulated for race and gender for the first time. These statistics are highlighted in the MBK Task Force May 2014 report and are posted on MBK.ed.gov.",
+      "semantic_score": 0.7880023717880249,
+      "title": "My Brother's Keeper Key Statistical Indicators on Boys and Men of Color",
+      "url": "https://www2.ed.gov/rschstat/statistics/surveys/mbk/Births-to-young-adult-women_verified.no-chart.two-tabs-with-rates.xlsx"
+    },
+    {
+      "description": "Satellite-derived Ocean Color Data sets from historical and currently operational NASA and International Satellite missions including the NASA Coastal Zone Color Scanner (CZCS) (1978 - 1986), NASDA's Ocean Color Temperature Scanner (OCTS) (1996 - 1997), NASA/GeoEYE Sea-viewing Wide Field-of-view Sensor (SeaWiFS) (1997 - 2010), NASA's Moderate Resolution Imaging Spectroradiometer (MODIS) on both the Terra and Aqua spacecraft (2000 - present) and ESA's medium-spectral resolution, imaging spectrometer (MERIS) (2002 - present).  <strong>Level-1A Data Products</strong> Level-1A products contain the raw radiance counts from all bands as well as spacecraft and instrument telemetry. Calibration and navigation data, and instrument and selected spacecraft telemetry are also included. Level-1A data are used as input for geolocation, calibration, and processing.  <strong>Ocean Level-2 Data Products</strong> Each Level-2 product is generated from a corresponding Level-1A product.The main data contents of the product are the geophysical values for each pixel,derived from the Level-1A raw radiance counts by applying the sensor calibration, atmospheric corrections, and bio-optical algorithms. Each Level-2 product corresponds exactly in geographical coverage (scan-line and pixel extent) to that of its parent Level-1A product and is stored in one physical HDFfile.  <strong>Ocean Level-3 Binned Data Products</strong> Level-3 binned data products consist of the accumulated data for all Level-2 data corresponding to a period of one day, 8 days, a calendar month, or a calendar year.  Each Level-3 binned data product is stored in one or more HDF files. Each multi-file product includes a main file containing all product-level metadata and data for each bin that are common to all the binned geophysical parameters, and multiple subordinate files, each of which contains data of one binned geophysical parameter for all bins. Subordinate files must be read in conjunction with the associated main file.  <strong>Ocean Level-3 Standard Mapped Image Products</strong> The Level-3 standard mapped image (SMI) products are image representations of binned data products generated from SeaWiFS, MODIS, OCTS or CZCS data. The data in each SMI product represents an image of the parameter specified by the global attribute Parameter. This object is a two-dimensional array of an Equidistant Cylindrical (also known as Platte Carre) projection of the globe. The values can be stored as bytes, 2-byte integers, or 4- byte floats. The first two are scaled real values and may be converted projected to geophysical values using the global attributes Scaling, Scaling Equation, Base, Slope, and Intercept.  The standard SMI products are generated from binned data products, one for each of the following geophysical parameters: chlorophyll a concentration, angstrom coefficient, normalized water-leaving radiance at each visible wavelength, aerosol optical thickness, epsilon, and diffuse attenuation coefficient at 490 nm. For MODIS, products are generated for sea surface temperature (SST), 4 micron SST (SST4) and nighttime SST (NSST). Thus, each SMI product represents data binned over the period covered by the parent product. The arithmetic mean is used in each case to obtain the values for the SMI grid points from the binned data products. Each SMI product contains one image of a geophysical parameter and is stored in one physical HDF file.",
+      "semantic_score": 0.7814770936965942,
+      "title": "Ocean Color",
+      "url": "http://oceandata.sci.gsfc.nasa.gov/"
+    }
+  ]
+}

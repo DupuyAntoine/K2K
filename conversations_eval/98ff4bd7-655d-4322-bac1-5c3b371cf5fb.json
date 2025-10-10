@@ -1,0 +1,76 @@
+{
+  "id": "98ff4bd7-655d-4322-bac1-5c3b371cf5fb",
+  "domain": "earthObservation",
+  "messages": [
+    {
+      "sender": "user",
+      "text": "Provide NO2 pollution over China in 2021"
+    },
+    {
+      "sender": "bot",
+      "text": "You're looking for data on NO2 pollution levels over China in 2021. After conducting a search, I've found several datasets that might be relevant to your query. Although none of these datasets specifically focus on China in 2021, they do contain information on NO2 pollution levels that could be useful.\n\n1. **PISCES-NO2-data-version 6.2.2021**: This dataset, associated with a publication on the influence of dietary intake of omega-3 polyunsaturated fatty acids on the association between short-term exposure to ambient nitrogen dioxide and respiratory and cardiovascular outcomes, contains ambient air pollutant data, including NO2. It's available for download as an Excel file from the provided URL.\n\n2. **NO2 observations from NOAA-20 OMPS Data**: While not exclusively focused on China, this dataset includes NO2 vertical column densities retrieved from the NOAA Ozone Mapping and Profiler Suite (OMPS). The data is part of a study on NO2 retrievals from NOAA-20 OMPS and could be useful for understanding NO2 pollution on a global scale, including over China.\n\n3. **Data for Declines and peaks in NO2 pollution during the multiple waves of the COVID-19 pandemic**: Although this dataset is primarily about the New York metropolitan area, it discusses trends in NO2 pollution, which might offer insights into how NO2 levels can change over time in urban areas, potentially applicable to Chinese cities as well.\n\n4. **HAQAST Sentinel-5P TROPOMI Nitrogen Dioxide (NO2) CONUS Seasonal Level 3 0.01 x 0.01 Degree Gridded Data V2.4**: This product provides level 3 seasonal averages of tropospheric NO2 vertical column density across the Continental United States. While it doesn't cover China, it's an example of the kind of detailed NO2 data that might be available for other regions.\n\nTo find more specific data on NO2 pollution over China in 2021, I would need more information. Could you please specify the format of the data you're looking for (e.g., CSV, JSON, graphical representation) and whether you have a preferred source or dataset in mind? Additionally, are you interested in data for the entire country or specific regions within China?"
+    }
+  ],
+  "files": [
+    {
+      "description": "Point layer derived from the Maximo data warehouse that shows the location of reported pollutant spills",
+      "semantic_score": 0.8103959560394287,
+      "title": "Pollutant Report Socrata",
+      "url": "https://data.austintexas.gov/api/views/7i3t-mxrc/rows.csv?accessType=DOWNLOAD"
+    },
+    {
+      "description": "This dataset contains data in lung function, blood lipid markers, blood vascular markers, coagulation markers, and heart rate variability markers in participants of a panel study named PISCES. The dataset also contains ambient air pollutant data during the study period. \n\nThis dataset is associated with the following publication:\nChen, H., S. Zhang, W. Shen, C. Salazar, A. Schneider, L. Wyatt, A. Rappold, D. Diazsanchez, R. Devlin, J. Samet, and H. Tong. The influence of dietary intake of omega‑3 polyunsaturated fatty acids on the association between short‑term exposure to ambient\nnitrogen dioxide and respiratory and cardiovascular outcomes among healthy adults.   ENVIRONMENTAL HEALTH. Academic Press Incorporated, Orlando, FL, USA, 20(123): 1, (2021).",
+      "semantic_score": 0.7919131517410278,
+      "title": "PISCES-NO2-data-version 6.2.2021",
+      "url": "https://pasteur.epa.gov/uploads/10.23719/1522630/PISCES-NO2-data-version%206.23.2021.xlsx"
+    },
+    {
+      "description": "EPA, in collaboration with NASA, collected upward-viewing UV/visible solar radiance measurements at air quality stations in the New York City region. From these radiances, NO2 vertical column densities (molecules cm-2) are retrieved for comparison to retrieved NO2 column from a downward viewing, satellite-based UV/visible instrument, the NOAA Ozone Mapping and Profiler Suite (OMPS) . \n\nThis dataset is associated with the following publication:\nHuang, X., K. Yang, S. Kondragunta, Z. Weir, L. Valin, J. Szykman, and M. Goldberg. NO2 retrievals from NOAA-20 OMPS: Algorithm, evaluation, and observations of drastic changes during COVID-19.   ATMOSPHERIC ENVIRONMENT. Elsevier B.V., Amsterdam,  NETHERLANDS, 290: 119367, (2022).",
+      "semantic_score": 0.787578284740448,
+      "title": "NO2 observations from NOAA-20 OMPS Data",
+      "url": "https://data.ovh.pandonia-global-network.org/"
+    },
+    {
+      "description": "Nitrogen dioxide (NO2) concentrations relative to near road sites in Research Triangle area of North Carolina. \n\nThis dataset is associated with the following publication:\nSmith, L., S. Mukerjee , K. Kovalcik , E. Sams , C. Stallings , E. Hudgens , J. Scott , T. Krantz , and L. Neas. Near-road measurements for nitrogen dioxide and its association with traffic exposure zones.   Atmospheric Pollution Research. Turkish National Committee for Air Pollution Research and Control, Izmir,  TURKEY, 6: 1082-1086, (2015).",
+      "semantic_score": 0.7832179069519043,
+      "title": "2014-12-19_PASSIVE NO2 STUDY_final data_kovalcik.xlsx",
+      "url": "https://pasteur.epa.gov/uploads/106/2014-12-19_PASSIVE%20NO2%20STUDY_final%20data_kovalcik.xlsx"
+    },
+    {
+      "description": "The Nonattainment Area - Nitrogen Dioxide (NO2-1971) dataset was updated on June 30, 2025 by the Environmental Protection Agency (EPA) and is part of the U.S. Department of Transportation (USDOT)/Bureau of Transportation Statistics (BTS) National Transportation Atlas Database (NTAD). This dataset provides detailed information about the nonattainment area for the Nitrogen Dioxide (1971) National Ambient Air Quality Standards (NAAQS). On September 22, 1998 the only Nitrogen Dioxide (1971) nonattainment area was redesignated to maintenance. These data are weekly from an OAQPS internal database. However, that does not necessarily mean the data have changed. For more information about this non-attainment area, please see the website https://www.epa.gov/green-book/green-book-nitrogen-dioxide-1971-area-information. A data dictionary, or other source of attribute information, is accessible at https://doi.org/10.21949/1529064",
+      "semantic_score": 0.783069908618927,
+      "title": "Nonattainment Area - Nitrogen Dioxide (NO2 - 1971 Standard)",
+      "url": "https://doi.org/10.21949/1522200"
+    },
+    {
+      "description": "All Pandora data used in this studycan be downloaded freely from the Pandonia Global Network website https://www.pandonia-global-network.org/ (last access: 4 June 2021). Our gridded satellite NO2 products and output from our model simulations can be obtained by contacting the corresponding author, Maria Tzortziou (mtzortziou@ccny.cuny.edu). \n\nThis dataset is associated with the following publication:\nTzortziou, M., C. Kwong, D. Goldberg, L. Schiferl, R. Commane, N. Abuhassan, J. Szykman, and L. Valin. Declines and peaks in NO2 pollution during the multiple waves of the COVID-19 pandemic in the New York metropolitan area.   Atmospheric Chemistry and Physics. Copernicus Publications, Katlenburg-Lindau,  GERMANY, 22(4): 2399-2417, (2022).",
+      "semantic_score": 0.782721221446991,
+      "title": "Data for Declines and peaks in NO2 pollution during the multiple waves of the COVID-19 pandemic in the New York metropolitan area",
+      "url": "https://www.pandonia-global-network.org/"
+    },
+    {
+      "description": "This product provides level 3 seasonal averages of tropospheric Nitrogen dioxide (NO2) vertical column density derived from the level 2 Tropospheric Monitoring Instrument (TROPOMI) across the Continental United States oversampled to a spatial resolution of 0.01˚ x 0.01˚ (~1 km2) using a consistent algorithm from the European Space Agency (ESA) version 2.4 that can be used for trend analysis of air pollution. The dataset record began in June-August 2018 and continues to the present. This L3 product was developed by the George Washington University Air, Climate and Health Laboratory as part of the NASA Health Air Quality Applied Science Team (HAQAST) using Level 2 version 2.4 TROPOMI NO2 files from the ESA. The TROPOMI instrument on Sentinel-5 Precursor acquires tropospheric NO2 column contents from low Earth orbit (~824 km above ground level) once per day globally at approximately 13:30 local time.NO2 is an air pollutant that adversely affects the human respiratory system and leads to premature mortality. NO2 is also an important precursor for ozone and fine particulates, which also have severe health impacts. In urban areas, the majority of NO2 originates from anthropogenic NOx (=NO+NO2; most NOx is emitted as NO, which rapidly cycles to NO2) emissions during high-temperature fossil fuel combustion. Tropospheric NO2 vertical column contents are qualitatively representative of near-surface NO2 concentrations and NOx emissions in urban/polluted locations.",
+      "semantic_score": 0.7802058458328247,
+      "title": "HAQAST Sentinel-5P TROPOMI Nitrogen Dioxide (NO2) CONUS Seasonal Level 3 0.01 x 0.01 Degree Gridded Data V2.4 (HAQ_TROPOMI_NO2_CONUS_S_L3) at GES DISC",
+      "url": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/HAQ_TROPOMI_NO2_CONUS_S_L3.2.4.png"
+    },
+    {
+      "description": "This product provides level 3 annual averages of tropospheric Nitrogen dioxide (NO2) vertical column density derived from the level 2 Tropospheric Monitoring Instrument (TROPOMI) across the Continental United States oversampled to a spatial resolution of 0.01˚ x 0.01˚ (~1 km2) using a consistent algorithm from the European Space Agency (ESA) version 2.4 that can be used for trend analysis of air pollution. The dataset record began in 2019 and continues to the present. This L3 product was developed by the George Washington University Air, Climate and Health Laboratory as part of the NASA Health Air Quality Applied Science Team (HAQAST) using Level 2 version 2.4 TROPOMI NO2 files from the ESA. The TROPOMI instrument on Sentinel-5 Precursor acquires tropospheric NO2 column contents from low Earth orbit (~824 km above ground level) once per day globally at approximately 13:30 local time.NO2 is an air pollutant that adversely affects the human respiratory system and leads to premature mortality. NO2 is also an important precursor for ozone and fine particulates, which also have severe health impacts. In urban areas, the majority of NO2 originates from anthropogenic NOx (=NO+NO2; most NOx is emitted as NO, which rapidly cycles to NO2) emissions during high-temperature fossil fuel combustion. Tropospheric NO2 vertical column contents are qualitatively representative of near-surface NO2 concentrations and NOx emissions in urban/polluted locations.",
+      "semantic_score": 0.7794353365898132,
+      "title": "HAQAST Sentinel-5P TROPOMI Nitrogen Dioxide (NO2) CONUS Annual Level 3 0.01 x 0.01 Degree Gridded Data V2.4 (HAQ_TROPOMI_NO2_CONUS_A_L3) at GES DISC",
+      "url": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/HAQ_TROPOMI_NO2_CONUS_A_L3.2.4.png"
+    },
+    {
+      "description": "Cardiovascular Physiologic and Systemic Responses to Sequential Exposure to Nitrogen Dioxide and Ozone in Rats. \n\nThis dataset is associated with the following publication:\nFarraj , A., F. Malik, N. Coates , L. Walsh , D. Winsett , D. Terrell , L. Thompson, W. Cascio , and M. Hazari. Morning NO2 Exposure Sensitizes Hypertensive Rats to the Cardiovascular Effects of Same Day O3 Exposure in the Afternoon.   INHALATION TOXICOLOGY. Informa Healthcare USA, New York, NY, USA, 28(4): 170-179, (2016).",
+      "semantic_score": 0.7777665853500366,
+      "title": "Farraj_NO2-O3 Sequential exposure study_All data",
+      "url": "https://pasteur.epa.gov/uploads/235/AF13_NO2-O3%20Sequential%20exposure%20study_All%20data.xlsx"
+    },
+    {
+      "description": "EPA True NO2 ground site measurements – multiple sites - http://www-air.larc.nasa.gov/cgi-bin/ArcView/discover-aq.tx-2013; TCEQ ground site measurements of meteorological and air pollution parameters – multiple sites - http://www-air.larc.nasa.gov/cgi-bin/ArcView/discover-aq.tx-2013; GeoTASO NO2 Vertical Column - http://www-air.larc.nasa.gov/cgi-bin/ArcView/discover-aq.tx-2013?FALCON=1. \n\nThis dataset is associated with the following publication:\nNowlan, C., X. Lu, J. Leitch, K. Chance, G. González Abad, C. Lu, P. Zoogman, J. Cole, T. Delker, W. Good, F. Murcray, L. Ruppert, D. Soo, M. Follette-Cook, S. Janz, M. Kowalewski, C. Loughner, K. Pickering, J. Herman, M. Beaver, R. Long, J. Szykman, L. Judd, P. Kelley, W. Luke, X. Ren, and J. Al-Saadi. Nitrogen dioxide observations from the Geostationary Trace gas and Aerosol Sensor Optimization (GeoTASO) airborne instrument: Retrieval algorithm and measurements during DISCOVER-AQ Texas 2013.   Atmospheric Measurement Techniques. Copernicus Publications, Katlenburg-Lindau,  GERMANY, 9(6): 2647-2668, (2016).",
+      "semantic_score": 0.7619264125823975,
+      "title": "EPA True NO2 ground site measurements – multiple sites, TCEQ ground site measurements of meteorological and air pollution parameters – multiple sites ,GeoTASO NO2 Vertical Column",
+      "url": "https://www-air.larc.nasa.gov/cgi-bin/ArcView/discover-aq.tx-2013"
+    }
+  ]
+}

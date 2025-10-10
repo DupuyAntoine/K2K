@@ -1,0 +1,76 @@
+{
+  "id": "e8606dfd-6281-4d85-aaf2-41412d807747",
+  "domain": "earthObservation",
+  "messages": [
+    {
+      "sender": "user",
+      "text": "Provide global sea surface temperature anomalies between 1990 and 2010"
+    },
+    {
+      "sender": "bot",
+      "text": "You are looking for global sea surface temperature anomalies between 1990 and 2010. Based on your request, I have found several datasets that may be relevant to your search.\n\nThe following datasets contain global sea surface temperature anomalies and cover the specified time period:\n\n1. **Extended Reconstructed Sea Surface Temperature (ERSST)**: This dataset provides global monthly sea surface temperature analysis from 1854 to present, including anomalies computed with respect to a 1971-2000 monthly climatology. You can find more information at http://www.ncdc.noaa.gov/oa/climate/research/sst/ersstv3.php and http://www.esrl.noaa.gov/psd/data/gridded/data.noaa.ersst.html.\n2. **COBE Sea Surface Temperature**: This dataset is a gridded 1x1 resolution SST monitoring dataset that starts in 1891 and extends to near present. It is used as input for the JMA Climate Data Assimilation System and the Japanese 25-year Re-analyses. More information can be found at http://www.esrl.noaa.gov/psd/data/gridded/data.cobe.html.\n3. **NCEI ocean heat content, temperature anomalies, salinity anomalies, thermosteric sea level anomalies, and total steric sea level anomalies**: This dataset contains ocean heat content change, oceanic temperature and salinity changes, and steric sea level change, which are important variables for monitoring the oceanic environment. You can find more information at https://www.ncei.noaa.gov/products/climate-data-records/global-ocean-heat-content.\n\nTo access these datasets, please visit the provided URLs. If you need help with downloading or using the data, feel free to ask.\n\nIf you are looking for a specific format or producer, please let me know and I can try to assist you further. Additionally, if you have any further questions or need more information, don't hesitate to ask."
+    }
+  ],
+  "files": [
+    {
+      "description": "Derived from processed satellite observations. These data are usually within 0.5 degrees Celsius uncertainty for ocean areas and 1 degree Celsius uncertainty for coastal areas.",
+      "semantic_score": 0.8191194534301758,
+      "title": ".Sea Surface Temperature",
+      "url": null
+    },
+    {
+      "description": "The Extended Reconstructed Sea Surface Temperature (ERSST) dataset is a global monthly sea surface temperature analysis derived from the\r\nInternational Comprehensive Ocean-Atmosphere Dataset with missing data filled in by statistical methods. The monthly analysis begins in January 1854\r\ncontinuing to the present and includes anomalies computed with respect to a 1971-2000 monthly climatology. Version 3b\r\nis optimally tuned to exclude under-sampled regions for global averages and does not include satellite data, which were found to cause a cold bias\r\nsignificant enough to change the rankings of months.",
+      "semantic_score": 0.8176689147949219,
+      "title": "Extended Reconstructed Sea Surface Temperature (ERSST)",
+      "url": "http://www.ncdc.noaa.gov/oa/climate/research/sst/ersstv3.phphttp://www.esrl.noaa.gov/psd/data/gridded/data.noaa.ersst.html"
+    },
+    {
+      "description": "The altimetry data are from RADS (http://rads.tudelft.nl/rads/rads.shtml), the Radar Altimetry Database System, first developed at Delft University of Technology, now also at the NOAA and the European Organisation for the Exploitation of Meteorological Satellites (EUMETSAT). The RADS data for each mission is updated with state of the art corrections for tides, atmospheric path delay, etc. Because they are all computed consistently between the various missions, this avoids the possibility of introducing biases and drifts because of the different implementation of the various corrections by different agencies. The goals of RADS are to provide a homogenous dataset of sea level anomalies, wave heights, and wind speeds, along with database selection and analysis tools.",
+      "semantic_score": 0.8062297105789185,
+      "title": "NOAA CoastWatch, Sea Surface Height Anomalies from Altimetry, Global, 2017-present, EXPERIMENTAL",
+      "url": "https://coastwatch.pfeg.noaa.gov/erddap/griddap/nesdisSSH1day.html"
+    },
+    {
+      "description": "The COBE-SST is a gridded 1x1 resolution SST monitoring dataset. It is used as input for the JMA Climate Data Assimilation System (JCDAS) and the\r\nJapanese 25-year Re-analyses (JRA-25 and JRA-55). It is also used as input for the ensemble prediction systems used in seasonal forecasts. It starts\r\nin 1891 and extends to near present.",
+      "semantic_score": 0.8046965003013611,
+      "title": "COBE Sea Surface Temperature",
+      "url": "http://www.esrl.noaa.gov/psd/data/gridded/data.cobe.html"
+    },
+    {
+      "description": "This dataset contains ocean heat content change, oceanic temperature and salinity changes, and steric sea level change (change in volume without change in mass), which are important variables for monitoring the oceanic environment and by extension the Earth's energy and freshwater budgets. NCEI, as the repository for oceanic subsurface profile data, especially for temperature and salinity profiles, has the data to calculate historic and recent changes in the above mentioned ocean variables. Data gathered from the NCEI archives, uniformly formatted and quality controlled in the World Ocean Database, are used to calculate temperature (and salinity) differences from a long-term climatological mean (the World Ocean Atlas series) at specific depth levels.  These anomalies are used to derive integrals of ocean heat content and means for all other variables listed above.",
+      "semantic_score": 0.7980540990829468,
+      "title": "NCEI ocean heat content, temperature anomalies, salinity anomalies, thermosteric sea level anomalies, halosteric sea level anomalies, and total steric sea level anomalies from 1955 to present calculated from in situ oceanographic subsurface profile data (NCEI Accession 0164586)",
+      "url": "https://www.ncei.noaa.gov/products/climate-data-records/global-ocean-heat-content"
+    },
+    {
+      "description": "Sea surface temperature (SST) plays an important role in a number of ecological processes and can vary over a wide range of time scales, from daily to decadal changes. SST influences primary production, species migration patterns, and coral health. If temperatures are anomalously warm for extended periods of time, drastic changes in the surrounding ecosystem can result, including harmful effects such as coral bleaching. This layer represents the annual average frequency of anomalies of SST from 2000-2013, with values presented as fraction of a year.\n\nThree SST datasets were combined to provide continuous coverage from 1985-2013. The concatenation applies bias adjustment derived from linear regression to the overlap periods of datasets, with the final representation matching the 0.05-degree (~5-km) near real-time SST product. First, a weekly composite, gap-filled SST dataset from the NOAA Pathfinder v5.2 SST 1/24-degree (~4-km), daily dataset (a NOAA Climate Data Record) for each location was produced following Heron et al. (2010) for January 1985 to December 2012. Next, weekly composite SST data from the NOAA/NESDIS/STAR Blended SST 0.1-degree (~11-km), daily dataset was produced for February 2009 to October 2013. Finally, a weekly composite SST dataset from the NOAA/NESDIS/STAR Blended SST 0.05-degree (~5-km), daily dataset was produced for March 2012 to December 2013.\n\nThe SST average annual frequency of anomalies was calculated by taking the average number of weeks that exceeded the maximum monthly climatological SST value from 2000-2013 for each pixel.",
+      "semantic_score": 0.7975085973739624,
+      "title": "Sea Surface Temperature (SST) Average Annual Frequency of Anomalies, 2000-2013 - Hawaii",
+      "url": "https://geo.pacioos.hawaii.edu/geoserver/"
+    },
+    {
+      "description": "Sea surface temperature (SST) plays an important role in a number of ecological processes and can vary over a wide range of time scales, from daily to decadal changes. SST influences primary production, species migration patterns, and coral health. If temperatures are anomalously warm for extended periods of time, drastic changes in the surrounding ecosystem can result, including harmful effects such as coral bleaching. This layer represents the annual average of the maximum anomaly of SST (degrees Celsius) from 2000-2013.\n\nThree SST datasets were combined to provide continuous coverage from 1985-2013. The concatenation applies bias adjustment derived from linear regression to the overlap periods of datasets, with the final representation matching the 0.05-degree (~5-km) near real-time SST product. First, a weekly composite, gap-filled SST dataset from the NOAA Pathfinder v5.2 SST 1/24-degree (~4-km), daily dataset (a NOAA Climate Data Record) for each location was produced following Heron et al. (2010) for January 1985 to December 2012. Next, weekly composite SST data from the NOAA/NESDIS/STAR Blended SST 0.1-degree (~11-km), daily dataset was produced for February 2009 to October 2013. Finally, a weekly composite SST dataset from the NOAA/NESDIS/STAR Blended SST 0.05-degree (~5-km), daily dataset was produced for March 2012 to December 2013.\n\nThe SST average annual maximum anomaly was calculated by taking the average of the annual maximum SST values in exceedance of the maximum monthly climatological SST from 2000-2013 for each pixel.",
+      "semantic_score": 0.79701167345047,
+      "title": "Sea Surface Temperature (SST) Average Annual Maximum Anomaly, 2000-2013 - Hawaii",
+      "url": "https://geo.pacioos.hawaii.edu/geoserver/"
+    },
+    {
+      "description": "Sea surface temperature (SST) plays an important role in a number of ecological processes and can vary over a wide range of time scales, from daily to decadal changes. SST influences primary production, species migration patterns, and coral health. If temperatures are anomalously warm for extended periods, drastic changes in the surrounding ecosystem can result, including harmful effects such as coral bleaching. This layer represents the annual average frequency of anomalies of SST from 1985-2018, with values presented as fraction of a year.\n\nThese SST dataset are derived from CoralTemp 5-km gap-free analyzed blended sea surface temperature over the global ocean. CoralTemp is derived from three different but related 5-km daily gap-free SST data sets and provides an internally consistent SST product that stretches from 1985 to present. 1) Operational Sea Surface Temperature and Sea Ice Analysis (OSTIA) Sea Surface Temperature Reanalysis (1985-2002). 2) Geo-Polar Blended Night-Only Sea Surface Temperature Reanalysis (2002-2016). 3) Geo-Polar Blended Night-Only Sea Surface Temperature Near Real-Time (2017 to present). The 8-day composites are generated from daily Coral Reef Watch (CRW) files by OceanWatch Central Pacific.\n\nThe SST average annual frequency of anomalies was calculated by taking the average number of weeks that exceeded the maximum monthly climatological SST value from 1985-2018 for each pixel.\n\nData source: https://oceanwatch.pifsc.noaa.gov/erddap/griddap/CRW_sst_v1_0_8day.graph",
+      "semantic_score": 0.7956835031509399,
+      "title": "Sea Surface Temperature (SST) Average Annual Frequency of Anomalies, 1985-2018 - American Samoa",
+      "url": "https://geo.pacioos.hawaii.edu/geoserver/"
+    },
+    {
+      "description": "Sea surface temperature (SST) plays an important role in a number of ecological processes and can vary over a wide range of time scales, from daily to decadal changes. SST influences primary production, species migration patterns, and coral health. If temperatures are anomalously warm for extended periods, drastic changes in the surrounding ecosystem can result, including harmful effects such as coral bleaching. This layer represents the annual average of the maximum anomaly of SST (degrees Celsius) from 1985-2018.\n\nThese SST dataset are derived from CoralTemp 5-km gap-free analyzed blended sea surface temperature over the global ocean. CoralTemp is derived from three different but related 5-km daily gap-free SST data sets and provides an internally consistent SST product that stretches from 1985 to present. 1) Operational Sea Surface Temperature and Sea Ice Analysis (OSTIA) Sea Surface Temperature Reanalysis (1985-2002). 2) Geo-Polar Blended Night-Only Sea Surface Temperature Reanalysis (2002-2016). 3) Geo-Polar Blended Night-Only Sea Surface Temperature Near Real-Time (2017 to present). The 8-day composites are generated from daily Coral Reef Watch (CRW) files by OceanWatch Central Pacific.\n\nThe SST average annual maximum anomaly was calculated by taking the average of the annual maximum SST values in exceedance of the maximum monthly climatological SST from 1985-2018 for each pixel.\n\nData source: https://oceanwatch.pifsc.noaa.gov/erddap/griddap/CRW_sst_v1_0_8day.graph",
+      "semantic_score": 0.7947759032249451,
+      "title": "Sea Surface Temperature (SST) Average Annual Maximum Anomaly, 1985-2018 - American Samoa",
+      "url": "https://geo.pacioos.hawaii.edu/geoserver/"
+    },
+    {
+      "description": "This dataset provides gridded Sea Surface Height Anomalies (SSHA) above a mean sea surface, on a 1/6th degree grid every 5 days. It contains the fully corrected heights, with a delay of up to 3 months. The gridded data are derived from the along-track SSHA data of TOPEX/Poseidon, Jason-1, Jason-2, Jason-3 and Jason-CS (Sentinel-6) as reference data from the level 2 along-track data found at https://podaac.jpl.nasa.gov/dataset/MERGED_TP_J1_OSTM_OST_CYCLES_V51, plus ERS-1, ERS-2, Envisat, SARAL-AltiKa, CryoSat-2, Sentinel-3A, Sentinel-3B, depending on the date, from the RADS database. The date given in the grid files is the center of the 5-day window. The grids were produced from altimeter data using Kriging interpolation, which gives best linear prediction based upon prior knowledge of covariance.",
+      "semantic_score": 0.7776879072189331,
+      "title": "MEaSUREs Gridded Sea Surface Height Anomalies Version 2205",
+      "url": "https://podaac.jpl.nasa.gov/CitingPODAAC"
+    }
+  ]
+}

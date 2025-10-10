@@ -1,0 +1,76 @@
+{
+  "id": "1d0125da-70c2-425a-81fa-dd764bfe54bf",
+  "domain": "earthObservation",
+  "messages": [
+    {
+      "sender": "user",
+      "text": "Provide JSON datasets of river discharge in Asia between 2015 and 2023"
+    },
+    {
+      "sender": "bot",
+      "text": "Based on your request for JSON datasets of river discharge in Asia between 2015 and 2023, I've conducted a search to find relevant datasets that match your criteria. \n\nFrom the available information, a few datasets seem to align with your interests, although some may not perfectly match the specific timeframe or geographical focus on Asia. Here are the details of the datasets I found:\n\n1. **Global River Discharge Data Set (RivDIS)**: This dataset, although not exclusively focused on Asia, contains global river discharge data, including measurements from Asian rivers. However, the dataset's time frame (1807-1991) does not match your specified years. [Access through NASA's Earthdata portal](https://search.earthdata.nasa.gov/search?q=rivdis_199&ac=true).\n\n2. **SWOT Sword of Science River Discharge Products Version 1**: This dataset provides estimates of river discharge derived from the SWOT mission and includes both unconstrained and gauge-constrained estimates. While it's a valuable resource for river discharge data, it may not be limited to Asia or the exact years you're interested in. [Refer to the SWOT documentation for more details](https://podaac.jpl.nasa.gov/CitingPODAAC).\n\n3. **LBA Regional River Discharge Data (Coe and Olejniczak)**: Although focused on South America rather than Asia, this subset of a global river discharge data set could provide insights into how such data is structured and what might be available for other regions. [Explore the data through NASA's Earthdata portal](https://search.earthdata.nasa.gov/search?q=sage_685&ac=true).\n\n4. **SAFARI 2000 River Discharge Data (Coe and Olejniczak)**: Similar to the LBA dataset, this collection is part of a global river discharge data set, with this portion specifically related to southern Africa. Again, while not directly matching your request for Asian data, it demonstrates the availability of discharge data for various regions. [Find more information on NASA's Earthdata](https://search.earthdata.nasa.gov/search?q=river_discharge_cpep_640&ac=true).\n\nGiven the specifics of your request, it appears there might not be a direct match in the datasets I've listed, particularly concerning the geographical focus on Asia and the time frame of 2015-2023. If you could provide more details or clarify your search criteria, I might be able to offer more targeted assistance or suggest alternative datasets that could meet your needs.\n\nPlease let me know how I can further assist you in your search for river discharge datasets in Asia."
+    }
+  ],
+  "files": [
+    {
+      "description": "This dataset contains instantaneous measurements of discharge, as measured at 4 locations: East Canal, West Canal, Center Ditch, and Sodhouse Canal. Dataset is considered provisional, preliminary, and subject to revision.",
+      "semantic_score": 0.8016266226768494,
+      "title": "River Discharge Dataset for Selected Locations on Diversions from the Blitzen River at Malheur National Wildlife Refuge",
+      "url": "https://iris.fws.gov/APPS/ServCat/DownloadFile/255752?Reference=170108"
+    },
+    {
+      "description": "This geospatial dataset depicts a sewage no-discharge zone established under Clean Water Act Section 312. The area(s) depicted are zones where the discharge of any sewage, treated or untreated, from vessels is prohibited. This layer was created using information from the corresponding Federal Register notice and is created for informational purposes, not to be used for enforcement.",
+      "semantic_score": 0.7998818755149841,
+      "title": "Lynnhaven River (Virginia) sewage no-discharge zone, 2007, EPA HQ OWOW",
+      "url": null
+    },
+    {
+      "description": "This geospatial dataset depicts a sewage no-discharge zone established under Clean Water Act Section 312. The area(s) depicted are zones where the discharge of any sewage, treated or untreated, from vessels is prohibited. This layer was created using information from the corresponding Federal Register notice and is created for informational purposes, not to be used for enforcement.",
+      "semantic_score": 0.7987183928489685,
+      "title": "Minnesota River (part) sewage no-discharge zone, 1977, EPA HQ OWOW",
+      "url": null
+    },
+    {
+      "description": "The Global Monthly River Discharge Data Set (RivDIS) contains monthly averaged discharge measurements for 1,018 stations located throughout the world from 1807-1991. The period of record varies widely from station to station with a mean of 21.5 years. The data are derived from the published UNESCO archives for river discharge, and checked against information obtained from the Global Runoff Center in Koblenz, Germany through the U.S. National Geophysical Data Center in Boulder, Colorado.",
+      "semantic_score": 0.7983849048614502,
+      "title": "Global River Discharge, 1807-1991, V[ersion]. 1.1 (RivDIS)",
+      "url": "https://search.earthdata.nasa.gov/search?q=rivdis_199&ac=true"
+    },
+    {
+      "description": "All available river stage, water temperature, and discharge measurements from the Indian River in Sitka, Alaska, collected by NPS and NPS contractors from 7 September 2007 to 1 April 2016. See detailed descriptions of these data in:\n\nSergeant, C. J., and T. C. Schwarz. 2017. Summary of Indian River streamflow data collected by the Southeast Alaska Network: Sitka National Historical Park, 2007-2016. Natural Resource Report NPS/SEAN/NRR—2017/1399. National Park Service, Fort Collins, Colorado.",
+      "semantic_score": 0.7928117513656616,
+      "title": "Indian River (Sitka, Alaska) stage and discharge from 2007-2016",
+      "url": "https://irma.nps.gov/DataStore/DownloadFile/566856?Reference=2238996"
+    },
+    {
+      "description": "This dataset contains 15-minute estimation of discharge in cubic feet per second, as measured at the U.S. Fish and Wildlife Service Streamflow Gaging Station titled \"Blitzen River below Sodhouse Dam at Malheur National Wildlife Refuge\" (U.S. Fish and Wildlife Service Station Identification Number 357005). Dataset is considered provisional, preliminary, and subject to revision.",
+      "semantic_score": 0.788803219795227,
+      "title": "River Discharge Dataset for Blitzen River below Sodhouse Dam at Malheur National Wildlife Refuge",
+      "url": "https://iris.fws.gov/APPS/ServCat/DownloadFile/255749?Reference=142076"
+    },
+    {
+      "description": "River bathymetry and stream velocity measurements were collected in March 2015 along the upper Willamette River, Oregon, between Eugene and Corvallis. These surveys were collected over a small range of discharges using a real time kinematic global positioning system (RTK-GPS) and acoustic Doppler current profiler (ADCP) on a motorboat while transecting at various cross sections along the river. These datasets were collected for equipment calibration and validation for the National Aeronautics and Space Administration’s (NASA) Surface Water and Ocean Topography (SWOT) satellite mission. This is one of multiple survey datasets that will be released for this effort.",
+      "semantic_score": 0.782875120639801,
+      "title": "Boat-based river bathymetry and stream velocity on the upper Willamette River, Oregon, Spring 2015",
+      "url": "https://doi.org/10.5066/F73X84T9"
+    },
+    {
+      "description": "The data set consists of southern Africa subset of the CPEP Global River Discharge Data Set.  The Climate, People, and Environment Program (CPEP) global river discharge data set is a compilation of monthly mean discharge data for over 2600 sites worldwide. The data sources are RivDis 2.0, the United States Geological Survey, and Brazilian National Department of Water and Electrical Energy. The period of record is variable, from 3 years to greater than 100.  The purpose of this compilation is to provide detailed hydrographic information to the climate research community in as general a format as possible. Data is provided in units of meters cubed per second (m**3/sec) in ASCII format.  Data from stations with less than 3 years of information or with basin area less than 5000 km2 were excluded from this compilation. Therefore the original sources may have more sites available. No further documentation is available on this data set. Users should refer to the data originators for documentation.  More information can be found at: ftp://daac.ornl.gov/data/safari2k/hydrology/river_discharge_cpep/comp/cpep_discharge.pdf.",
+      "semantic_score": 0.7797210812568665,
+      "title": "SAFARI 2000 River Discharge Data (Coe and Olejniczak)",
+      "url": "https://search.earthdata.nasa.gov/search?q=river_discharge_cpep_640&ac=true"
+    },
+    {
+      "description": "The SWOT Sword of Science River Discharge Products dataset from the Surface Water and Ocean Topography (SWOT) mission and produced by the Discharge Algorithm Working Group (DAWG), provides estimates of river discharge derived from the SWOT Level 2 River Single-Pass Vector Data Product, and includes both unconstrained and gauge constrained estimates that leverage in-situ measurements. The SWOT mission is implemented jointly by NASA and Centre National D'Etudes Spatiales (CNES) to provide valuable data and information about the world's oceans and its terrestrial surface water such as lakes, rivers, and wetlands.Sword of Science data products are generated from the open-source SWOT Confluence program and contain river discharge parameter estimates as well as discharge time series for both river reaches and river nodes, following the SWOT River Database (SWORD) structure. Granules from both constrained and unconstrained branches are composed of prior information (e.g., mean annual flow predicted by global hydrological models) and the resulting discharge estimates. Priors and results files for both constrained and unconstrained branches are available in netCDF format. Users are encouraged to reference the SWOT Confluence documentation and notebook tutorials for full documentation of the data structure and variables available.Development of the SWOT Confluence program as well as the Sword of Science data products was funded by NASA’s Advanced Information Systems Technology (AIST) program.",
+      "semantic_score": 0.7754842042922974,
+      "title": "SWOT Sword of Science River Discharge Products Version 1",
+      "url": "https://podaac.jpl.nasa.gov/CitingPODAAC"
+    },
+    {
+      "description": "This data set is a subset of a global river discharge data set by Coe and Olejniczak (1999). The subset was created for the study area of the Large Scale Biosphere-Atmosphere Experiment in Amazonia (LBA) in South America (i.e., 10° N to 25° S, 30° to 85° W).The global river discharge data set (Coe and Olejniczak 1999), formerly known as the \"Climate, People, and Environment Program (CPEP) Global River Discharge Database,\" is a compilation of monthly mean discharge data for more than 2600 sites worldwide. The data were compiled from RivDIS Version 1.1 (Vorosmarty et al. 1998), the U.S. Geological Survey, and the Brazilian National Department of Water and Electrical Energy. The period of record for the sites varies from 3 years to greater than 100.The purpose of the global compilation is to provide detailed hydrographic information for the climate research community in as general a format as possible. Data are given in units of meters cubed per second (m**3/sec) and are in ASCII format. Data from stations that had less than 3 years of information or that had a basin area less than 5000 square kilometers were excluded from the global data set. Thus, the data sources may include more sites than the data set by Coe and Olejniczak (1999). Users should refer to the data originators for further documentation on the source data.More information, a map of discharge sites, and a clickable site data table can be found at ftp://daac.ornl.gov/data/lba/surf_hydro_and_water_chem/sage/comp/sagedischarge_readme.pdf.LBA was a cooperative international research initiative led by Brazil. NASA was a lead sponsor for several experiments. LBA was designed to create the new knowledge needed to understand the climatological, ecological, biogeochemical, and hydrological functioning of Amazonia; the impact of land use change on these functions; and the interactions between Amazonia and the Earth system. Further information about LBA can be found at http://www.daac.ornl.gov/LBA/misc_amazon.html.",
+      "semantic_score": 0.7677826881408691,
+      "title": "LBA Regional River Discharge Data (Coe and Olejniczak)",
+      "url": "https://search.earthdata.nasa.gov/search?q=sage_685&ac=true"
+    }
+  ]
+}

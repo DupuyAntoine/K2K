@@ -1,0 +1,76 @@
+{
+  "id": "1f8ea67b-93cc-4a31-a510-d26ebbdfeabb",
+  "domain": "earthObservation",
+  "messages": [
+    {
+      "sender": "user",
+      "text": "Provide PM2.5 concentrations in major Asian cities in 2019"
+    },
+    {
+      "sender": "bot",
+      "text": "Based on your request for PM2.5 concentrations in major Asian cities in 2019, I have found several datasets that may be relevant to your search. However, before I provide more details, I would like to clarify which specific cities in Asia you are interested in, as this will help narrow down the search.\n\nFrom the datasets I have retrieved, the following seem to be the most relevant:\n\n1. **Air Quality Index Days**: This dataset from the City of Philadelphia contains information on the number of bad air quality index days, which could be useful for understanding general air quality trends. Although it's not specifically focused on Asian cities, it might provide a broader context. (Download link: https://data.phila.gov/carto/api/v2/sql?q=SELECT+*+FROM+air_quality_index_days&filename=air_quality_index_days&format=csv&skipfields=cartodb_id,the_geom,the_geom_webmercator)\n\n2. **Air Quality Federal Standards**: This dataset from the State of Oklahoma discusses maintaining air quality standards, which could indirectly relate to PM2.5 concentrations. Again, it's not specific to Asia, but it touches on broader air quality issues. (Download link: https://data.ok.gov/dataset/34ac71db-c94a-448d-b5dd-2c98b8eb9eb9/resource/b2cfcb03-5d55-4823-b065-2ff50ceede81/download/data-air-quality-federal-standards.csv)\n\n3. **Air Quality**: A dataset from New York City contains detailed air quality surveillance data, which includes information on pollutants like PM2.5. While it's focused on New York City, it demonstrates the kind of data that might be available for other cities, including those in Asia. (Download link: https://data.cityofnewyork.us/api/views/c3uy-2p5r/rows.csv?accessType=DOWNLOAD)\n\n4. **Air Quality History** and **Air Quality Realtime**: These datasets from Washington D.C. provide historical and real-time air quality data, respectively, including information on various pollutants. Like the others, they aren't specifically about Asian cities but offer examples of what air quality datasets might look like. (Download links: https://opendata.dc.gov/datasets/DCGIS::air-quality-history and https://opendata.dc.gov/datasets/DCGIS::air-quality-realtime)\n\nGiven that none of these datasets directly address PM2.5 concentrations in major Asian cities in 2019, I suggest providing more specifics about the cities you're interested in. This will allow me to conduct a more targeted search. Additionally, please let me know if you have a preferred data format (e.g., CSV, JSON) or if there's a particular dataset or source you've found useful in the past."
+    }
+  ],
+  "files": [
+    {
+      "description": "Number of bad AQI (air quality index) days, dating back to 1990.",
+      "semantic_score": 0.8190105557441711,
+      "title": "Air Quality Index Days",
+      "url": "https://data.phila.gov/carto/api/v2/sql?q=SELECT+*+FROM+air_quality_index_days&filename=air_quality_index_days&format=csv&skipfields=cartodb_id,the_geom,the_geom_webmercator"
+    },
+    {
+      "description": "<p>Maintain the percentage of the population living where air quality meets federal standards at 100% every year through 2017.</p>",
+      "semantic_score": 0.8130366206169128,
+      "title": "Air Quality Federal Standards",
+      "url": "https://data.ok.gov/dataset/34ac71db-c94a-448d-b5dd-2c98b8eb9eb9/resource/b2cfcb03-5d55-4823-b065-2ff50ceede81/download/data-air-quality-federal-standards.csv"
+    },
+    {
+      "description": "<p>Increase the percentage of monitors demonstrating compliance with National Ambient Air Quality Standards from 79% in 2013 to 87% by 2017.</p>",
+      "semantic_score": 0.8053206205368042,
+      "title": "Air Quality Monitor Compliance",
+      "url": "https://data.ok.gov/dataset/394f77ff-9a68-4e35-87a8-5146e031327f/resource/ee0f553c-845d-4f7b-b363-4be42144f42c/download/c-air-quality-monitor-compliance-line-chart.csv"
+    },
+    {
+      "description": "Dataset contains information on New York City air quality surveillance data.\r\n\r\nAir pollution is one of the most important environmental threats to urban populations and while all people are exposed, pollutant emissions, levels of exposure, and population vulnerability vary across neighborhoods. Exposures to common air pollutants have been linked to respiratory and cardiovascular diseases, cancers, and premature deaths. These indicators provide a perspective across time and NYC geographies to better characterize air quality and health in NYC. Data can also be explored online at the Environment and Health Data Portal: http://nyc.gov/health/environmentdata.",
+      "semantic_score": 0.7953633666038513,
+      "title": "Air Quality",
+      "url": "https://data.cityofnewyork.us/api/views/c3uy-2p5r/rows.csv?accessType=DOWNLOAD"
+    },
+    {
+      "description": "<div style='text-align:Left;'><div><div><p><span>This dataset contains quality assured and DOEE-certified air quality data collected from the District’s five air monitoring network sites. The dataset covers a three-year period and includes hourly concentration data points from the Environmental Protection Agency (EPA)’s criteria pollutants, air toxics, and speciation. It also includes hourly surface meteorology data points.</span></p></div></div></div>",
+      "semantic_score": 0.7855218052864075,
+      "title": "Air Quality History",
+      "url": "https://opendata.dc.gov/datasets/DCGIS::air-quality-history"
+    },
+    {
+      "description": "<div style='text-align:Left;'><div><div><p><span>Dataset is comprised of hourly air quality data points captured from the District’s air monitoring network sites. The dataset is quality controlled by a process of field data verification and validation.</span></p></div></div></div>",
+      "semantic_score": 0.7854904532432556,
+      "title": "Air Quality Realtime",
+      "url": "https://opendata.dc.gov/datasets/DCGIS::air-quality-realtime"
+    },
+    {
+      "description": "Air quality data is collected from the Allegheny County Health Department monitors throughout the county. This data must be verified by qualified individuals before it can be considered official. The following data is unverified. This means that any electrical disruption or equipment malfunction can report erroneous monitored data.\r\n\r\n<!--The dashboard featured in the image below uses the data provided through this source.--> For more information about the Health Department's Air Quality Program or to view a live version of the dashboard, please visit the ACHD website: https://alleghenycounty.us/Health-Department/Programs/Air-Quality/Air-Quality.aspx",
+      "semantic_score": 0.7845854163169861,
+      "title": "Allegheny County Air Quality",
+      "url": "https://tools.wprdc.org/downstream/36fb4629-8003-4acc-a1ca-3302778a530d"
+    },
+    {
+      "description": "AQS data is a publicly available dataset, which is part of this study. This data can be found on EPA website https://aqs.epa.gov/aqsweb/airdata/download_files.html (accessed on 1 April 2023). PA data is a 3rd party data and restrictions apply to the availability of these data. Data was obtained from Purple Air and are available from PurpleAir API https://community.purpleair.com/t/making-api-calls-with-the-purpleair-api/180 (accessed on 1 April 2023) with the permission of Purple Air. HMS smoke plume data is publicly available and can be downloaded at Office of Satellite and Product Operations website https://www.ospo.noaa.gov (accessed on 1 April 2023). The codes to download and analyze data in this paper is available at this GitHub repo https://github.com/hyang199723/PAFusion (uploaded on 30 June 2023). \n\nThis dataset is associated with the following publication:\nYang, H., S. Ruiz-Suarez, B. Reich, Y. Guan, and A. Rappold. A data fusion approach to assessing the contribution of wildland fire smoke to fine particulate matter in California.   Remote Sensing. MDPI, Basel,  SWITZERLAND, 15(17): 1, (2023).",
+      "semantic_score": 0.7753733992576599,
+      "title": "Air quality data",
+      "url": "https://aqs.epa.gov/aqsweb/airdata/download_files.html"
+    },
+    {
+      "description": "Indice de qualité de l’air pour les communes de Bourgogne-Franche-Comté pour l'année civiles en cours jusqu'au lendemain et l'année précédente complète.",
+      "semantic_score": 0.7673340439796448,
+      "title": "Indice de qualité de l'air",
+      "url": "https://atmo-bfc.iad-informatique.com/geoserver/indice/wfs"
+    },
+    {
+      "description": "<div><a href='https://fire.airnow.gov/#5.67/37.855/-120.729' target='_blank' rel='nofollow ugc noopener noreferrer'>https://fire.airnow.gov/#5.67/37.855/-120.729</a></div><div><br /></div>",
+      "semantic_score": 0.760830283164978,
+      "title": "AirNow Fire - Air Quality Map",
+      "url": "https://gis.data.ca.gov/documents/California::airnow-fire-air-quality-map"
+    }
+  ]
+}

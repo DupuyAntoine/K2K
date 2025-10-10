@@ -1,0 +1,76 @@
+{
+  "id": "9f665691-bc4b-4c21-bc4a-9caea4dec41e",
+  "domain": "earthObservation",
+  "messages": [
+    {
+      "sender": "user",
+      "text": "Provide GEOJSON datasets of soil moisture in Asia between 1990 and 2000"
+    },
+    {
+      "sender": "bot",
+      "text": "I've searched for GEOJSON datasets related to soil moisture in Asia between 1990 and 2000. Although the exact specification might be challenging to find, several datasets could be relevant to your inquiry. \n\n1. **Soil Moisture Active Passive (SMAP) L4 Soil Moisture Ancillary Climatology Files V001**: This dataset from NASA provides a static soil moisture climatology data set, which includes root zone and profile soil moisture climatology files. While it's not specifically limited to Asia or the 1990-2000 timeframe, it could be useful for understanding broader soil moisture trends.\n\n2. **CPC Soil Moisture**: This dataset from NOAA offers monthly averaged soil moisture water height equivalents for the globe from 1948 onwards. The data is model-calculated, and while it covers the specified time frame, it may not be in GEOJSON format.\n\n3. **FIFE Soil Moisture Data**: Several datasets from the First ISLSCP (International Satellite Land Surface Climatology Project) Field Experiment (FIFE) are related to soil moisture. These datasets include gravimetric soil moisture data, soil moisture transect data, and soil moisture release data. They might not exactly match your criteria but are valuable for studying soil moisture patterns.\n\nUnfortunately, none of these datasets precisely match your request for GEOJSON files specifically covering Asia between 1990 and 2000. For more targeted results, I would recommend checking with specific data providers such as NASA, ESA, or national meteorological agencies in Asia, as they might have more localized data.\n\nTo proceed, could you please provide more details or clarify if any adjustments to the search criteria (such as considering a broader time frame or other formats) would be acceptable? Additionally, specifying a particular country or region within Asia might help narrow down the search. \n\nPlease let me know how I can further assist you in finding the most relevant data for your needs."
+    }
+  ],
+  "files": [
+    {
+      "description": "No description found",
+      "semantic_score": 0.8158139586448669,
+      "title": "Oklahoma Mesonet Soil Moisture",
+      "url": "http://www.archive.arm.gov/discovery/#v/results/s/s::okmsoil"
+    },
+    {
+      "description": "This ancillary SMAP product contains a static soil moisture climatology data set. Specifically, this data set includes root zone and profile soil moisture climatology files for percentile conversion and post-processing of Land Data Assimilation Systems (LDAS) output.",
+      "semantic_score": 0.8051550984382629,
+      "title": "Soil Moisture Active Passive (SMAP) L4 Soil Moisture Ancillary Climatology Files V001",
+      "url": "https://scholar.google.com/scholar?q=10.5067%2FP5SMH89AI6EC"
+    },
+    {
+      "description": "50-yr VIC model output for MRB. \n\nThis dataset is associated with the following publication:\nTang, C., and D. Chen. Interaction between Soil Moisture and Air Temperature in the Mississippi River Basin.   Journal of Water Resource and Protection. Scientific Research Publishing, Inc., Irvine, CA, USA, 9(10): 1119-1131, (2017).",
+      "semantic_score": 0.8022992014884949,
+      "title": "VIC soil moisture for MRB",
+      "url": "https://pasteur.epa.gov/uploads/10.23719/1415933/ScienceHub-details.xlsx"
+    },
+    {
+      "description": "This ancillary SMAP product contains static restart files for the Land Data Assimilation Systems (LDAS) Catchment model. This product includes prognostic variables for both the catchment model and perturbations model.",
+      "semantic_score": 0.8018105626106262,
+      "title": "Soil Moisture Active Passive (SMAP) L4 Soil Moisture Ancillary Restart Files V001",
+      "url": "https://scholar.google.com/scholar?q=10.5067%2FPOY9KSG3TY9J"
+    },
+    {
+      "description": "The gravimetrical soil moisture data were collected from many stations spread over the FIFE study area. These data were collected to characterize the spatial and temporal patterns of moisture content of the soils over this area during and between the FIFE Intensive Field Campaigns. The aim of the FIFE soil moisture work was to characterize spatial and temporal patterns of soil moisture at the FIFE site, to validate and calibrate remote sensing measurements of soil water, and to evaluate alternative methods of measuring soil moisture both from the air and on the ground. A further goal was to develop techniques for comparing point and spatially continuous measurements of soil moisture. The FIFE soil moisture research was designed to advance the technology for characterizing soil moisture and contribute useful data to other FIFE investigations.",
+      "semantic_score": 0.7980861067771912,
+      "title": "Soil Moisture Gravimetric Data (FIFE)",
+      "url": "https://search.earthdata.nasa.gov/search?q=fife_soilmstr_sm_grav_110&ac=true"
+    },
+    {
+      "description": "The monthly data set consists of a file containing 1/2 degree monthly averaged soil moisture water height equivalents for the globe from 1948\r\nonwards. Values are model-calculated and not measured directly. Soil moisture is estimated by a one-layer hydrological model (Huang et al., 1996; van\r\nden Dool et al, 2003). The model takes observed precipitation and temperature and calculates soil moisture, evaporation and runoff.",
+      "semantic_score": 0.7965370416641235,
+      "title": "CPC Soil Moisture",
+      "url": "https://www.esrl.noaa.gov/psd/data/gridded/data.cpcsoil.html"
+    },
+    {
+      "description": "The aim of the FIFE soil moisture transect work was to characterize spatial and temporal patterns of soil moisture along selected transects at the FIFE study area. Two levels of ground data were collected to support the passive microwave (PBMR) flights over the Konza experimental area. The water content measurements were collected using gravimetric methods.  Soil moisture measured along a transect is necessary to calibrate airborne moisture instruments or compare data obtained from them. Soil units in a landscape are inherently heterogeneous, which leads to variations in moisture content along an aircraft flight path on the ground. In order to reduce errors, values on the flight path were sampled at close intervals.",
+      "semantic_score": 0.7953321933746338,
+      "title": "Soil Moisture Transect Data (FIFE)",
+      "url": "https://search.earthdata.nasa.gov/search?q=fife_soilmstr_sm_tran_113&ac=true"
+    },
+    {
+      "description": "Water content measurements by gravimetric methods involve weighing a wet sample, removing the water via drying in an oven, and reweighing the sample to determine the amount of water removed. Water content then is obtained by dividing the difference between wet and dry masses by the mass of the dry sample to obtain the ratio of the mass of water to the mass of dry soil. When multiplied by 100, this becomes the percentage of water in the sample on a dry-mass (or, as often expressed, on a dry-weight) basis.  Soil moisture determined using the gravimetric method was measured at 800 sites along 24 transects. These transects were over flown by the airborne Gamma Radiation System used to measure soil moisture. These data are useful for comparison of airborne and ground soil moisture data. This analysis for the airborne Gamma Radiation System, using completely independent soil moisture data showed that the root mean square error of 97 flights was 3.02 percent soil moisture, with a bias of less than 0.5 percent soil moisture (Carroll et al., 1988).",
+      "semantic_score": 0.7914696931838989,
+      "title": "Soil Moisture Data: Peck (FIFE)",
+      "url": "https://search.earthdata.nasa.gov/search?q=fife_soilmstr_peck_sm_109&ac=true"
+    },
+    {
+      "description": "This data product was created based on the hypothesis that a variety of ground truth observations of soil moisture could be combined to estimate equal soil moisture contours across a large area (e.g., the FIFE area). A second stage required interpolating from these contours, using the methods of spatial statistics, to average soil moisture values at the nodes of a uniform grid. The grid node values in this product represent the average soil moisture of a 0.5 km x 0.5 km area centered at the node location.  The correlation area method (CAM) was used to combine in situ measurements and airborne gamma remote sensing estimates to obtain areal averages of soil moisture. Information on biomass and the spatial distribution of vegetation in a model was also used to estimate soil moisture from PBMR measurements. Another simple method, using only ground soil moisture data, was also used to compute soil moisture from the PBMR measurements. All soil moisture data collected from the aircraft platforms and ground measurements were entered into the ARC/INFO GIS along with the UTM coordinates of each observation. All available and usable measurements of soil moisture were considered in an analysis that produced isolines of soil moisture.",
+      "semantic_score": 0.7905300855636597,
+      "title": "Soil Moisture Release Data (FIFE)",
+      "url": "https://search.earthdata.nasa.gov/search?q=fife_soilprop_soil_rel_112&ac=true"
+    },
+    {
+      "description": "The U.S. Climate Reference Network (USCRN) was designed to monitor the climate of the United States using research quality instrumentation located within representative pristine environments. This Standardized Soil Moisture (SSM) and Soil Moisture Climatology (SMC) product set is derived using the soil moisture observations from the USCRN. The hourly soil moisture anomaly (SMANOM) is derived by subtracting the MEDIAN from the soil moisture volumetric water content (SMVWC) and dividing the difference by the interquartile range (IQR = 75th percentile - 25th percentile) for that hour: SMANOM = (SMVWC - MEDIAN) / (IQR). The soil moisture percentile (SMPERC) is derived by taking all the values that were used to create the empirical cumulative distribution function (ECDF) that yielded the hourly MEDIAN and adding the current observation to the set, recalculating the ECDF, and determining the percentile value of the current observation. Finally, the soil temperature for the individual layers is provided for the dataset user convenience.\n\nThe SMC files contain the MEAN, MEDIAN, IQR, and decimal fraction of available data that are valid for each hour of the year at 5, 10, 20, 50, and 100 cm depth soil layers as well as for a top soil layer (TOP) and column soil layer (COLUMN). The TOP layer consists of an average of the 5 and 10 cm depths, while the COLUMN layer includes all available depths at a location, either two layers or five layers depending on soil depth. The SSM files contain the mean VWC, SMANOM, SMPERC, and TEMPERATURE for each of the depth layers described above. File names are structured as CRNSSM0101-STATIONNAME.csv and CRNSMC0101-STATIONNAME.csv.  SSM stands for Standardized Soil Moisture and SCM represent Soil Moisture Climatology. The first two digits of the trailing integer indicate major version and the second two digits minor version of the product.",
+      "semantic_score": 0.7655349373817444,
+      "title": "United States Climate Reference Network (USCRN) Standardized Soil Moisture and Soil Moisture Climatology",
+      "url": "https://doi.org/10.25921/PYFX-AW93"
+    }
+  ]
+}

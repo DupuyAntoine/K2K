@@ -1,0 +1,76 @@
+{
+  "id": "461470a6-cba0-408c-aa97-c2e9388aaba5",
+  "domain": "earthObservation",
+  "messages": [
+    {
+      "sender": "user",
+      "text": "Provide Arctic sea ice extent for the winter season of 2022"
+    },
+    {
+      "sender": "bot",
+      "text": "You are looking for data on Arctic sea ice extent, specifically for the winter season of 2022. After conducting a search, I found several datasets that may be relevant to your request.\n\nThe datasets I found include:\n\n1. **Arctic Sea Ice Concentration and Extent from Danish Meteorological Institute Sea Ice Charts, 1901-1956**: This dataset provides estimates of Arctic sea ice extent and concentration from 1901 to 1956. Although it does not cover the winter season of 2022, it may be useful for historical context.\n2. **Multisensor Analyzed Sea Ice Extent - Northern Hemisphere (MASIE-NH)**: This dataset provides daily sea ice extent and sea ice edge boundary for the Northern Hemisphere and 16 Arctic regions. It is available from 2014 to present, including the winter season of 2022.\n3. **MODIS/Aqua Sea Ice Extent 5-Min L2 Swath 1km**: This dataset provides daily sea ice extent and ice surface temperature from 2002 to present. It may be useful for analyzing sea ice extent during the winter season of 2022.\n4. **NOAA/NMC/CAC Arctic and Antarctic Monthly Sea Ice Extent, 1973-1990**: This dataset provides monthly sea ice extent for the Arctic from 1973 to 1990. Although it does not cover the winter season of 2022, it may be useful for historical context.\n\nYou can access these datasets through the following links:\n\n* Arctic Sea Ice Concentration and Extent from Danish Meteorological Institute Sea Ice Charts, 1901-1956: https://podaac.jpl.nasa.gov/CitingPODAAC\n* Multisensor Analyzed Sea Ice Extent - Northern Hemisphere (MASIE-NH): https://noaadata.apps.nsidc.org/NOAA/G02186/\n* MODIS/Aqua Sea Ice Extent 5-Min L2 Swath 1km: https://scholar.google.com/scholar?q=10.5067%2FMODIS%2FMYD29.061\n* NOAA/NMC/CAC Arctic and Antarctic Monthly Sea Ice Extent, 1973-1990: https://noaadata.apps.nsidc.org/NOAA/G00917/\n\nPlease note that some of these datasets may require registration or have specific usage restrictions. If you need help accessing or using these datasets, feel free to ask.\n\nIf you are looking for more specific or up-to-date data, could you please provide more information on the format and source you prefer? Additionally, are there any specific regions within the Arctic you are interested in?"
+    }
+  ],
+  "files": [
+    {
+      "description": "This data set provides estimates of Arctic sea ice extent and concentration from 1901 to 1956 created from a collection of historic, hand-drawn sea ice charts from the Danish Meteorological Institute (DMI). These were used to create estimates for each summer month from 1901 to 1956 by manual, subjective interpretation of scanned versions of the charts. These estimates, shown in colored-coded fields, are available as GIS shapefiles, gridded NetCDF files, and browse image files.",
+      "semantic_score": 0.8297398090362549,
+      "title": "Arctic Sea Ice Concentration and Extent from Danish Meteorological Institute Sea Ice Charts, 1901-1956, Version 1",
+      "url": "https://podaac.jpl.nasa.gov/CitingPODAAC"
+    },
+    {
+      "description": "This data set provides monthly sea ice concentration for the Arctic from 1901 to 1995 and for the Southern Oceans from 1973 to 1990 on a standard 1-degree grid (cylindrical projection) to provide a relatively uniform set of sea ice extent for all longitudes. The data are in ASCII format and are available via FTP.",
+      "semantic_score": 0.8285984396934509,
+      "title": "Arctic and Southern Ocean Sea Ice Concentrations, Version 1",
+      "url": "https://noaadata.apps.nsidc.org/NOAA/G00799/"
+    },
+    {
+      "description": "The Sea Ice Edge Location and Extent in the Russian Arctic, 1933-2006 data are derived from sea ice charts from the Arctic and Antarctic Research Institute (AARI), St. Petersburg, Russia. Provided here are sea ice edge locations, where identifiable, in each AARI ice chart and monthly and seasonal mean sea ice extents for each of the marginal seas in the Russian Arctic derived from these ice edges. The original AARI charts were constructed primarily to assist operations in the Northern Sea Route. The digital version, from which this data set is derived, is titled Sea Ice Charts of the Russian Arctic in Gridded Format, 1933-2006.",
+      "semantic_score": 0.8175927400588989,
+      "title": "Sea Ice Edge Location and Extent in the Russian Arctic, 1933-2006, Version 1",
+      "url": "https://noaadata.apps.nsidc.org/NOAA/G02182/"
+    },
+    {
+      "description": "This data set provides measurements of sea ice freeboard and sea ice thickness for the Arctic region. The data were derived from measurements made by from the Ice, Cloud, and land Elevation Satellite (ICESat) Geoscience Laser Altimeter System (GLAS) instrument, the Special Sensor Microwave/Imager (SSM/I), and climatologies of snow and drift of ice.",
+      "semantic_score": 0.8137688040733337,
+      "title": "Arctic Sea Ice Freeboard and Thickness, Version 1",
+      "url": "https://daacdata.apps.nsidc.org/pub/DATASETS/NSIDC0393_GLAS_SI_Freeboard_v01"
+    },
+    {
+      "description": "Sea ice extent from January 1973 through August 1990 was digitized from weekly operational sea ice charts produced by the Navy/NOAA Joint Ice Center. Charts were digitized by hand using a 1 degree latitude x 2.5 degrees longitude grid.  The grid boxes were then summed in 1 degree latitude  x 10 degrees longitude slices, and the ice covered area computed. The data represent the extent of sea ice at the end of each month, given for 36 10-degree longitudinal sectors in each hemisphere. Data were provided by the NOAA National Weather Service National Meteorological Center (NMC) Climate Analyses Center (CAC).",
+      "semantic_score": 0.8096368908882141,
+      "title": "NOAA/NMC/CAC Arctic and Antarctic Monthly Sea Ice Extent, 1973-1990, Version 1",
+      "url": "https://noaadata.apps.nsidc.org/NOAA/G00917/"
+    },
+    {
+      "description": "This global Level-2 (L2) product provides daily sea ice extent and ice surface temperature. The data are derived from Level-1B radiances acquired by the Moderate Resolution Imaging Spectroradiometer (MODIS) on board the Aqua satellite. Each data granule contains 5 minutes of swath data observed at a resolution of 1000 m.\n\nThe terms \"Version 61\" and \"Collection 6.1\" are used interchangeably in reference to this release of MODIS data.",
+      "semantic_score": 0.8044450879096985,
+      "title": "MODIS/Aqua Sea Ice Extent 5-Min L2 Swath 1km V061",
+      "url": "https://scholar.google.com/scholar?q=10.5067%2FMODIS%2FMYD29.061"
+    },
+    {
+      "description": "The Multisensor Analyzed Sea Ice Extent - Northern Hemisphere (MASIE-NH) products provide measurements of daily sea ice extent and sea ice edge boundary for the Northern Hemisphere and 16 Arctic regions in a polar stereographic projection at both 1 km and 4 km grid cell sizes. MASIE products include an ASCII text file of sea ice extent values in square km for each Arctic region, time series plots, and image files that visually show where the sea ice is.Note: MASIE may look like several other sea ice products distributed at NSIDC and elsewhere, but its source data from the U.S. National Ice Center (USNIC) and intended uses are different. If intended and appropriate uses of the data are not clear after reading the documentation, please contact <a href=\"mailto:nsidc@nsidc.org\">NSIDC User Services</a>.",
+      "semantic_score": 0.8039179444313049,
+      "title": "Multisensor Analyzed Sea Ice Extent  - Northern Hemisphere (MASIE-NH), Version 1",
+      "url": "https://noaadata.apps.nsidc.org/NOAA/G02186/"
+    },
+    {
+      "description": "MODIS/Aqua Sea Ice Extent 5-Min L2 Swath 1km Near Real Time (NRT), short name MYD29, contains the following fields: sea ice by reflectance, sea ice by reflectance pixel quality assurance (QA), ice surface temperature (IST), IST pixel QA, sea ice by IST, combined sea ice, latitudes, and longitudes in HDF-EOS format, along with corresponding metadata. Latitude and longitude geolocation fields are at 5 km resolution, while all other fields are at 1 km resolution. The sea ice algorithm uses a Normalized Difference Snow Index (NDSI) modified for sea ice to distinguish sea ice from open ocean, based on reflective and thermal characteristics.",
+      "semantic_score": 0.7891486883163452,
+      "title": "MODIS/Aqua Sea Ice Extent 5-Min L2 Swath 1km NRT",
+      "url": "https://earthdata.nasa.gov/earth-observation-data/near-real-time/download-nrt-data/modis-nrt"
+    },
+    {
+      "description": "The files in this data set contain monthly mean landfast sea ice data gathered from both Russian Arctic and Antarctic Research Institute (AARI) and Canadian Ice Service (CIS) sources. Data are in the form of percent of area covered, within a longitude-latitude grid with 0.2° resolution. Details on processing and treatment are given in the contributor's PhD thesis (König, 2007). The data are provided in NetCDF format. The time span over which data are available is split into three ranges: for 1953-1967 there are only AARI data, for 1968-1990 both AARI and CIS data are available, and from 1991-1998 only CIS data are available. There are a total of six files: two for the 1953-1967 data, two for the 1968-1990 data, and two for the 1991-1998 data. There are two files for each range because the files with \"_noNaN\" in their names contain \"-1000\" as the missing value, and the other files use \"nan\" as the missing value. Otherwise, the data in those files are identical. König obtained AARI data from NSIDC data set AARI 10-Day Arctic Ocean EASE-Grid Sea Ice Observations. NSIDC has replaced that data set with Sea Ice Charts of the Russian Arctic in Gridded Format, 1933-2006 (AARI, 2007). That data set was edited and compiled by V. Smolyanitsky, V. Borodachev, A. Mahoney, F. Fetterer, and R. Barry (https://nsidc.org/data/g02176).Notice to Data Users: The documentation for this data set was provided solely by the contributor, Christof S. König, and was not further developed, thoroughly reviewed, or edited by NSIDC. Thus, support for this data set may be limited.",
+      "semantic_score": 0.7874363660812378,
+      "title": "Arctic Landfast Sea Ice 1953-1998, Version 1",
+      "url": "https://noaadata.apps.nsidc.org/NOAA/G02195/"
+    },
+    {
+      "description": "This data set provides sea ice extent for the Arctic (60-90 degrees North) and Antarctic (52-90 degrees South) in Scatterometer Image Reconstruction (SIR) binary image format, along with ASCII text files containing latitude and longitude coordinates along the sea ice edge, and browse images of SIR files in Graphics Interchange Format (GIF) format. Ancillary products include daily-averaged total sea ice extent in ASCII format. Estimates of sea ice extent were produced from daily-averaged QuikSCAT sigma-0 measurements and extend from 19 July 1999 to 31 December 2009.QuikSCAT obtains 12 individual radar normalized backscatter (sigma-0) measurements, called slices, for each footprint as it scans over a 1800 km wide swath. Slices are typically 4 to 6 km long by 20 km wide. The summed measurements of the slices are called egg measurements. The effective resolution and shape of each egg measurement is approximately 20 by 30 km, depending on the antenna beam and instrument mode. This data set contains both slice and egg images for each day.The Microwave Earth Remote Sensing (MERS) group at Brigham Young University (BYU) developed a SIR-with-filtering (SIRF) algorithm that combines forward- and aft-looking sigma-0 measurements to produce enhanced-resolution backscatter images over various azimuth angles. The polarization ratio, incidence angle dependence, and the sigma-0 estimate error standard deviation were used to discriminate between sea ice and ocean. Sea ice extent was estimated for both slice and egg images. The nominal pixel resolution of the slice images is 2.225 km with an estimated effective resolution of approximately 4 km. Egg images have a nominal pixel resolution of 4.45 km with an estimated effective resolution of approximately 8 to 10 km.Data and browse images are available via FTP, along with C, Fortran, and Interactive Data Language (IDL) tools to read and display the SIR images.",
+      "semantic_score": 0.7873163223266602,
+      "title": "NASA SCP Arctic and Antarctic Ice Extent from QuikSCAT, 1999-2009, Version 2",
+      "url": "https://daacdata.apps.nsidc.org/pub/DATASETS/nsidc0265_QuikSCAT_ice_extent/"
+    }
+  ]
+}

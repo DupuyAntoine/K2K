@@ -1,0 +1,76 @@
+{
+  "id": "6aa3c02a-5e81-4431-b1d2-1e67e99fdae4",
+  "domain": "earthObservation",
+  "messages": [
+    {
+      "sender": "user",
+      "text": "Provide GEOJSON datasets of ice cover extent in Atlantic Ocean between 2010 and 2020"
+    },
+    {
+      "sender": "bot",
+      "text": "Based on your request for GEOJSON datasets of ice cover extent in the Atlantic Ocean between 2010 and 2020, I've searched through various datasets that might match your criteria. \n\nUnfortunately, none of the datasets I found perfectly match your request for ice cover extent specifically in the Atlantic Ocean, in GEOJSON format, and covering the 2010-2020 period. However, I can suggest some alternatives and similar datasets that might be of interest:\n\n1. **Northern Hemisphere EASE-Grid Snow Cover and Sea Ice Extent**: This dataset, available from NOAA, provides weekly snow cover and sea ice extent for the Northern Hemisphere, which includes parts of the Atlantic Ocean, from 1966 through 2023. It's not exclusively focused on the Atlantic, but it does cover a broad area and could be useful for understanding larger trends.\n\n2. **Multisensor Analyzed Sea Ice Extent - Northern Hemisphere (MASIE-NH)**: Provided by the National Snow and Ice Data Center (NSIDC), this dataset includes daily sea ice extent and edge boundary for the Northern Hemisphere, which can be relevant for studying the Atlantic's ice cover. It's available in ASCII text files and as image files but not directly in GEOJSON.\n\n3. **Gridded Monthly Sea Ice Extent and Concentration, 1850 Onward**: Another dataset from NSIDC, this one offers historical monthly gridded sea ice concentration from 1850, switching to satellite passive microwave data in 1979. It's not limited to the Atlantic Ocean but provides comprehensive global data that might help in analyzing long-term trends.\n\nTo refine your search or find more specific datasets, it would be helpful to know if there's a particular aspect of ice cover extent you're interested in (e.g., specific regions within the Atlantic, certain times of the year). Additionally, considering the limitations in the exact matching datasets, looking into datasets that might require some processing to extract the Atlantic Ocean region could be a viable alternative.\n\nFor direct downloads and more detailed information, please visit the following links:\n- Northern Hemisphere EASE-Grid Snow Cover and Sea Ice Extent: http://www.esrl.noaa.gov/psd/data/data.snowcover.html\n- Multisensor Analyzed Sea Ice Extent - Northern Hemisphere (MASIE-NH): https://noaadata.apps.nsidc.org/NOAA/G02186/\n- Gridded Monthly Sea Ice Extent and Concentration, 1850 Onward: https://noaadata.apps.nsidc.org/NOAA/G10010_V2/\n\nIf you have any follow-up questions or need further assistance in refining your search, please don't hesitate to ask."
+    }
+  ],
+  "files": [
+    {
+      "description": "Monthly North American snow sover extent derived from weekly values",
+      "semantic_score": 0.8245523571968079,
+      "title": "Northern Hemisphere EASE-Grid Snow Cover and Sea Ice Extent",
+      "url": "http://www.esrl.noaa.gov/psd/data/data.snowcover.html"
+    },
+    {
+      "description": "These data are reconstructed seasonal Antarctic sea ice extent (SIE) for 1905 through 2020. They are provided along with uncertainty estimates and metadata that describe aspects of the reconstruction process that produced the SIE data. Reconstructed SIE ensembles are given for the entire Southern Ocean. The data files are available in comma-separated values format (.csv) and NetCDF-3 format (.nc).",
+      "semantic_score": 0.8145423531532288,
+      "title": "Seasonal Antarctic Sea Ice Extent Reconstructions, 1905-2020, Version 1",
+      "url": "https://noaadata.apps.nsidc.org/NOAA/G10039/"
+    },
+    {
+      "description": "This data set contains time series of monthly snow cover extent (SCE) for North America, Eurasia, and the Northern Hemisphere from 1915 to 1997, based on snow cover reconstruction and NOAA satellite data. In addition, the data set contains time series of annual variation in areally-averaged monthly snow depth and (SWE) for the North American grid domain used to derive the snow cover index.",
+      "semantic_score": 0.8140251636505127,
+      "title": "Reconstructed North American, Eurasian, and Northern Hemisphere Snow Cover Extent, 1915-1997, Version 1",
+      "url": "https://noaadata.apps.nsidc.org/NOAA/G02131/"
+    },
+    {
+      "description": "This data set provides estimates of Arctic sea ice extent and concentration from 1901 to 1956 created from a collection of historic, hand-drawn sea ice charts from the Danish Meteorological Institute (DMI). These were used to create estimates for each summer month from 1901 to 1956 by manual, subjective interpretation of scanned versions of the charts. These estimates, shown in colored-coded fields, are available as GIS shapefiles, gridded NetCDF files, and browse image files.",
+      "semantic_score": 0.8101539611816406,
+      "title": "Arctic Sea Ice Concentration and Extent from Danish Meteorological Institute Sea Ice Charts, 1901-1956, Version 1",
+      "url": "https://podaac.jpl.nasa.gov/CitingPODAAC"
+    },
+    {
+      "description": "The main parameters for this data set are snow cover and sea ice extent; both parameters are derived from SMMR and DMSP-F8, -F11, -F13, and -F17 SSM/I and SSMIS brightness temperature data. These data are provided on the Northern Hemisphere EASE-Grid 2.0 projection and at a grid cell size of 25 x 25 km. This product is designed to provide a consistent weekly time series of snow cover from October 1966 through January 2023 and sea ice from October 1978 through January 2023.",
+      "semantic_score": 0.8012131452560425,
+      "title": "Northern Hemisphere EASE-Grid 2.0 Weekly Snow Cover and Sea Ice Extent, Version 4",
+      "url": "https://daacdata.apps.nsidc.org/pub/DATASETS/nsidc0046_weekly_snow_seaice/"
+    },
+    {
+      "description": "This data set contains locations of ice extent in Cook Inlet, Alaska. Vector lines in the data set represent 50 percent ice coverage. Location-specific type and source information are stored in relational data tables (described below) designed to be used in conjunction with this spatial data layer. See also the RIPS (Rip Current Lines) data layer, part of the larger Cook Inlet and Kenai Peninsula ESI database, for additional hydrologic information.This data set comprises a portion of the Environmental Sensitivity Index (ESI) data for Cook Inlet and Kenai Peninsula. ESI data characterize the marine and coastal environments and wildlife by their sensitivity to spilled oil. The ESI data include information for three main components: shoreline habitats, sensitive biological resources, and human-use resources.",
+      "semantic_score": 0.7986165285110474,
+      "title": "Cook Inlet and Kenai Peninsula, Alaska ESI: ICE (Ice Extent Lines)",
+      "url": "https://response.restoration.noaa.gov/oil-and-chemical-spills/oil-spills/download-esi-maps-and-gis-data"
+    },
+    {
+      "description": "This dataset is a single polyline file that depicts the boundary of the Little Ice Age maximum advance of the terminus of Exit and Paradise Glaciers. The data were collected and digitized for the purpose of identifying, as nearly as possible, the maximum extent of the Little Ice Age (1800s) expansion of the terminal margin of Exit Glacier and Paradise Glacier. Fragments of moraines previously dated by other investigators capture only a small portion of the boundary of that glacier expansion, so this dataset was developed to provide a complete map of the LIA maximum boundary, without requiring definitive dating of any particular portion of the boundary. It is assumed that the entire mapped boundary was occupied by glacier ice sometime during the LIA maximum (nominally 1815-1899 A.D.), but within that time range some portions of the glacier may have reached their maximum extents before or after others.",
+      "semantic_score": 0.7965989708900452,
+      "title": "Little Ice Age Maximum Glacier Extent, Exit and Paradise Glaciers, Alaska",
+      "url": "https://data.usgs.gov/datacatalog/metadata/USGS.ASC131.xml"
+    },
+    {
+      "description": "This ISLSCP data set is derived from the National Snow and Ice Data Center (NSIDC) Northern Hemisphere EASE-Grid Weekly Snow Cover and Sea Ice Extent product which combines snow cover and sea ice extent at weekly intervals for October 1978 through June 2001, and snow cover alone from 1966 through June 2001. The original data set was the first representation of combined snow and sea ice measurements derived from satellite observations for the period of record. Designed to facilitate study of Northern Hemisphere seasonal fluctuations of snow cover and sea ice extent, the original NSIDC data set also includes monthly climatologies describing average extent, probability of occurrence, and variance.This data set shows the extent of snow on the land at a variety of scales (1.0 degree, 0.5 degree, 0.25 degree). The values represent the percentage of days in each month where snow was present -- 100 means 100% of the month, 80 means 80% of the month, etc. There are 4 .zip files provided. Missing data is represented by -99 for water and -88 for land. The data were originally in a yearly tabular format. The file was converted to multi-scale maps by plotting each point in the tabular data onto a map of -99 (water) and -88 (land) created from the standard ISLSCP II Land/Sea Mask.",
+      "semantic_score": 0.7898463606834412,
+      "title": "ISLSCP II Northern Hemisphere Monthly Snow Cover Extent",
+      "url": "https://search.earthdata.nasa.gov/search?q=snow_cover_xdeg_982&ac=true"
+    },
+    {
+      "description": "The Multisensor Analyzed Sea Ice Extent - Northern Hemisphere (MASIE-NH) products provide measurements of daily sea ice extent and sea ice edge boundary for the Northern Hemisphere and 16 Arctic regions in a polar stereographic projection at both 1 km and 4 km grid cell sizes. MASIE products include an ASCII text file of sea ice extent values in square km for each Arctic region, time series plots, and image files that visually show where the sea ice is.Note: MASIE may look like several other sea ice products distributed at NSIDC and elsewhere, but its source data from the U.S. National Ice Center (USNIC) and intended uses are different. If intended and appropriate uses of the data are not clear after reading the documentation, please contact <a href=\"mailto:nsidc@nsidc.org\">NSIDC User Services</a>.",
+      "semantic_score": 0.7828150391578674,
+      "title": "Multisensor Analyzed Sea Ice Extent  - Northern Hemisphere (MASIE-NH), Version 1",
+      "url": "https://noaadata.apps.nsidc.org/NOAA/G02186/"
+    },
+    {
+      "description": "Notice: Due to funding limitations, this data set was recently changed to a “Basic” Level of Service. Learn more about what this means for users and how you can share your story here: <a href=\"https://nsidc.org/data/user-resources/data-announcements/user-notice-level-service-update-data-products\">Level of Service Update for Data Products</a>.<br><br>Observations from historical sources are the basis of this monthly gridded sea ice concentration product that begins in 1850. In 1979, these sources give way to a single source: concentration from satellite passive microwave data. The historical observations come in many forms: ship observations, compilations by naval oceanographers, analyses by national ice services, and others. Monthly sea ice concentration is given in a 1/4 degree latitude by 1/4 degree longitude grid. In addition to the concentration array, for each month a corresponding source array indicates where each of 16 possible sources is used.  The file of concentration and source arrays conforms to NetCDF-4 standards.",
+      "semantic_score": 0.779463529586792,
+      "title": "Gridded Monthly Sea Ice Extent and Concentration, 1850 Onward, Version 2",
+      "url": "https://noaadata.apps.nsidc.org/NOAA/G10010_V2/"
+    }
+  ]
+}

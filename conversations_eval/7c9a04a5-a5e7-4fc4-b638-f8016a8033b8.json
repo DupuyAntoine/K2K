@@ -1,0 +1,76 @@
+{
+  "id": "7c9a04a5-a5e7-4fc4-b638-f8016a8033b8",
+  "domain": "earthObservation",
+  "messages": [
+    {
+      "sender": "user",
+      "text": "Provide Annual mean wind speed at 10m over Europe between 2000 and 2020"
+    },
+    {
+      "sender": "bot",
+      "text": "You are looking for datasets containing the annual mean wind speed at 10m above displacement height over Europe, specifically for the period between 2000 and 2020. After conducting a thorough search, several datasets have been identified that may match your requirements, although none perfectly fit the temporal and spatial criteria specified.\n\n1. **Offshore Mean Annual Wind Speed**: This dataset, available from [marinecadastre.gov/data/](https://marinecadastre.gov/data/), contains predicted mean annual wind speeds but is more focused on offshore areas and not exactly at 10m height. However, it could be useful for understanding wind patterns in European coastal regions.\n\n2. **OW QuikSCAT Wind Speed, Stress and Stress Curl**: Found at [oceanwatch.pifsc.noaa.gov/erddap/griddap/OceanWacth_qscat_wind_monthly.html](https://oceanwatch.pifsc.noaa.gov/erddap/griddap/OceanWacth_qscat_wind_monthly.html), this dataset provides satellite-derived wind speed measurements globally from 1999-2009, which partially overlaps with your specified time frame but doesn't specifically target Europe or the 10m height.\n\n3. **Offshore Wind Speed and Direction**: Available from [marinecadastre.gov/data/](https://marinecadastre.gov/data/), this dataset includes average monthly wind speed and direction at the ocean's surface from 1979 to 2010. While it doesn't exactly match your criteria for height and land coverage, it's useful for understanding broader wind patterns that could influence European coastal areas.\n\n4. **Nearshore Wind Speed Data**: Several nearshore datasets (e.g., 41029 / CAP2 Capers Nearshore, 41024 / SUN2 Sunset Nearshore, 41033 / FRP2 Fripp Nearshore) from [www.cormp.org/index.php](http://www.cormp.org/index.php) provide wind speed data but are more focused on specific nearshore locations rather than Europe as a whole and may not specifically report at the 10m height.\n\nTo find a dataset that exactly matches your criteria, it might be necessary to:\n- Consider datasets that offer wind speed data at different heights and extrapolate or model the data for 10m height.\n- Look into datasets focused on atmospheric science and wind dynamics over Europe, which might offer more detailed insights into wind patterns, even if not specifically at 10m.\n- Contact research institutions or databases directly to inquire about the availability of more precise datasets.\n\nThe initial search did not yield a perfect match, but exploring these options and considering a bit of data manipulation or reaching out to specific research communities might bring you closer to the data you need. If you have any follow-up questions or need help with data manipulation, feel free to ask."
+    }
+  ],
+  "files": [
+    {
+      "description": "Collection of scanned figures relating to the wind tunnel threshold speed data from boundary layer wind tunnels",
+      "semantic_score": 0.8213236331939697,
+      "title": "Wind Tunnel Threshold Speed Document Bundle",
+      "url": null
+    },
+    {
+      "description": "These data depict the predicted mean annual wind speed in meters per second at 100 meters elevation above sea level. The source data is from 2007 through 2013, and is based on a 2 km sample resolution. The source data was generalized and transformed into a polygon format for planning purposes.",
+      "semantic_score": 0.8143286108970642,
+      "title": "Offshore Mean Annual Wind Speed",
+      "url": "https://marinecadastre.gov/data/"
+    },
+    {
+      "description": "The dataset contains satellite-derived ocean wind speed, stress and stress curl measurements collected by means of the NASA/JPL SeaWinds Scatterometer sensor. The data is collected daily, and is available at 3-day, weekly and monthly intervals at a spatial resolution of approximately 0.5 degrees. The geographic coverage extends globally, and the temporal coverage ranges from 1999-2009.",
+      "semantic_score": 0.8134418725967407,
+      "title": "OW QuikSCAT Wind Speed, Stress and Stress Curl",
+      "url": "https://oceanwatch.pifsc.noaa.gov/erddap/griddap/OceanWacth_qscat_wind_monthly.html"
+    },
+    {
+      "description": "Full set of archive data from (41029 / CAP2) Capers Nearshore",
+      "semantic_score": 0.8083462119102478,
+      "title": "41029 / CAP2 Capers Nearshore - wind_speed",
+      "url": "http://www.cormp.org/index.php"
+    },
+    {
+      "description": "These data represents the predicted mean annual wind speeds at 90 m height presented at a spatial resolution of 200 m. Areas with annual average wind speed of 7 meters per second (m/s) and greater at 90 m height are generally considered to have a wind resource suitable for offshore development. The source data is from 2002 through 2008.",
+      "semantic_score": 0.8079029321670532,
+      "title": "Offshore Mean Annual Wind Speed at 90 m",
+      "url": "https://marinecadastre.gov/data/"
+    },
+    {
+      "description": "These data represent the average monthly wind speed and direction at the surface of the ocean. Source data includes values from January 1, 1979, to December 31, 2010, at hourly temporal resolution, with a spatial resolution of 0.313 degrees latitude x 0.312 degrees longitude. Values for wind speed are in meters per second and wind direction in degrees from True North.",
+      "semantic_score": 0.8066389560699463,
+      "title": "Offshore Wind Speed and Direction",
+      "url": "https://marinecadastre.gov/data/"
+    },
+    {
+      "description": "Full set of archive data from (41024 / SUN2) Sunset Nearshore",
+      "semantic_score": 0.8055166006088257,
+      "title": "41024 / SUN2 Sunset Nearshore - wind_speed",
+      "url": "http://www.cormp.org/index.php"
+    },
+    {
+      "description": "Full set of archive data from (41033 / FRP2) Fripp Nearshore",
+      "semantic_score": 0.803044855594635,
+      "title": "41033 / FRP2 Fripp Nearshore - wind_speed",
+      "url": "http://www.cormp.org/index.php"
+    },
+    {
+      "description": "Full set of archive data from (41064 / LEJ3) Onslow Bay Outer, NC",
+      "semantic_score": 0.8020679950714111,
+      "title": "41064 / LEJ3 Onslow Bay Outer, NC - wind_speed",
+      "url": "http://www.cormp.org/index.php"
+    },
+    {
+      "description": "Full set of archive data from (41033 / FRP2) Fripp Nearshore",
+      "semantic_score": 0.7952291369438171,
+      "title": "41033 / FRP2 Fripp Nearshore - wind_speed_of_gust",
+      "url": "http://www.cormp.org/index.php"
+    }
+  ]
+}

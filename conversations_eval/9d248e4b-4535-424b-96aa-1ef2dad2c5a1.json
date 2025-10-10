@@ -1,0 +1,76 @@
+{
+  "id": "9d248e4b-4535-424b-96aa-1ef2dad2c5a1",
+  "domain": "earthObservation",
+  "messages": [
+    {
+      "sender": "user",
+      "text": "Provide Land cover classification for the Amazon basin in 2019"
+    },
+    {
+      "sender": "bot",
+      "text": "You are looking for land cover classification data for the Amazon basin in 2019. I've searched through our database and found a few datasets that might be relevant to your query.\n\nOne of the closest matches is the \"Final Land Cover Map raster - Land Cover Mapping, North Slope of the Arctic National Wildlife Refuge, Alaska, 2019\" dataset. Although it's not specifically for the Amazon basin, it provides land cover and vegetation information for a different region in 2019. You can find this dataset at [https://iris.fws.gov/APPS/ServCat/DownloadFile/196994?Reference=130650](https://iris.fws.gov/APPS/ServCat/DownloadFile/196994?Reference=130650).\n\nAnother relevant dataset is the \"EASE-Grid Land Cover Classifications Derived from Boston University MODIS/Terra Land Cover Data, Version 1\". This dataset provides land cover classifications derived from MODIS/Terra land cover data, but it's not specific to the Amazon basin or the year 2019. However, it's available in various EASE-Grid azimuthal and global projections, which might be useful for your research. You can access this dataset at [https://daacdata.apps.nsidc.org/pub/DATASETS/nsidc0608_classification_ease/](https://daacdata.apps.nsidc.org/pub/DATASETS/nsidc0608_classification_ease/).\n\nUnfortunately, I couldn't find any datasets that exactly match your criteria (Amazon basin, land cover classification, 2019). To improve the search results, could you please provide more information about the specific land cover classification system you're interested in (e.g., IGBP, LCCS) or the desired format of the data (e.g., raster, vector)? Additionally, are you looking for datasets from specific producers or sources, such as NASA or the ESA?\n\nIf you have any further questions or need help with refining your search, please don't hesitate to ask. I'm here to assist you in finding the most relevant data for your research."
+    }
+  ],
+  "files": [
+    {
+      "description": "Fanno Creek is a tributary to the Tualatin River and flows though parts of the southwest Portland \nmetropolitan area. The stream is heavily influenced by urban runoff and shows characteristic \nflashy streamflow and poor water quality commonly associated with urban streams. This data \nset represents the floodplain land cover as derived from light detection and ranging (LiDAR) \ndata and aerial photographic imagery. The land cover classifications represent current \nconditions (2009).",
+      "semantic_score": 0.8081631064414978,
+      "title": "Land Cover Classification for Fanno Creek, Oregon",
+      "url": "https://data.usgs.gov/datacatalog/metadata/USGS.38fb0f17-c9b6-4204-a6c6-6573f30925b1.xml"
+    },
+    {
+      "description": "This data set consists of land cover classification data derived from satellite imagery and of data obtained in the field as part of the Soil Moisture Active Passive Validation Experiment 2008 (SMAPVEX08).",
+      "semantic_score": 0.8059331774711609,
+      "title": "SMAPVEX08 Land Cover Classification Map V001",
+      "url": null
+    },
+    {
+      "description": "This data set consists of land cover classification data derived from satellite imagery and of data obtained in the field as part of the Soil Moisture Active Passive Validation Experiment 2008 (SMAPVEX08).",
+      "semantic_score": 0.8059331774711609,
+      "title": "SMAPVEX08 Land Cover Classification Map V001",
+      "url": "https://scholar.google.com/scholar?q=10.5067%2FCPB005XLAIIG"
+    },
+    {
+      "description": "This data set consists of land cover classification data derived from satellite imagery as part of the Cloud and Land Surface Interaction Campaign 2007 (CLASIC07). ResourceSat-1 AWiFS images of the study area were retrieved for the period of April through August 2007. The land use classification image provides information about vegetation present in the study area at a resolution of 56 meters.",
+      "semantic_score": 0.8053159713745117,
+      "title": "CLASIC07 Land Cover Classification Map V001",
+      "url": "https://scholar.google.com/scholar?q=10.5067%2FQFLMQI76MOJA"
+    },
+    {
+      "description": "This data set consists of land cover classification data derived from satellite imagery as part of the Cloud and Land Surface Interaction Campaign 2007 (CLASIC07). ResourceSat-1 AWiFS images of the study area were retrieved for the period of April through August 2007. The land use classification image provides information about vegetation present in the study area at a resolution of 56 meters.",
+      "semantic_score": 0.8053159713745117,
+      "title": "CLASIC07 Land Cover Classification Map V001",
+      "url": "https://scholar.google.com/scholar?q=10.5067%2FQFLMQI76MOJA"
+    },
+    {
+      "description": "ABR Inc.—Environmental Research and Services (ABR) produced a land cover map of the north slope of the Arctic National Wildlife Refuge (ANWR) using a classification of satellite imagery that was informed by existing, ancillary field data; new field data collected in 2019; and other relevant spatial data products. The map provides land cover and vegetation information useful for making resource management decisions, including the identification of wildlife habitat types and their distribution and extent. We designed the classification to dovetail with the U.S. National Vegetation Classification (USNVC 2019) and with other land cover maps produced recently for Alaska’s North Slope and Brooks Range regions.",
+      "semantic_score": 0.8012622594833374,
+      "title": "Final Land Cover Map raster - Land Cover Mapping, North Slope of the Arctic National Wildlife Refuge, Alaska, 2019",
+      "url": "https://iris.fws.gov/APPS/ServCat/DownloadFile/196994?Reference=130650"
+    },
+    {
+      "description": "These data provide land cover classifications derived from the Boston University MOD12Q1 V004 MODIS/Terra 1 km Land Cover Product (Friedl et al. 2002). The data are available in various EASE-Grid azimuthal and global projections, in 12.5 km and 25 km spatial resolutions. The data are in flat binary, 1 byte files that are stored by row.",
+      "semantic_score": 0.7981003522872925,
+      "title": "EASE-Grid Land Cover Classifications Derived from Boston University MODIS/Terra Land Cover Data, Version 1",
+      "url": "https://daacdata.apps.nsidc.org/pub/DATASETS/nsidc0608_classification_ease/"
+    },
+    {
+      "description": "This data set consists of land cover classification data derived from satellite imagery as part of the Soil Moisture Active Passive Validation Experiment 2012 (SMAPVEX12). Images from the RADARSAT-2, Système Pour l'Observation de la Terre (SPOT-4), and DMC International Imaging Ltd (DMCii) of the study area were retrieved for the summer of 2012. The land use classification image provides information about vegetation present in the study area at a resolution of 20 meters.",
+      "semantic_score": 0.7954980731010437,
+      "title": "SMAPVEX12 Land Cover Classification Map V001",
+      "url": "https://scholar.google.com/scholar?q=10.5067%2F4FRNSHRF3TRY"
+    },
+    {
+      "description": "This data set consists of land cover classification data derived from satellite imagery as part of the Soil Moisture Active Passive Validation Experiment 2012 (SMAPVEX12). Images from the RADARSAT-2, Système Pour l'Observation de la Terre (SPOT-4), and DMC International Imaging Ltd (DMCii) of the study area were retrieved for the summer of 2012. The land use classification image provides information about vegetation present in the study area at a resolution of 20 meters.",
+      "semantic_score": 0.7954980731010437,
+      "title": "SMAPVEX12 Land Cover Classification Map V001",
+      "url": "https://scholar.google.com/scholar?q=10.5067%2F4FRNSHRF3TRY"
+    },
+    {
+      "description": "These are  two land cover datasets derived from Landsat Thematic Mapper and Operational Land Imager (spatial resolution 30-m)Path 014 and Rows 032 and 033 surface reflectance data collected on July 14, 2011 and July 19, 2013, before and after Hurricane Sandy made landfall near Brigantine, New Jersey on October 29, 2012.  The two land cover data sets provide a means of evaluating the effect of Hurricane Sandy of data sets collected at times that represent or approach peak vegetation growth.  The most accurate results of the land cover classification are based on twelve classes, some of which occur adjacent to the marshes but not on the New Jersey intracoastal marshes. Twelve classes were used in the supervised maximum likelihood classification of the intracoastal marshes, three classes (forested wetlands, unconsolidated beach sediment and urban development areas) which occur only adjacent to the marshes, were masked out on the land cover maps. The twelve classes are based on the National Oceanic and Atmospheric Administration Coastal Change Analysis Program (C-CAP) and the New Jersey Department of Environmental Protection 2007 Land Use/Land Cover Data Set classes that could be identified on the Landsat TM surface reflectance bands 3-5 and Landsat OLI surface reflectance bands 4-6, and field work in 2014 and 2015. There is considerable confusion between classes due to the variation in the species and density of cover of vegetation, variation in the composition and density of the vegetation, variation in the composition and amount of the marsh substrate detected by the sensor, and the variation in tidal stage which strongly influences the surface reflectance of the pixel (Kearney et al. 2009). However, the identification of high marsh appears to be accurate based on field work validation. The high marsh contains one-to-three-meter-wide areas of low marsh that border the bays and lagoons and tidal creeks in the marshes, but that are too small to resolve with the Landsat sensors. \nKearney, M.S., Stutzer, D.S., Turpie, K., and Stevenson, J.C. (2009) Spectral properties of marsh vegetation under inundation. Journal of Coastal Research 25: 1177-1186.",
+      "semantic_score": 0.7816084623336792,
+      "title": "Land cover classification dataset",
+      "url": "https://data.usgs.gov/datacatalog/metadata/USGS.5820a31de4b080404e6fa9a3.xml"
+    }
+  ]
+}

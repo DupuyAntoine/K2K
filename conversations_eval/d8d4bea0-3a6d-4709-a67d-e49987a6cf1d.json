@@ -1,0 +1,76 @@
+{
+  "id": "d8d4bea0-3a6d-4709-a67d-e49987a6cf1d",
+  "domain": "earthObservation",
+  "messages": [
+    {
+      "sender": "user",
+      "text": "Provide Land surface temperature in Africa for 2015"
+    },
+    {
+      "sender": "bot",
+      "text": "You are looking for land surface temperature data for Africa in 2015. After conducting a thorough search, I found several datasets that might be relevant to your query. However, it seems that none of the retrieved datasets specifically focus on Africa for the year 2015.\n\nHere are a few datasets that contain land surface temperature data and might be of interest:\n\n1. **International Surface Temperature Initiative (ISTI) Global Land Surface Temperature Databank - Stage 3 Monthly**: This dataset contains monthly timescale mean, maximum, and minimum temperature for approximately 40,000 stations globally, including some in Africa. It covers data from the 1800s to present and is available at [https://doi.org/10.7289/V5PK0D3G](https://doi.org/10.7289/V5PK0D3G).\n2. **Land Surface Temperature July 2015**: Although not exclusively focused on Africa, this dataset provides estimated land surface temperature for July 16, 2015, based on Landsat 8 imagery. It can be found at [https://opendata.dc.gov/documents/DCGIS::land-surface-temperature-july-2015](https://opendata.dc.gov/documents/DCGIS::land-surface-temperature-july-2015).\n\nTo narrow down the search, could you please provide more details on the specific requirements for the land surface temperature data, such as the desired format (e.g., CSV, JSON) or any preferred data source? Additionally, are you looking for data from a particular region within Africa or a specific time frame within 2015? This information will help in refining the search to find the most suitable dataset for your needs."
+    }
+  ],
+  "files": [
+    {
+      "description": "<div>Landsat 8 imagery (Level 1) for years 2014 to 2018 was processed to estimated land surface temperature.</div><div><br /></div>",
+      "semantic_score": 0.8172503113746643,
+      "title": "Land Surface Temperature 2014 to 2018",
+      "url": "https://opendata.dc.gov/documents/DCGIS::land-surface-temperature-2014-to-2018"
+    },
+    {
+      "description": "<DIV STYLE=\"text-align:Left;\"><P><SPAN>Landsat 8 imagery (Level 1) for July 2, 2016 was processed to estimated land surface temperature.</SPAN></P></DIV>",
+      "semantic_score": 0.8036130666732788,
+      "title": "Land Surface Temperature July 2016",
+      "url": "https://opendata.dc.gov/documents/DCGIS::land-surface-temperature-july-2016"
+    },
+    {
+      "description": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>Landsat 8 imagery (Level 1) for July 16, 2015 was processed to estimated land surface temperature.</SPAN></P></DIV></DIV></DIV>",
+      "semantic_score": 0.800547182559967,
+      "title": "Land Surface Temperature July 2015",
+      "url": "https://opendata.dc.gov/documents/DCGIS::land-surface-temperature-july-2015"
+    },
+    {
+      "description": "The Global Land Surface Temperature Databank contains monthly timescale mean, maximum, and minimum temperature for approximately 40,000 stations globally. It was developed as part of the International Surface Temperature Initiative. This is the global repository for all monthly timescale land surface observations from the 1800s to present and uses data deriving from sub-daily, daily, and monthly observations. It brings together data from more than 45 sources to create a single merged dataset. It will be used in the creation of various integrated global temperature resources, most notably Global Historical Climatology Network Monthly (GHCN-M) v4.",
+      "semantic_score": 0.8002116680145264,
+      "title": "International Surface Temperature Initiative (ISTI) Global Land Surface Temperature Databank - Stage 3 Monthly",
+      "url": "https://doi.org/10.7289/V5PK0D3G"
+    },
+    {
+      "description": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>Landsat 8 imagery (Level 1) for July 13, 2014 was processed to estimated land surface temperature.</SPAN></P></DIV></DIV></DIV>",
+      "semantic_score": 0.7998090982437134,
+      "title": "Land Surface Temperature July 2014",
+      "url": "https://opendata.dc.gov/documents/DCGIS::land-surface-temperature-july-2014"
+    },
+    {
+      "description": "The global land surface temperature databank contains monthly timescale mean, max, and min temperature for approximately 40,000 stations globally. It was developed as part of the International Surface Temperature Initiative. This is the global repository for all monthly timescale land surface observations from the 1800s to present and uses data deriving from sub-daily, daily, and monthly observations. It brings together data from more than 45 sources and is used in the creation of various integrated global temperature resources, most notably Global Historical Climatology Network Monthly (GHCN-M) v4. Stage 2 Daily data are processed into a standard format from Stage 1 Daily files. Stage 2 data are not homogenized or processed beyond flagging for data provenance and data quality.",
+      "semantic_score": 0.7977645993232727,
+      "title": "International Surface Temperature Initiative (ISTI) Global Land Surface Temperature Databank - Stage 2 Daily",
+      "url": "https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C00852/html"
+    },
+    {
+      "description": "The global land surface temperature databank contains monthly timescale mean, max, and min temperature for approximately 40,000 stations globally. It was developed as part of the International Surface Temperature Initiative. This is the global repository for all monthly timescale land surface observations from the 1800s to present and uses data deriving from sub-daily, daily, and monthly observations. It brings together data from more than 45 sources and is used in the creation of various integrated global temperature resources, most notably Global Historical Climatology Network Monthly (GHCN-M) v4. Stage 2 Data are processed into a standard format from Stage 2 Daily and Stage 1 Monthly files. Stage 2 data are not homogenized or processed beyond flagging for data provenance and data quality. Stage 2 daily data undergo some basic processes to convert observations into monthly data. See documentation for more information.",
+      "semantic_score": 0.7970341444015503,
+      "title": "International Surface Temperature Initiative (ISTI) Global Land Surface Temperature Databank - Stage 2 Monthly",
+      "url": "https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C00848/html"
+    },
+    {
+      "description": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>Landsat 8 imagery (Level 1) for August 22, 2017 was processed to estimated land surface temperature.</SPAN></P></DIV></DIV></DIV>",
+      "semantic_score": 0.7955909371376038,
+      "title": "Land Surface Temperature August 2017",
+      "url": "https://opendata.dc.gov/documents/DCGIS::land-surface-temperature-august-2017"
+    },
+    {
+      "description": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>Landsat 8 imagery (Level 1) for July 8, 2018 was processed to estimated land surface temperature.</SPAN></P></DIV></DIV></DIV>",
+      "semantic_score": 0.7951667904853821,
+      "title": "Land Surface Temperature July 2018",
+      "url": "https://opendata.dc.gov/documents/DCGIS::land-surface-temperature-july-2018"
+    },
+    {
+      "description": "MODIS (or Moderate Resolution Imaging Spectroradiometer) is a key instrument aboard the Terra (EOS AM) and Aqua (EOS PM) satellites. Terra's orbit around the Earth is timed so that it passes from north to south across the equator in the morning, while Aqua passes south to north over the equator in the afternoon. Terra MODIS and Aqua MODIS are viewing the entire Earth's surface every 1 to 2 days, acquiring data in 36 spectral bands, or groups of wavelengths (see MODIS Technical Specifications). This map shows the temperature of Earth's lands during the nighttime.",
+      "semantic_score": 0.7926498055458069,
+      "title": "Land Surface Temperature at Night",
+      "url": "http://modis.gsfc.nasa.gov/data/"
+    }
+  ]
+}

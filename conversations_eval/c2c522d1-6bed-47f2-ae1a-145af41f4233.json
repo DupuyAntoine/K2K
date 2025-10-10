@@ -1,0 +1,76 @@
+{
+  "id": "c2c522d1-6bed-47f2-ae1a-145af41f4233",
+  "domain": "earthObservation",
+  "messages": [
+    {
+      "sender": "user",
+      "text": "Provide XLSX datasets of land surface albedo in South America between 2000 and 2010"
+    },
+    {
+      "sender": "bot",
+      "text": "Based on your request, I've searched for XLSX datasets related to land surface albedo in South America between 2000 and 2010. Unfortunately, the search results didn't yield any datasets that exactly match your criteria. However, I found some relevant datasets that might be of interest to you:\n\n1. **NLCD - MODIS land cover-albedo dataset for the continental United States**: Although this dataset doesn't cover South America, it does provide land cover and albedo data for the continental United States between 2000 and 2010. The dataset is available in various formats, but not XLSX. You can find it at [https://www.mrlc.gov/data](https://www.mrlc.gov/data).\n2. **Multilayer Greenland Ice Surface Temperature, Surface Albedo, and Water Vapor from MODIS V001**: This dataset contains surface albedo data, but it's focused on Greenland, not South America. It's available in various formats, including NetCDF, but not XLSX. You can find it at [https://scholar.google.com/scholar?q=10.5067%2F7THUWT9NMPDK](https://scholar.google.com/scholar?q=10.5067%2F7THUWT9NMPDK).\n3. **NOAA GOES-R Series Advanced Baseline Imager (ABI) Level 2 Land Surface Albedo (LSA)**: This dataset provides land surface albedo data, but it's focused on the continental United States, and the format is NetCDF, not XLSX. You can find it at [https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C01535/html](https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C01535/html).\n\nTo find more relevant datasets, I would need more information about the specific producer or source you're looking for. Alternatively, you could try searching for datasets on websites like the National Centers for Environmental Information (NCEI) or the National Aeronautics and Space Administration (NASA) Earthdata portal.\n\nIf you have any further questions or would like to refine your search, please let me know, and I'll do my best to assist you."
+    }
+  ],
+  "files": [
+    {
+      "description": "No description found",
+      "semantic_score": 0.8770453929901123,
+      "title": "Surface Spectral Albedo",
+      "url": "http://www.archive.arm.gov/discovery/#v/results/s/s::surfspecalb1mlawer"
+    },
+    {
+      "description": "The NLCD-MODIS land cover-albedo database integrates high-quality MODIS albedo observations with areas of homogeneous land cover from NLCD. The spatial resolution (pixel size) of the database is 480m-x-480m aligned to the standardized UGSG Albers Equal-Area projection. The spatial extent of the database is the continental United States. \n\nThis dataset is associated with the following publication:\nWickham, J., M. Nash, and C.A. Barnes. Effect of land cover change on snow free surface albedo across the continental United States.   Global and Planetary Change. Elsevier BV, AMSTERDAM,  NETHERLANDS, 146: 1-9, (2016).",
+      "semantic_score": 0.8112654089927673,
+      "title": "NLCD - MODIS land cover- albedo dataset for the continental United States",
+      "url": "https://edg.epa.gov/metadata/catalog/search/resource/details.page?uuid=A-3txd-117"
+    },
+    {
+      "description": "The objective of this study was to determine the spatial variations in field measurements of broadband albedo as related to the ground cover and under a range of solar conditions during the Prototype Validation Exercise (PROVE) at the Jornada Experimental Range in New Mexico on May 20-30, 1997. The surface albedo was sampled as described in Barnsley et al. (2000) at intervals along transects radiating north, south, east, and west from the main instrumentation tower at the transitional vegetation site. Several of these transects were sampled on more than one occasion, under a range of solar illumination conditions. At the grassland site, albedo measurements were taken along a single transect, sampled at 10-m intervals, at three different times of day (i.e., at different solar zenith angles). In addition to the albedo data, hemispherical photographs were taken at each of the sample sites to provide a visual record, and the images were classified to estimate the proportion of bare soil, live vegetation, and woody ground cover.",
+      "semantic_score": 0.804287850856781,
+      "title": "PROVE Surface albedo of Jornada Experimental Range, New Mexico, 1997",
+      "url": "https://search.earthdata.nasa.gov/search?q=jornada_albedo_667&ac=true"
+    },
+    {
+      "description": "METAR is the international standard code format for hourly surface weather observations. The acronym roughly translates from French as Aviation Routine Weather Report. Because METAR data is collected for aviation purposes, observation stations are located at airports and helipads. This dataset shows locations of the stations with the URL attribute that allows linkage to the most recent observations.",
+      "semantic_score": 0.8023892045021057,
+      "title": "Land Surface Weather Observations",
+      "url": "https://www.ncei.noaa.gov/maps/habsos/maps.htm"
+    },
+    {
+      "description": "The NLCD-MODIS land cover-albedo database integrates high-quality MODIS albedo observations with areas of homogeneous land cover from NLCD. The spatial resolution (pixel size) of the database is 480m-x-480m aligned to the standardized UGSG Albers Equal-Area projection. The spatial extent of the database is the continental United States. \n\nThis dataset is associated with the following publication:\nWickham , J., C.A. Barnes, and T. Wade. Combining NLCD and MODIS to Create a Land Cover-Albedo Dataset for the Continental United States.   REMOTE SENSING OF ENVIRONMENT. Elsevier Science Ltd, New York, NY, USA, 170(0): 143-153, (2015).",
+      "semantic_score": 0.7995944619178772,
+      "title": "NLCD - MODIS land cover- albedo dataset for the continental United States",
+      "url": "https://www.mrlc.gov/data"
+    },
+    {
+      "description": "This multilayer data set includes standard MODIS Collection 6.1 ice surface temperature (IST) and derived melt map, as well as MODIS Collection 6.0 albedo and water vapor for Greenland, at a spatial resolution of 0.78 km. These fields enable the relationship between IST and surface melt to be evaluated by researchers studying surface changes on the Greenland ice sheet. Water vapor is included to assist with evaluating the accuracy of the IST data and the model output. Also included is an ice mask and a basins mask for delineating drainage basins in Greenland.\n\nSurface temperature is a fundamental input for dynamical ice sheet models because it is a component of the ice sheet radiation budget and mass balance. Surface temperature also influences ice sheet processes, such as surface melt. This data set may be used as a resource for model-validation studies such as comparing MERRA-2 surface temperature with MODIS IST, and for comparing MODIS IST, albedo and water vapor with products from sensors on other satellites such as VIIRS and AIRS\n\nThe temporal coverage for this data set spans 1 March 2000 through 31 December 2019, with the exception of the IST data, which has been extended through 31 Aug 2021.",
+      "semantic_score": 0.7990127801895142,
+      "title": "Multilayer Greenland Ice Surface Temperature, Surface Albedo, and Water Vapor from MODIS V001",
+      "url": "https://scholar.google.com/scholar?q=10.5067%2F7THUWT9NMPDK"
+    },
+    {
+      "description": "This multilayer data set includes standard MODIS Collection 6.1 ice surface temperature (IST) and derived melt map, as well as MODIS Collection 6.0 albedo and water vapor for Greenland, at a spatial resolution of 0.78 km. These fields enable the relationship between IST and surface melt to be evaluated by researchers studying surface changes on the Greenland ice sheet. Water vapor is included to assist with evaluating the accuracy of the IST data and the model output. Also included is an ice mask and a basins mask for delineating drainage basins in Greenland.\n\nSurface temperature is a fundamental input for dynamical ice sheet models because it is a component of the ice sheet radiation budget and mass balance. Surface temperature also influences ice sheet processes, such as surface melt. This data set may be used as a resource for model-validation studies such as comparing MERRA-2 surface temperature with MODIS IST, and for comparing MODIS IST, albedo and water vapor with products from sensors on other satellites such as VIIRS and AIRS\n\nThe temporal coverage for this data set spans 1 March 2000 through 31 December 2019, with the exception of the IST data, which has been extended through 31 Aug 2021.",
+      "semantic_score": 0.7990127801895142,
+      "title": "Multilayer Greenland Ice Surface Temperature, Surface Albedo, and Water Vapor from MODIS V001",
+      "url": "https://scholar.google.com/scholar?q=10.5067%2F7THUWT9NMPDK"
+    },
+    {
+      "description": "The GOES-R Advanced Baseline Imager (ABI) Level 2 Land Surface Albedo (LSA) as defined as the ratio between outgoing and incoming irradiance at the earth's surface. The LSA is a shortwave broadband blue-sky albedo over wavelengths between 0.4 and 3.0 Âµm. Besides the blue-sky broadband shortwave albedo, the LSA algorithm also generates spectral land surface reflectance as byproducts. The frequent temporal refreshment, fine spectral resolution and large spatial coverage make ABI a unique data source for mapping LSA. The Land Surface Albedo product image is provided at 2 km resolution on the ABI fixed grid for Full Disk, CONUS, and Mesoscale coverage regions from GOES East and West.",
+      "semantic_score": 0.7968520522117615,
+      "title": "NOAA GOES-R Series Advanced Baseline Imager (ABI) Level 2 Land Surface Albedo (LSA)",
+      "url": "https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C01535/html"
+    },
+    {
+      "description": "These data was collected by the U.S. Bureau of Land Management (BLM) in New Mexico at both the New Mexico State Office and at the various field offices. This dataset is meant to depict the surface owner or manager of the land parcels. In the vast majority of land parcels, they will be one and the same. However, there are instances where the owner and manager of the land surface are not the same. When this occurs, the manager of the land is usually indicated. BLM's Master Title Plats are the official land records of the federal government and serve as the primary data source for depiction of all federal lands. Information from State of New Mexico is the primary source for the depiction of all state lands. Auxilliary source are referenced, as well, for the depiction of all lands. Collection of this dataset began in the 1980's using the BLM's ADS software to digitize information at the 1:24,000 scale. In the mid to late 1990's the data was converted from ADS to ArcInfo software and merged into tiles of one degree of longitude by one half degree of latitude. These tiles were regularly updated. The tiles were merged into a statewide coverage. The source geodatabase for this shapefile was created by loading the merged ArcInfo coverage into a personal geodatabase. The geodatabase data were snapped to a more accurate GCDB derived land network, where available. In areas where GCDB was not available the data were snapped to digitized PLSS. In 2006, the personal geodatabase was loaded into an enterprise geodatabase (SDE). This shapefile has been created by exporting the feature class from SDE.",
+      "semantic_score": 0.788010835647583,
+      "title": "Bureau of Land Management Surface Land Ownership (2012)",
+      "url": "http://rgis.unm.edu"
+    },
+    {
+      "description": "These data were collected by the U.S. Bureau of Land Management (BLM) in New Mexico at both the New Mexico State Office and at the various field offices. This dataset is meant to depict the surface owner or manager of the land parcels. In the vast majority of land parcels, they will be one and the same. However, there are instances where the owner and manager of the land surface are not the same. When this occurs, the manager of the land is usually indicated. BLM's Master Title Plats are the official land records of the federal government and serve as the primary data source for depiction of all federal lands. Information from State of New Mexico is the primary source for the depiction of all state lands. Auxilliary source are referenced, as well, for the depiction of all lands. Collection of this dataset began in the 1980's using the BLM's ADS software to digitize information at the 1:24,000 scale. In the mid to late 1990's the data was converted from ADS to ArcInfo software and merged into tiles of one degree of longitude by one half degree of latitude. These tiles were regularly updated. The tiles were merged into a statewide coverage. The source geodatabase for this shapefile was created by loading the merged ArcInfo coverage into a personal geodatabase. The geodatabase data were snapped to a more accurate GCDB derived land network, where available. In areas where GCDB was not available the data were snapped to digitized PLSS. In 2006, the personal geodatabase was loaded into an enterprise geodatabase (SDE). This shapefile has been created by exporting the feature class from SDE.",
+      "semantic_score": 0.7871076464653015,
+      "title": "Bureau of Land Management Surface Land Ownership (2014)",
+      "url": "http://gstore.unm.edu/apps/rgisarchive/datasets/13ac7a34-059c-436f-ad5c-8e0ed3e340b8/landown2014.original.zip"
+    }
+  ]
+}

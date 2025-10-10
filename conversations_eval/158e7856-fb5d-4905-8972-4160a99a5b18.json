@@ -1,0 +1,76 @@
+{
+  "id": "158e7856-fb5d-4905-8972-4160a99a5b18",
+  "domain": "earthObservation",
+  "messages": [
+    {
+      "sender": "user",
+      "text": "Provide CSV datasets of sea level rise in global between 2015 and 2023"
+    },
+    {
+      "sender": "bot",
+      "text": "Based on your request for CSV datasets of sea level rise on a global scale between 2015 and 2023, I've conducted a thorough search. While there are numerous datasets related to sea level rise, finding ones that exactly match your criteria (global, 2015-2023, CSV format) is somewhat challenging due to the specificity of the temporal and spatial parameters. However, I can provide you with some relevant datasets and resources that might be helpful for your research:\n\n1. **NOAA Office for Coastal Management Sea Level Rise Data**: This dataset provides information on potential sea level rise inundation extent but doesn't directly offer CSV files for global sea level rise data between 2015 and 2023. However, it's a valuable resource for understanding sea level rise impacts. You can explore their data and tools at [https://www.coast.noaa.gov/slr](https://www.coast.noaa.gov/slr).\n\n2. **Sea Level Rise Maps (2100 100-year Floodplain)**: Although this dataset from the City of New York doesn't perfectly match your temporal criteria (it's for 2100 projections), it's an example of how cities are preparing for sea level rise. The data can be downloaded in CSV format from [https://data.cityofnewyork.us/api/views/rf9r-c4pz/rows.csv?accessType=DOWNLOAD](https://data.cityofnewyork.us/api/views/rf9r-c4pz/rows.csv?accessType=DOWNLOAD).\n\n3. **Freshwater Aquatics: Urbanization and Sea Level Rise Scenarios**: This dataset from the USGS explores the effects of urbanization and sea level rise on freshwater aquatics in Peninsular Florida, which might not be directly relevant but demonstrates how sea level rise data can be analyzed for specific regions. The metadata can be found at [https://data.usgs.gov/datacatalog/metadata/USGS.5ce4459ee4b0654fe0bce622.xml](https://data.usgs.gov/datacatalog/metadata/USGS.5ce4459ee4b0654fe0bce622.xml).\n\nTo find datasets that more closely match your requirements, I recommend checking databases such as the [National Centers for Environmental Information (NCEI)](https://www.ncei.noaa.gov/) or the [Intergovernmental Panel on Climate Change (IPCC)](https://www.ipcc.ch/) for global sea level rise data. You might also consider contacting research institutions or organizations focused on climate change and sea level rise for more specific data inquiries.\n\nIf you could provide more details on what aspects of sea level rise you're interested in (e.g., mean sea level, sea level anomalies, etc.) or if there's a particular spatial resolution you're looking for, I might be able to offer more targeted assistance."
+    }
+  ],
+  "files": [
+    {
+      "description": "Sea level rise projections for New York City in the 2080s from the New York City Panel on Climate Change (2019).",
+      "semantic_score": 0.8322715759277344,
+      "title": "2080s Mean Sea Level Rise Projections",
+      "url": "https://data.cityofnewyork.us/api/views/w7sh-mt94/rows.csv?accessType=DOWNLOAD"
+    },
+    {
+      "description": "Sea level rise projections for New York City in the 2050s from the New York City Panel on Climate Change (2019).",
+      "semantic_score": 0.8305803537368774,
+      "title": "2050s Sea Level Rise Projections",
+      "url": "https://data.cityofnewyork.us/api/views/8n8s-np59/rows.csv?accessType=DOWNLOAD"
+    },
+    {
+      "description": "Authoritative California State Lands Commission data along with updated databases of planning documents, datasets from a variety of organizations, and widgets for exploring underlying data.",
+      "semantic_score": 0.8305308818817139,
+      "title": "Sea-Level Rise Viewer",
+      "url": "https://gis.data.cnra.ca.gov/apps/CSLC::sea-level-rise-viewer"
+    },
+    {
+      "description": "Sea level rise projections for New York City in the 2100s from the New York City Panel on Climate Change (2019).",
+      "semantic_score": 0.8295463919639587,
+      "title": "2100s Mean Sea Level Rise Projections",
+      "url": "https://data.cityofnewyork.us/api/views/v3xw-ufub/rows.csv?accessType=DOWNLOAD"
+    },
+    {
+      "description": "This data originates from San Francisco Bay Conservation and Development Commission's Adapting to Rising Tides Program which performed extensive modelling of expected sea level rise impact across the entire 9-county bay area. This data shows inundation from 66 inches of sea level rise combined with a 100-year storm event (equaling 108 inches of total water level)",
+      "semantic_score": 0.8091238737106323,
+      "title": "100-year storm + 66 inches Sea Level Rise",
+      "url": "https://data.sfgov.org/api/views/6ann-usi8/rows.csv?accessType=DOWNLOAD"
+    },
+    {
+      "description": "This data originates from San Francisco Bay Conservation and Development Commission's Adapting to Rising Tides Program which performed extensive modelling of expected sea level rise impact across the entire 9-county bay area. This data shows inundation from 24 inches of sea level rise combined with a 100-year storm event (equaling 66 inches of total water level)",
+      "semantic_score": 0.8082911968231201,
+      "title": "100-Year Storm + 24\" Sea Level Rise",
+      "url": "https://data.sfgov.org/api/views/esku-ejgv/rows.csv?accessType=DOWNLOAD"
+    },
+    {
+      "description": "This is the 100-Year Floodplain for 2100 based on FEMA's Preliminary Work Map data and the New York Panel on Climate Change's 90th Percentile Projects for Sea-Level Rise (75 inches).  Please see the Disclaimer PDF for more information. Data Provided by the Mayor's Office of Long-Term Planning and Sustainability (OLTPS) on behalf of CUNY Institute for Sustainable Cities (CISC) and the New York Panel on Climate Change (NPCC).",
+      "semantic_score": 0.8063347339630127,
+      "title": "Sea Level Rise Maps (2100 100-year Floodplain)",
+      "url": "https://data.cityofnewyork.us/api/views/rf9r-c4pz/rows.csv?accessType=DOWNLOAD"
+    },
+    {
+      "description": "Understanding how ecological and cultural resources may change in the future is an important component of conservation planning and for the implementation of long-term environmental monitoring. We modeled six future scenarios of urbanization and sea level rise to investigate their potential effects on the Peninsular Florida Landscape Conservation Cooperative's Priority Resources (PFLCC 2016), which were identified as important for conservation through a cooperative multi-partner effort to prioritize conservation efforts on a state-wide scale. These data represent conservation targets for the Freshwater Aquatics at present, and under six future scenarios of sea level rise and urbanization.",
+      "semantic_score": 0.7952739596366882,
+      "title": "Freshwater Aquatics: Urbanization and Sea Level Rise Scenarios",
+      "url": "https://data.usgs.gov/datacatalog/metadata/USGS.5ce4459ee4b0654fe0bce622.xml"
+    },
+    {
+      "description": "Understanding how ecological and cultural resources may change in the future is an important component of conservation planning and for the implementation of long-term environmental monitoring. We modeled six future scenarios of urbanization and sea level rise to investigate their potential effects on the Peninsular Florida Landscape Conservation Cooperative's Priority Resources (PFLCC 2016), which were identified as important for conservation through a cooperative multi-partner effort to prioritize conservation efforts on a state-wide scale. These data represent conservation targets for the Coastal Uplands at present, and under six future scenarios of sea level rise and urbanization.",
+      "semantic_score": 0.7949269413948059,
+      "title": "Coastal Uplands: Urbanization and Sea Level Rise Scenarios",
+      "url": "https://data.usgs.gov/datacatalog/metadata/USGS.5ce4458ce4b0654fe0bce61f.xml"
+    },
+    {
+      "description": "These data were created as part of the National Oceanic and Atmospheric Administration Office for Coastal Management's efforts to create an online mapping viewer depicting potential sea level rise and its associated impacts on the nation's coastal areas. The purpose of the mapping viewer is to provide coastal managers and scientists with a preliminary look at sea level rise (slr) and coastal flooding impacts. The viewer is a screening-level tool that uses nationally consistent data sets and analyses. Data and maps provided can be used at several scales to help gauge trends and prioritize actions for different scenarios. The Sea Level Rise and Coastal Flooding Impacts Viewer may be accessed at: https://www.coast.noaa.gov/slr\n\nThese data depict the potential inundation of coastal areas resulting from a projected 0.5 to 10 feet rise in sea level above current Mean Higher High Water (MHHW) conditions in half foot increments. The process used to produce the data can be described as a modified bathtub approach that attempts to account for both local/regional tidal variability as well as hydrological connectivity. The process uses two source datasets to derive the final inundation rasters and polygons and accompanying low-lying polygons for each iteration of sea level rise: the Digital Elevation Model (DEM) of the area and a tidal surface model that represents spatial tidal variability. The tidal model is created using the NOAA National Geodetic Survey's VDATUM datum transformation software (http://vdatum.noaa.gov) in conjunction with spatial interpolation/extrapolation methods and represents the MHHW tidal datum in orthometric values (North American Vertical Datum of 1988).\n\nThe model used to produce these data does not account for erosion, subsidence, or any future changes in an area's hydrodynamics. It is simply a method to derive data in order to visualize the potential scale, not exact location, of inundation from sea level rise.\n\nBoth raster and vector data are provided for each sea level rise amount above MHHW. The raster data represent both the horizontal extent of inundation and depth above ground, in meters. The vector data represent the horizontal extent of both hydrologically connected and unconnected inundation. The vector \"slr\" data represent inundation that is hydrologically connected to the ocean. The vector \"low\" data represent areas that are hydrologically unconnected to the ocean, but are below the sea level rise amount and may also flood.\n\nFor more information, contact coastal.info@noaa.gov.",
+      "semantic_score": 0.7744941115379333,
+      "title": "NOAA Office for Coastal Management Sea Level Rise Data: 1-10 ft Sea Level Rise Inundation Extent",
+      "url": "https://www.coast.noaa.gov/slr"
+    }
+  ]
+}

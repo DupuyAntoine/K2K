@@ -1,0 +1,76 @@
+{
+  "id": "491e10dd-9919-4fed-bbc2-37d8912309bc",
+  "domain": "earthObservation",
+  "messages": [
+    {
+      "sender": "user",
+      "text": "Provide CSV datasets of sea surface temperature in Atlantic between 2010 and 2020"
+    },
+    {
+      "sender": "bot",
+      "text": "You are looking for datasets of sea surface temperature in the Atlantic Ocean, specifically for the period between 2010 and 2020, and you would like the data to be in CSV format.\n\nBased on your request, I've searched through various datasets and found a few that might be relevant to your needs. Here's a summary of what I've found:\n\n1. **OW NOAA GOES Sea-Surface Temperature**: This dataset contains satellite-derived sea-surface temperature measurements collected by the Geostationary Orbiting Environmental Satellite. The data is collected daily and is available at 2-day intervals at a spatial resolution of 0.05 degrees. The geographic coverage extends to the Pacific region, but it might be possible to extract data for the Atlantic region as well. You can access the data through the ERDDAP interface: https://oceanwatch.pifsc.noaa.gov/erddap/griddap/OceanWatch_goes_sst_2day.html\n\n2. **Extended Reconstructed Sea Surface Temperature (ERSST)**: This dataset is a global monthly sea surface temperature analysis derived from the International Comprehensive Ocean-Atmosphere Dataset. The monthly analysis begins in January 1854 and continues to the present, and it includes anomalies computed with respect to a 1971-2000 monthly climatology. You can find more information and access the data here: http://www.ncdc.noaa.gov/oa/climate/research/sst/ersstv3.php\n\n3. **NOAA Daily Optimum Interpolation Sea Surface Temperature**: This dataset is an analysis constructed by combining observations from different platforms (satellites, ships, buoys) on a regular global grid. A spatially complete SST map is produced by interpolating to fill in gaps. The data starts in 1981 and is updated to near present. You can access the data through the NOAA website: https://psl.noaa.gov/thredds/catalog/Datasets/noaa.oisst.v2.highres/catalog.html\n\nPlease note that while these datasets might not exactly match your requirements (e.g., they might not be exclusively for the Atlantic region or might not be in CSV format by default), they could still be useful for your research.\n\nTo obtain the data in CSV format, you might need to use data extraction or conversion tools, depending on the dataset's original format.\n\nIf you're having trouble finding the perfect match or need further assistance, please let me know, and I'll be happy to help you refine your search or explore alternative datasets."
+    }
+  ],
+  "files": [
+    {
+      "description": "The dataset contains satellite-derived sea-surface temperature measurements collected by means of the Geostationary Orbiting Environmental Satellite. The data is collected daily, and is available at 2-day intervals at a spatial resolution of 0.05 degrees. The geographic coverage extends for the Pacific region,and the temporal coverage ranges from 2001-present.",
+      "semantic_score": 0.8142188787460327,
+      "title": "OW NOAA GOES Sea-Surface Temperature",
+      "url": "https://oceanwatch.pifsc.noaa.gov/erddap/griddap/OceanWatch_goes_sst_2day.html"
+    },
+    {
+      "description": "Derived from processed satellite observations. These data are usually within 0.5 degrees Celsius uncertainty for ocean areas and 1 degree Celsius uncertainty for coastal areas.",
+      "semantic_score": 0.8118548393249512,
+      "title": ".Sea Surface Temperature",
+      "url": null
+    },
+    {
+      "description": "The dataset contains satellite-derived sea-surface temperature measurements collected by means of the Advanced Very High Resolution Radiometer - Global Area Coverage (AVHRR-GAC) sensor onboard the NOAA polar orbiting satellite constellation. The data is collected daily, and is available at 3-day, weekly and monthly intervals at a spatial resolution of 0.1. The geographic coverage is global, and the temporal coverage ranges from 2003-2016.",
+      "semantic_score": 0.8082733154296875,
+      "title": "OW NOAA AVHRR-GAC Sea-Surface Temperature",
+      "url": "https://oceanwatch.pifsc.noaa.gov/erddap/griddap/OceanWatch_pfgac_sst_monthly.html"
+    },
+    {
+      "description": "The dataset contains blended satellite-derived sea-surface temperature measurements collected by means of the Geostationary Orbiting Environmental Satellites (GOES) and the Polar-orbiting Operational Environmental Satellites (POES). This global SST analysis provides a daily gap-free map of the foundation sea surface temperature. The data is collected daily, and is available at 2-day, weekly and monthly intervals at a spatial resolution of 0.05 degrees. The geographic coverage extends for the Pacific region,and the temporal coverage ranges from 2012-present.",
+      "semantic_score": 0.8077990412712097,
+      "title": "OW NOAA GOES-POES Sea Surface Temperature",
+      "url": "https://oceanwatch.pifsc.noaa.gov/erddap/griddap/OceanWatch_goes-poes_sst_monthly.html"
+    },
+    {
+      "description": "The Extended Reconstructed Sea Surface Temperature (ERSST) dataset is a global monthly sea surface temperature analysis derived from the\r\nInternational Comprehensive Ocean-Atmosphere Dataset with missing data filled in by statistical methods. The monthly analysis begins in January 1854\r\ncontinuing to the present and includes anomalies computed with respect to a 1971-2000 monthly climatology. Version 3b\r\nis optimally tuned to exclude under-sampled regions for global averages and does not include satellite data, which were found to cause a cold bias\r\nsignificant enough to change the rankings of months.",
+      "semantic_score": 0.8067478537559509,
+      "title": "Extended Reconstructed Sea Surface Temperature (ERSST)",
+      "url": "http://www.ncdc.noaa.gov/oa/climate/research/sst/ersstv3.phphttp://www.esrl.noaa.gov/psd/data/gridded/data.noaa.ersst.html"
+    },
+    {
+      "description": "The Sea Surface Temperature (SST) CPEX dataset consists of data from the Multi-scale Ultra-high Resolution (MUR) sensor, which measures global sea surface temperatures. The data were gathered during the Convective Processes Experiment (CPEX) field campaign, which began in early summer 2017. CPEX collected data to help answer questions about convective storm initiation, organization, growth, and dissipation in the North Atlantic, Gulf of America, and Caribbean Oceanic regions. These data files are available from May 23, 2017, through July 15, 2017, in netCDF-3 format.",
+      "semantic_score": 0.8034328818321228,
+      "title": "Sea Surface Temperature (SST) CPEX",
+      "url": "https://ghrc.earthdata.nasa.gov/browseui/#pub/sstcpex__1/docs/sstcpex_dataset.pdf"
+    },
+    {
+      "description": "The dataset contains satellite-derived sea-surface temperature measurements collected by means of the Advanced Very High Resolution Radiometer - Global Area Coverage (AVHRR-GAC) sensor onboard the NOAA polar orbiting satellite constellation. The data consists of Pathfinder AVHRR SST data collected between 1985-2003; existing data thereafter consists of AVHRR-GAC data. Dataset contains weekly and monthly composites at a spatial resolution of 0.1 degrees. The geographic coverage extends for the entire globe.",
+      "semantic_score": 0.8019262552261353,
+      "title": "OW NOAA Pathfinder/GAC Sea-Surface Temperature",
+      "url": "https://oceanwatch.pifsc.noaa.gov/erddap/griddap/OceanWatch_pfgac_sst_monthly.html"
+    },
+    {
+      "description": "The NOAA 1/4Â° daily Optimum Interpolation Sea Surface Temperature (or daily OISST) is an analysis constructed by combining observations from\r\ndifferent platforms (satellites, ships, buoys) on a regular global grid. A spatially complete SST map is produced by interpolating to fill in gaps.\r\nData starts in 1981 and is updated to near present.",
+      "semantic_score": 0.7976037859916687,
+      "title": "NOAA Daily Optimum Interpolation Sea Surface Temperature",
+      "url": "https://psl.noaa.gov/thredds/catalog/Datasets/noaa.oisst.v2.highres/catalog.html"
+    },
+    {
+      "description": "The COBE-SST is a gridded 1x1 resolution SST monitoring dataset. It is used as input for the JMA Climate Data Assimilation System (JCDAS) and the\r\nJapanese 25-year Re-analyses (JRA-25 and JRA-55). It is also used as input for the ensemble prediction systems used in seasonal forecasts. It starts\r\nin 1891 and extends to near present.",
+      "semantic_score": 0.7964576482772827,
+      "title": "COBE Sea Surface Temperature",
+      "url": "http://www.esrl.noaa.gov/psd/data/gridded/data.cobe.html"
+    },
+    {
+      "description": "Sea surface temperature (SST) is an important indicator of the state of the earth climate system as well as a key variable in the coupling between the atmosphere and the ocean. Accurate knowledge of SST is essential for climate monitoring, prediction and research. It is also a key surface boundary condition for numerical weather prediction and for other atmospheric simulations using atmospheric general circulation models and regional models. SST also is important in gas exchange between the ocean and atmosphere, including the air-sea flux of carbon. Gridded SST products have been developed to satisfy these needs. There are 3 .zip files provided with this data set.Gridded monthly and weekly sea surface temperature (SST) and long term SST monthly climatology for the period 1971-2000 are provided here. Weekly normalized error variance fields are also provided with the weekly data. The data are derived using the National Oceanic and Atmospheric Administration (NOAA) Optimum Interpolation (OI) global sea surface temperature analyses that use seven days of in situ (ship and buoy) and satellite SST observations and SST values derived from sea ice concentration. These analyses are produced weekly using optimum interpolation (OI) on a 1-degree grid. The data sets included in the ISLSCP II data collection are produced using version 2 of the OI analyses, called OIv2. In this data set, the ISLSCP II staff have masked land areas based on the ISLSCP II land/water mask. A file describing the differences between the ISLSCP II mask and the original mask used is provided.",
+      "semantic_score": 0.7949584722518921,
+      "title": "ISLSCP II Sea Surface Temperature",
+      "url": "https://search.earthdata.nasa.gov/search?q=sea_surface_temp_1deg_980&ac=true"
+    }
+  ]
+}

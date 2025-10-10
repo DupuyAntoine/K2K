@@ -1,0 +1,76 @@
+{
+  "id": "aa2b4471-8ac4-470a-ba9c-cfbb51be1817",
+  "domain": "earthObservation",
+  "messages": [
+    {
+      "sender": "user",
+      "text": "Provide monthly air temperature and humidity over France in 2019"
+    },
+    {
+      "sender": "bot",
+      "text": "I've searched for datasets containing monthly air temperature and humidity data over France for the year 2019. While I couldn't find an exact match, I've retrieved some relevant datasets that might be useful for your research:\n\n1. **Surface Temperature and Humidity Reference system for sondes**: This dataset, available at [http://www.archive.arm.gov/discovery/#v/results/s/s::surthref](http://www.archive.arm.gov/discovery/#v/results/s/s::surthref), contains surface temperature and humidity data, but it's not specific to France. However, it might be useful for comparative analysis or as a reference.\n2. **Temperature, relative humidity, and cloud immersion data for Luquillo Mountains, eastern Puerto Rico, 2014-2019**: Although this dataset, found at [https://data.usgs.gov/datacatalog/metadata/USGS.5f7cc24f82ce1d74e7db5531.xml](https://data.usgs.gov/datacatalog/metadata/USGS.5f7cc24f82ce1d74e7db5531.xml), is not focused on France, it provides detailed temperature, relative humidity, and cloud immersion data that could be relevant for understanding atmospheric conditions in other regions.\n3. **In-situ Air Temperature and Relative Humidity in Greenbelt, MD, 2013-2015**: This dataset, available at [https://search.earthdata.nasa.gov/search?q=Maryland_Temperature_Humidity_1319&ac=true](https://search.earthdata.nasa.gov/search?q=Maryland_Temperature_Humidity_1319&ac=true), provides in-situ air temperature and relative humidity data, but it's specific to Greenbelt, MD, and not France.\n\nTo find more precise data, I would like to ask a few clarifying questions:\n\n* Are you looking for data from a specific organization or source (e.g., Météo-France, ECMWF, or NASA)?\n* Do you have a preferred format for the data (e.g., CSV, JSON, NetCDF)?\n* Would you like me to search for datasets that cover a broader geographic area, such as Europe, or focus specifically on France?\n\nPlease let me know how I can further assist you in finding the desired data."
+    }
+  ],
+  "files": [
+    {
+      "description": "No description found",
+      "semantic_score": 0.874391496181488,
+      "title": "Surface Temperature and Humidity Reference system for sondes",
+      "url": "http://www.archive.arm.gov/discovery/#v/results/s/s::surthref"
+    },
+    {
+      "description": "No description found",
+      "semantic_score": 0.8572717308998108,
+      "title": "Facility-specific multi-level Meteorological Instrumentation, e.g. Tower Temperature and Humidity",
+      "url": "http://www.archive.arm.gov/discovery/#v/results/s/s::twr"
+    },
+    {
+      "description": "No description found",
+      "semantic_score": 0.8341307640075684,
+      "title": "Temperature, humidity, winds and pressure system (THWAPS): meterological data",
+      "url": "http://www.archive.arm.gov/discovery/#v/results/s/s::thwaps"
+    },
+    {
+      "description": "This data release provides locations and measurements of air temperature, humidity and rainfall from 5 weather stations that were placed across an altitudinal gradient along Waiea Tract Road, a gravel road maintained by McCandless Ranch that parallels the southern boundary of the Kona Unit of Hakalau Forest National Wildlife Refuge.  This XML describes three different CSV datasets: (i) Environmental Data - Weather Station Locations.CSV, (ii) Environmental Data - Temperature and Humidity.CSV, and (iii) Environmental Data - Rainfall.CSV. The data were collected between 1995 - 2000.",
+      "semantic_score": 0.8005867600440979,
+      "title": "Measures of air temperature, humidity and rainfall across an altitudinal gradient in South Kona, Island of Hawai'i, 1995 - 2000",
+      "url": "https://data.usgs.gov/datacatalog/metadata/USGS.67259ed8d34e4f57573f87bf.xml"
+    },
+    {
+      "description": "This data set describes the temperature and relative humidity at 12 locations around Goddard Space Flight Center in Greenbelt MD at 15 minute intervals between November 2013 and November 2015. These data were collected to study the impact of surface type on heating in a campus setting and to improve the understanding of urban heating and potential mitigation strategies on the campus scale. Sensors were mounted on posts at 2 m above surface and placed on 7 different surface types around the centre: asphalt parking lot, bright surface roof, grass field, forest, and stormwater mitigation features (bio-retention pond and rain garden). Data were also recorded in an office setting and a garage, both pre- and post-deployment, for calibration purposes. This dataset could be used to validate satellite-based study or could be used as a stand-alone study of the impact of surface type on heating in a campus setting.",
+      "semantic_score": 0.8002210855484009,
+      "title": "In-situ Air Temperature and Relative Humidity in Greenbelt, MD, 2013-2015",
+      "url": "https://search.earthdata.nasa.gov/search?q=Maryland_Temperature_Humidity_1319&ac=true"
+    },
+    {
+      "description": "The raw data values used in all the tables and figures of the manuscript. \n\nThis dataset is associated with the following publication:\nZavala, J., R. Greenan, T. Krantz , D. DeMarini , M. Higuchi , I. Gilmour , and P.A. White. Regulating temperature and relative humidity in air-liquid interface in vitro systems eliminates cytotoxicity resulting from control air exposures.   Toxicology Research. Royal Society of Chemistry, London,  UK, 6(4): 448-459, (2017).",
+      "semantic_score": 0.7894248962402344,
+      "title": "Regulating temperature and relative humidity in air-liquid interface in vitro systems",
+      "url": "https://pasteur.epa.gov/uploads/10.23719/1517577/HiguchiMark_A-q57w_SDMP_20200108.xlsx"
+    },
+    {
+      "description": "Understanding indoor humidity conditions in low energy homes in hot-humid climates is critical to promoting long term occupant comfort, indoor air quality and building durability. The results of this study were expected to inform the residential building community on whether supplemental dehumidification is a needed and effective investment to promote these long term standards.\n\nData logging equipment was installed at eight test homes in July, 2012 and later at two more test homes in January, 2013. Interior conditions and various end-use loads were monitored until November 7th, 2013. The mechanical systems at each of the 10 homes were commissioned by BSC to ensure consistent operation between each of the homes and to fully comply with the intended mechanical design.\n\nPHA-1 to 8 - Energy Savings: 21.8-18.9%, Company: Project Home Again (PHA); Address New Orleans, LA 70112, House Count: 8\nBDC-1 - Energy Savings: 28.8%, Company: Broadmoor Development Corporation (BDC); Address New Orleans, LA 70112, House Count: 2",
+      "semantic_score": 0.7877539396286011,
+      "title": "Evaluation of the Performance of Houses With and Without Supplemental Dehumidification in a Hot-Humid Climate",
+      "url": "http://www.eere.energy.gov/buildings/publications/pdfs/building_america/houses_supplemental_dehumidification.pdf"
+    },
+    {
+      "description": "These files contain time-course data for temperature, relative humidity, and fumigant concentration during the fumigation of computers with methyl bromide or methyl iodide. There is a also a file that shows the effect of fumigation on the sensitivity of the HOBO-U10 RH sensor. \n\nThis dataset is associated with the following publication:\nLee, S., S. Serre, A. Adrion, and R. Scheffrahn. Impact of Sporicidal Fumigation with Methyl Bromide or Methyl Iodide on Electronic Equipment.   JOURNAL OF ENVIRONMENTAL MANAGEMENT. Elsevier Science Ltd, New York, NY, USA, 231: 1021-1027, (2019).",
+      "semantic_score": 0.784934401512146,
+      "title": "temperature, relative humidity, and fumigant concentration during fumigation of computers with methyl bromide or methyl iodide and the effect of fumigant on humidity sensors",
+      "url": "https://pasteur.epa.gov/uploads/10.23719/1413137/bulk_chamber_T_RH_during_fumigation.xlsx"
+    },
+    {
+      "description": "Air temperature and relative humidity (T/RH) sensors (Onset Computer Corp. model U23-002) were measured from June 2015 to August 2016 at 100-m elevation intervals, from ~600 to ~1000 m, along a southeast-northwest trending ridge in the Luquillo Experimental Forest (LEF), eastern Puerto Rico. The prevailing wind direction is most frequently east to east-northeast and occasionally east-southeast so these locations are on the leeward side of the mountains; the data are within the timeframe and complementary to those collected at sites on the windward mountain slope. The T/RH sensors were installed with a custom-made PVC housing that had shade panels while allowing open air flow (Bassiouni et al., Fig. 2b). This housing was mounted on tree trunks 1.5-1.8 m above the ground. Air temperature and relative humidity data were downloaded every 2-3 months. Because air temperature and humidity were affected by site visits, data for one hour after downloading were excluded from the dataset.\nReference:\nBassiouni, M., Scholl, M. A., Torres-Sanchez, A. J., &amp; Murphy, S. F. (2017). A method for quantifying cloud immersion in a tropical mountain forest using time-lapse photography. Agricultural and Forest Meteorology, 243, 100-112. doi:10.1016/j.agrformet.2017.04.010.",
+      "semantic_score": 0.7843284606933594,
+      "title": "Temperature and relative humidity data for leeward sites in the Luquillo Mountains, eastern Puerto Rico, 2015-2016",
+      "url": "https://doi.org/10.5066/P9UQCN4T"
+    },
+    {
+      "description": "Supplementary data for studies conducted in the Luquillo Experimental Forest (LEF), eastern Puerto Rico include measurements of temperature, relative humidity and cloud immersion at 30-minute resolution.  Temperature and relative humidity were measured at five sites; two primary sites have records from April 2014 to June 2019; other sites have shorter records within that period.  From these data, derived values of dew point, vapor pressure deficit (VPD), and evaporative fraction were calculated.  Daily 13:00 temperature and VPD gradients with elevation along the forested slope were calculated on days with data from at least 3 of the 5 sites (617, 675, 794, 904 and 1006 m), from April 2014 to November 2018.  Cloud immersion frequency data are given for sites having the most complete records (675 m and 1006 m), representing the forested mountain slope near minimum cloud base altitude and the highest elevation in eastern Puerto Rico, respectively. Time-lapse camera images at 30-minute intervals were used to produce a binary series of cloud-immersed or clear conditions in the forest from April 2014 - November 2018. Briefly, contrast, luminance and colorfulness of daytime (color) and nighttime (grayscale) images were analyzed to determine cloud presence at the forested sites (methods in Bassiouni et al., 2017). Daily rainfall data and calculated long-term (27-year) semi-monthly mean rainfall amounts are given for Rio Icacos rain gage (USGS National Water Information System, site 50075000, 2019), for use in calculating departure from long-term mean rainfall in related publications. Also given are calculated data on the frequency of lowest-level cloud base observations below 1006 m altitude, from hourly ceilometer records at Roosevelt Roads, PR located at the coast to the east of the study area (NOAA National Centers for Environmental Information, 2020). These data are supplementary to Scholl et al., 2021. \nReferences:\nBassiouni, M., Scholl, M. A., Torres-Sanchez, A. J., &amp; Murphy, S. F. (2017). A method for quantifying cloud immersion in a tropical mountain forest using time-lapse photography. Agricultural and Forest Meteorology, 243, 100-112. doi:10.1016/j.agrformet.2017.04.010.\nScholl, M.A., Bassiouni, M., and Torres-Sanchez, A.J., 2021, Drought stress and hurricane defoliation influence mountain clouds and moisture recycling in a tropical forest, Proceedings of the National Academy of Sciences, https://doi.org/10.1073/pnas.2021646118.\nNational Centers for Environmental Information, N. (2019). Local Climatological Data, Roosevelt Roads station WBAN 11630. Retrieved February 2020 from https://www.ncdc.noaa.gov/cdo-web/datasets/LCD/stations/WBAN:11630/detail.\nNational Water Information System, U.S. Geological Survey, USGS 50075000 RIO ICACOS NR NAGUABO, PR, Summary of Available Data. Retrieved November 2019 from https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&amp;site_no=50075000.",
+      "semantic_score": 0.7737318277359009,
+      "title": "Temperature, relative humidity and cloud immersion data for Luquillo Mountains, eastern Puerto Rico, 2014-2019",
+      "url": "https://data.usgs.gov/datacatalog/metadata/USGS.5f7cc24f82ce1d74e7db5531.xml"
+    }
+  ]
+}

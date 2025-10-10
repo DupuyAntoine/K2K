@@ -1,0 +1,726 @@
+[
+  {
+    "query": "Provide CSV datasets of surface temperature anomalies in France between 1980 and 1990",
+    "reference_response": "You requested surface temperature anomalies data in France (1980–1990) in CSV format. Relevant datasets include: (1) 'Surface Temperature Anomalies Dataset 1 CSV' – multidimensional records matching the request. (2) 'Surface Temperature Anomalies Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of precipitation totals in Asia between 1990 and 2000",
+    "reference_response": "You requested precipitation totals data in Asia (1990–2000) in JSON format. Relevant datasets include: (1) 'Precipitation Totals Dataset 1 JSON' – multidimensional records matching the request. (2) 'Precipitation Totals Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide NETCDF datasets of deforestation areas in South America between 2000 and 2010",
+    "reference_response": "You requested deforestation areas data in South America (2000–2010) in NETCDF format. Relevant datasets include: (1) 'Deforestation Areas Dataset 1 NETCDF' – multidimensional records matching the request. (2) 'Deforestation Areas Dataset 2 NETCDF' – alternative source in NETCDF format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of sea surface temperature in Atlantic between 2010 and 2020",
+    "reference_response": "You requested sea surface temperature data in Atlantic (2010–2020) in CSV format. Relevant datasets include: (1) 'Sea Surface Temperature Dataset 1 CSV' – multidimensional records matching the request. (2) 'Sea Surface Temperature Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of earthquake events in Japan between 1990 and 2000",
+    "reference_response": "You requested earthquake events data in Japan (1990–2000) in JSON format. Relevant datasets include: (1) 'Earthquake Events Dataset 1 JSON' – multidimensional records matching the request. (2) 'Earthquake Events Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLS datasets of ozone measurements in France between 1990 and 2000",
+    "reference_response": "You requested ozone measurements data in France (1990–2000) in XLS format. Relevant datasets include: (1) 'Ozone Measurements Dataset 1 XLS' – multidimensional records matching the request. (2) 'Ozone Measurements Dataset 2 XLS' – alternative source in XLS format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of ocean color indicators in Pacific Ocean between 2000 and 2010",
+    "reference_response": "You requested ocean color indicators in Pacific Ocean (2000–2010) in XLSX format. Relevant datasets include: (1) 'Population Density Dataset 1 XLSX' – multidimensional records matching the request. (2) 'Population Density Dataset 2 XLSX' – alternative source in XLSX format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide GEOJSON datasets of vegetation indices in France between 2010 and 2020",
+    "reference_response": "You requested vegetation indices data in France (2010–2020) in GEOJSON format. Relevant datasets include: (1) 'Vegetation Indices Dataset 1 GEOJSON' – multidimensional records matching the request. (2) 'Vegetation Indices Dataset 2 GEOJSON' – alternative source in GEOJSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of sea level rise in global between 2015 and 2023",
+    "reference_response": "You requested sea level rise data in global (2015–2023) in CSV format. Relevant datasets include: (1) 'Sea Level Rise Dataset 1 CSV' – multidimensional records matching the request. (2) 'Sea Level Rise Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of glacier mass balance in Europe between 1980 and 1990",
+    "reference_response": "You requested glacier mass balance data in Europe (1980–1990) in JSON format. Relevant datasets include: (1) 'Glacier Mass Balance Dataset 1 JSON' – multidimensional records matching the request. (2) 'Glacier Mass Balance Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of soil moisture in Asia between 1990 and 2000",
+    "reference_response": "You requested soil moisture data in Asia (1990–2000) in NETCDF format. Relevant datasets include: (1) 'Soil Moisture Dataset 1 NETCDF' – multidimensional records matching the request. (2) 'Soil Moisture Dataset 2 NETCDF' – alternative source in NETCDF format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of land surface albedo in South America between 2000 and 2010",
+    "reference_response": "You requested land surface albedo data in South America (2000–2010) in CSV format. Relevant datasets include: (1) 'Land Surface Albedo Dataset 1 CSV' – multidimensional records matching the request. (2) 'Land Surface Albedo Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of carbon emissions in North America between 2010 and 2020",
+    "reference_response": "You requested carbon emissions data in North America (2010–2020) in CSV format. Relevant datasets include: (1) 'Carbon Emissions Dataset 1 CSV' – multidimensional records matching the request. (2) 'Carbon Emissions Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of river discharge in Asia between 2015 and 2023",
+    "reference_response": "You requested river discharge data in Asia (2015–2023) in JSON format. Relevant datasets include: (1) 'River Discharge Dataset 1 JSON' – multidimensional records matching the request. (2) 'River Discharge Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLS datasets of lake surface area in France between 1980 and 1990",
+    "reference_response": "You requested lake surface area data in France (1980–1990) in XLS format. Relevant datasets include: (1) 'Lake Surface Area Dataset 1 XLS' – multidimensional records matching the request. (2) 'Lake Surface Area Dataset 2 XLS' – alternative source in XLS format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLSX datasets of aerosol optical depth in Antarctica between 1990 and 2000",
+    "reference_response": "You requested aerosol optical depth data in Antarctica (1990–2000) in XLSX format. Relevant datasets include: (1) 'Aerosol Optical Depth Dataset 1 XLSX' – multidimensional records matching the request. (2) 'Aerosol Optical Depth Dataset 2 XLSX' – alternative source in XLSX format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide GEOJSON datasets of land use change in Pacific Ocean between 2000 and 2010",
+    "reference_response": "You requested land use change data in Pacific Ocean (2000–2010) in GEOJSON format. Relevant datasets include: (1) 'Land Use Change Dataset 1 GEOJSON' – multidimensional records matching the request. (2) 'Land Use Change Dataset 2 GEOJSON' – alternative source in GEOJSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of ice cover extent in Atlantic Ocean between 2010 and 2020",
+    "reference_response": "You requested ice cover extent data in Atlantic Ocean (2010–2020) in CSV format. Relevant datasets include: (1) 'Ice Cover Extent Dataset 1 CSV' – multidimensional records matching the request. (2) 'Ice Cover Extent Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of wildfire occurrences in global between 2015 and 2023",
+    "reference_response": "You requested wildfire occurrences data in global (2015–2023) in JSON format. Relevant datasets include: (1) 'Wildfire Occurrences Dataset 1 JSON' – multidimensional records matching the request. (2) 'Wildfire Occurrences Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide NETCDF datasets of surface temperature anomalies in Europe between 1980 and 1990",
+    "reference_response": "You requested surface temperature anomalies data in Europe (1980–1990) in NETCDF format. Relevant datasets include: (1) 'Surface Temperature Anomalies Dataset 1 NETCDF' – multidimensional records matching the request. (2) 'Surface Temperature Anomalies Dataset 2 NETCDF' – alternative source in NETCDF format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of precipitation totals in Asia between 1990 and 2000",
+    "reference_response": "You requested precipitation totals data in Asia (1990–2000) in CSV format. Relevant datasets include: (1) 'Precipitation Totals Dataset 1 CSV' – multidimensional records matching the request. (2) 'Precipitation Totals Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of deforestation areas in Africa between 2000 and 2010",
+    "reference_response": "You requested deforestation areas data in Africa (2000–2010) in CSV format. Relevant datasets include: (1) 'Deforestation Areas Dataset 1 CSV' – multidimensional records matching the request. (2) 'Deforestation Areas Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of sea surface height anomalies in North America between 2010 and 2020",
+    "reference_response": "You requested sea surface height anomalies data in North America (2010–2020) in JSON format. Relevant datasets include: (1) 'Sea Surface Height Anomalies Dataset 1 JSON' – multidimensional records matching the request. (2) 'Sea Surface Height Anomalies Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLS datasets of solar radiation in Africa between 2015 and 2023",
+    "reference_response": "You requested solar radiation data in Africa (2015–2023) in XLS format. Relevant datasets include: (1) 'Solar Radiation Dataset 1 XLS' – multidimensional records matching the request. (2) 'Solar Radiation Dataset 2 XLS' – alternative source in XLS format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of earthquake events in Europe between 1980 and 1990",
+    "reference_response": "You requested earthquake events data in Europe (1980–1990) in CSV format. Relevant datasets include: (1) 'Earthquake Events Dataset 1 CSV' – multidimensional records matching the request. (2) 'Earthquake Events Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide GEOJSON datasets of ozone measurements in Antarctica between 1990 and 2000",
+    "reference_response": "You requested ozone measurements data in Antarctica (1990–2000) in GEOJSON format. Relevant datasets include: (1) 'Ozone Measurements Dataset 1 GEOJSON' – multidimensional records matching the request. (2) 'Ozone Measurements Dataset 2 GEOJSON' – alternative source in GEOJSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of population density in Pacific Ocean between 2000 and 2010",
+    "reference_response": "You requested population density data in Pacific Ocean (2000–2010) in CSV format. Relevant datasets include: (1) 'Population Density Dataset 1 CSV' – multidimensional records matching the request. (2) 'Population Density Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of vegetation indices in Atlantic Ocean between 2010 and 2020",
+    "reference_response": "You requested vegetation indices data in Atlantic Ocean (2010–2020) in JSON format. Relevant datasets include: (1) 'Vegetation Indices Dataset 1 JSON' – multidimensional records matching the request. (2) 'Vegetation Indices Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide NETCDF datasets of sea level rise in global between 2015 and 2023",
+    "reference_response": "You requested sea level rise data in global (2015–2023) in NETCDF format. Relevant datasets include: (1) 'Sea Level Rise Dataset 1 NETCDF' – multidimensional records matching the request. (2) 'Sea Level Rise Dataset 2 NETCDF' – alternative source in NETCDF format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of glacier mass balance in Europe between 1980 and 1990",
+    "reference_response": "You requested glacier mass balance data in Europe (1980–1990) in CSV format. Relevant datasets include: (1) 'Glacier Mass Balance Dataset 1 CSV' – multidimensional records matching the request. (2) 'Glacier Mass Balance Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of soil moisture in Asia between 1990 and 2000",
+    "reference_response": "You requested soil moisture data in Asia (1990–2000) in CSV format. Relevant datasets include: (1) 'Soil Moisture Dataset 1 CSV' – multidimensional records matching the request. (2) 'Soil Moisture Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of land surface albedo in South America between 2000 and 2010",
+    "reference_response": "You requested land surface albedo data in South America (2000–2010) in JSON format. Relevant datasets include: (1) 'Land Surface Albedo Dataset 1 JSON' – multidimensional records matching the request. (2) 'Land Surface Albedo Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLS datasets of carbon emissions in North America between 2010 and 2020",
+    "reference_response": "You requested carbon emissions data in North America (2010–2020) in XLS format. Relevant datasets include: (1) 'Carbon Emissions Dataset 1 XLS' – multidimensional records matching the request. (2) 'Carbon Emissions Dataset 2 XLS' – alternative source in XLS format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLSX datasets of river discharge in Africa between 2015 and 2023",
+    "reference_response": "You requested river discharge data in Africa (2015–2023) in XLSX format. Relevant datasets include: (1) 'River Discharge Dataset 1 XLSX' – multidimensional records matching the request. (2) 'River Discharge Dataset 2 XLSX' – alternative source in XLSX format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide GEOJSON datasets of lake surface area in North America between 1980 and 1990",
+    "reference_response": "You requested lake surface area data in North America (1980–1990) in GEOJSON format. Relevant datasets include: (1) 'Lake Surface Area Dataset 1 GEOJSON' – multidimensional records matching the request. (2) 'Lake Surface Area Dataset 2 GEOJSON' – alternative source in GEOJSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of aerosol optical depth in Antarctica between 1990 and 2000",
+    "reference_response": "You requested aerosol optical depth data in Antarctica (1990–2000) in CSV format. Relevant datasets include: (1) 'Aerosol Optical Depth Dataset 1 CSV' – multidimensional records matching the request. (2) 'Aerosol Optical Depth Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of land use change in Pacific Ocean between 2000 and 2010",
+    "reference_response": "You requested land use change data in Pacific Ocean (2000–2010) in JSON format. Relevant datasets include: (1) 'Land Use Change Dataset 1 JSON' – multidimensional records matching the request. (2) 'Land Use Change Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide NETCDF datasets of snow cover extent in Atlantic Ocean between 2010 and 2020",
+    "reference_response": "You requested snow cover extent data in Atlantic Ocean (2010–2020) in NETCDF format. Relevant datasets include: (1) 'Snow Cover Extent Dataset 1 NETCDF' – multidimensional records matching the request. (2) 'Snow Cover Extent Dataset 2 NETCDF' – alternative source in NETCDF format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of wildfire occurrences in global between 2015 and 2023",
+    "reference_response": "You requested wildfire occurrences data in global (2015–2023) in CSV format. Relevant datasets include: (1) 'Wildfire Occurrences Dataset 1 CSV' – multidimensional records matching the request. (2) 'Wildfire Occurrences Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of surface temperature anomalies in Europe between 1980 and 1990",
+    "reference_response": "You requested surface temperature anomalies data in Europe (1980–1990) in CSV format. Relevant datasets include: (1) 'Surface Temperature Anomalies Dataset 1 CSV' – multidimensional records matching the request. (2) 'Surface Temperature Anomalies Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of precipitation totals in Asia between 1990 and 2000",
+    "reference_response": "You requested precipitation totals data in Asia (1990–2000) in JSON format. Relevant datasets include: (1) 'Precipitation Totals Dataset 1 JSON' – multidimensional records matching the request. (2) 'Precipitation Totals Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLS datasets of deforestation areas in South America between 2000 and 2010",
+    "reference_response": "You requested deforestation areas data in South America (2000–2010) in XLS format. Relevant datasets include: (1) 'Deforestation Areas Dataset 1 XLS' – multidimensional records matching the request. (2) 'Deforestation Areas Dataset 2 XLS' – alternative source in XLS format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLSX datasets of sea surface height anomalies in North America between 2010 and 2020",
+    "reference_response": "You requested sea surface height anomalies data in North America (2010–2020) in XLSX format. Relevant datasets include: (1) 'Sea Surface Height Anomalies Dataset 1 XLSX' – multidimensional records matching the request. (2) 'Sea Surface Height Anomalies Dataset 2 XLSX' – alternative source in XLSX format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide GEOJSON datasets of solar radiation in Africa between 2015 and 2023",
+    "reference_response": "You requested solar radiation data in Africa (2015–2023) in GEOJSON format. Relevant datasets include: (1) 'Solar Radiation Dataset 1 GEOJSON' – multidimensional records matching the request. (2) 'Solar Radiation Dataset 2 GEOJSON' – alternative source in GEOJSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of earthquake events in Arctic between 1980 and 1990",
+    "reference_response": "You requested earthquake events data in Arctic (1980–1990) in CSV format. Relevant datasets include: (1) 'Earthquake Events Dataset 1 CSV' – multidimensional records matching the request. (2) 'Earthquake Events Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of ozone measurements in Antarctica between 1990 and 2000",
+    "reference_response": "You requested ozone measurements data in Antarctica (1990–2000) in JSON format. Relevant datasets include: (1) 'Ozone Measurements Dataset 1 JSON' – multidimensional records matching the request. (2) 'Ozone Measurements Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of population density in Asia between 2000 and 2010",
+    "reference_response": "You requested population density data in Asia (2000–2010) in CSV format. Relevant datasets include: (1) 'Population Density Dataset 1 CSV' – multidimensional records matching the request. (2) 'Population Density Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of vegetation indices in Atlantic Ocean between 2010 and 2020",
+    "reference_response": "You requested vegetation indices data in Atlantic Ocean (2010–2020) in CSV format. Relevant datasets include: (1) 'Vegetation Indices Dataset 1 CSV' – multidimensional records matching the request. (2) 'Vegetation Indices Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of sea level rise in global between 2015 and 2023",
+    "reference_response": "You requested sea level rise data in global (2015–2023) in CSV format. Relevant datasets include: (1) 'Sea Level Rise Dataset 1 CSV' – multidimensional records matching the request. (2) 'Sea Level Rise Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of glacier mass balance in Europe between 1980 and 1990",
+    "reference_response": "You requested glacier mass balance data in Europe (1980–1990) in JSON format. Relevant datasets include: (1) 'Glacier Mass Balance Dataset 1 JSON' – multidimensional records matching the request. (2) 'Glacier Mass Balance Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLS datasets of soil moisture in Asia between 1990 and 2000",
+    "reference_response": "You requested soil moisture data in Asia (1990–2000) in XLS format. Relevant datasets include: (1) 'Soil Moisture Dataset 1 XLS' – multidimensional records matching the request. (2) 'Soil Moisture Dataset 2 XLS' – alternative source in XLS format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLSX datasets of land surface albedo in South America between 2000 and 2010",
+    "reference_response": "You requested land surface albedo data in South America (2000–2010) in XLSX format. Relevant datasets include: (1) 'Land Surface Albedo Dataset 1 XLSX' – multidimensional records matching the request. (2) 'Land Surface Albedo Dataset 2 XLSX' – alternative source in XLSX format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide GEOJSON datasets of carbon emissions in North America between 2010 and 2020",
+    "reference_response": "You requested carbon emissions data in North America (2010–2020) in GEOJSON format. Relevant datasets include: (1) 'Carbon Emissions Dataset 1 GEOJSON' – multidimensional records matching the request. (2) 'Carbon Emissions Dataset 2 GEOJSON' – alternative source in GEOJSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of river discharge in Europe between 2015 and 2023",
+    "reference_response": "You requested river discharge data in Europe (2015–2023) in CSV format. Relevant datasets include: (1) 'River Discharge Dataset 1 CSV' – multidimensional records matching the request. (2) 'River Discharge Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of lake surface area in Arctic between 1980 and 1990",
+    "reference_response": "You requested lake surface area data in Arctic (1980–1990) in JSON format. Relevant datasets include: (1) 'Lake Surface Area Dataset 1 JSON' – multidimensional records matching the request. (2) 'Lake Surface Area Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide NETCDF datasets of aerosol optical depth in Antarctica between 1990 and 2000",
+    "reference_response": "You requested aerosol optical depth data in Antarctica (1990–2000) in NETCDF format. Relevant datasets include: (1) 'Aerosol Optical Depth Dataset 1 NETCDF' – multidimensional records matching the request. (2) 'Aerosol Optical Depth Dataset 2 NETCDF' – alternative source in NETCDF format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of land use change in Pacific Ocean between 2000 and 2010",
+    "reference_response": "You requested land use change data in Pacific Ocean (2000–2010) in CSV format. Relevant datasets include: (1) 'Land Use Change Dataset 1 CSV' – multidimensional records matching the request. (2) 'Land Use Change Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of snow cover extent in Atlantic Ocean between 2010 and 2020",
+    "reference_response": "You requested snow cover extent data in Atlantic Ocean (2010–2020) in CSV format. Relevant datasets include: (1) 'Snow Cover Extent Dataset 1 CSV' – multidimensional records matching the request. (2) 'Snow Cover Extent Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of wildfire occurrences in global between 2015 and 2023",
+    "reference_response": "You requested wildfire occurrences data in global (2015–2023) in JSON format. Relevant datasets include: (1) 'Wildfire Occurrences Dataset 1 JSON' – multidimensional records matching the request. (2) 'Wildfire Occurrences Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLS datasets of surface temperature anomalies in Europe between 1980 and 1990",
+    "reference_response": "You requested surface temperature anomalies data in Europe (1980–1990) in XLS format. Relevant datasets include: (1) 'Surface Temperature Anomalies Dataset 1 XLS' – multidimensional records matching the request. (2) 'Surface Temperature Anomalies Dataset 2 XLS' – alternative source in XLS format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLSX datasets of precipitation totals in Asia between 1990 and 2000",
+    "reference_response": "You requested precipitation totals data in Asia (1990–2000) in XLSX format. Relevant datasets include: (1) 'Precipitation Totals Dataset 1 XLSX' – multidimensional records matching the request. (2) 'Precipitation Totals Dataset 2 XLSX' – alternative source in XLSX format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide GEOJSON datasets of deforestation areas in South America between 2000 and 2010",
+    "reference_response": "You requested deforestation areas data in South America (2000–2010) in GEOJSON format. Relevant datasets include: (1) 'Deforestation Areas Dataset 1 GEOJSON' – multidimensional records matching the request. (2) 'Deforestation Areas Dataset 2 GEOJSON' – alternative source in GEOJSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of sea surface height anomalies in North America between 2010 and 2020",
+    "reference_response": "You requested sea surface height anomalies data in North America (2010–2020) in CSV format. Relevant datasets include: (1) 'Sea Surface Height Anomalies Dataset 1 CSV' – multidimensional records matching the request. (2) 'Sea Surface Height Anomalies Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of solar radiation in Africa between 2015 and 2023",
+    "reference_response": "You requested solar radiation data in Africa (2015–2023) in JSON format. Relevant datasets include: (1) 'Solar Radiation Dataset 1 JSON' – multidimensional records matching the request. (2) 'Solar Radiation Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide NETCDF datasets of earthquake events in Arctic between 1980 and 1990",
+    "reference_response": "You requested earthquake events data in Arctic (1980–1990) in NETCDF format. Relevant datasets include: (1) 'Earthquake Events Dataset 1 NETCDF' – multidimensional records matching the request. (2) 'Earthquake Events Dataset 2 NETCDF' – alternative source in NETCDF format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of ozone measurements in Antarctica between 1990 and 2000",
+    "reference_response": "You requested ozone measurements data in Antarctica (1990–2000) in CSV format. Relevant datasets include: (1) 'Ozone Measurements Dataset 1 CSV' – multidimensional records matching the request. (2) 'Ozone Measurements Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of population density in Pacific Ocean between 2000 and 2010",
+    "reference_response": "You requested population density data in Pacific Ocean (2000–2010) in CSV format. Relevant datasets include: (1) 'Population Density Dataset 1 CSV' – multidimensional records matching the request. (2) 'Population Density Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of vegetation indices in Atlantic Ocean between 2010 and 2020",
+    "reference_response": "You requested vegetation indices data in Atlantic Ocean (2010–2020) in JSON format. Relevant datasets include: (1) 'Vegetation Indices Dataset 1 JSON' – multidimensional records matching the request. (2) 'Vegetation Indices Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLS datasets of sea level rise in global between 2015 and 2023",
+    "reference_response": "You requested sea level rise data in global (2015–2023) in XLS format. Relevant datasets include: (1) 'Sea Level Rise Dataset 1 XLS' – multidimensional records matching the request. (2) 'Sea Level Rise Dataset 2 XLS' – alternative source in XLS format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLSX datasets of glacier mass balance in Europe between 1980 and 1990",
+    "reference_response": "You requested glacier mass balance data in Europe (1980–1990) in XLSX format. Relevant datasets include: (1) 'Glacier Mass Balance Dataset 1 XLSX' – multidimensional records matching the request. (2) 'Glacier Mass Balance Dataset 2 XLSX' – alternative source in XLSX format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide GEOJSON datasets of soil moisture in Asia between 1990 and 2000",
+    "reference_response": "You requested soil moisture data in Asia (1990–2000) in GEOJSON format. Relevant datasets include: (1) 'Soil Moisture Dataset 1 GEOJSON' – multidimensional records matching the request. (2) 'Soil Moisture Dataset 2 GEOJSON' – alternative source in GEOJSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of land surface albedo in South America between 2000 and 2010",
+    "reference_response": "You requested land surface albedo data in South America (2000–2010) in CSV format. Relevant datasets include: (1) 'Land Surface Albedo Dataset 1 CSV' – multidimensional records matching the request. (2) 'Land Surface Albedo Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of carbon emissions in North America between 2010 and 2020",
+    "reference_response": "You requested carbon emissions data in North America (2010–2020) in JSON format. Relevant datasets include: (1) 'Carbon Emissions Dataset 1 JSON' – multidimensional records matching the request. (2) 'Carbon Emissions Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide NETCDF datasets of river discharge in Africa between 2015 and 2023",
+    "reference_response": "You requested river discharge data in Africa (2015–2023) in NETCDF format. Relevant datasets include: (1) 'River Discharge Dataset 1 NETCDF' – multidimensional records matching the request. (2) 'River Discharge Dataset 2 NETCDF' – alternative source in NETCDF format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of lake surface area in Arctic between 1980 and 1990",
+    "reference_response": "You requested lake surface area data in Arctic (1980–1990) in CSV format. Relevant datasets include: (1) 'Lake Surface Area Dataset 1 CSV' – multidimensional records matching the request. (2) 'Lake Surface Area Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of aerosol optical depth in Antarctica between 1990 and 2000",
+    "reference_response": "You requested aerosol optical depth data in Antarctica (1990–2000) in CSV format. Relevant datasets include: (1) 'Aerosol Optical Depth Dataset 1 CSV' – multidimensional records matching the request. (2) 'Aerosol Optical Depth Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of land use change in Pacific Ocean between 2000 and 2010",
+    "reference_response": "You requested land use change data in Pacific Ocean (2000–2010) in JSON format. Relevant datasets include: (1) 'Land Use Change Dataset 1 JSON' – multidimensional records matching the request. (2) 'Land Use Change Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLS datasets of snow cover extent in Atlantic Ocean between 2010 and 2020",
+    "reference_response": "You requested snow cover extent data in Atlantic Ocean (2010–2020) in XLS format. Relevant datasets include: (1) 'Snow Cover Extent Dataset 1 XLS' – multidimensional records matching the request. (2) 'Snow Cover Extent Dataset 2 XLS' – alternative source in XLS format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLSX datasets of wildfire occurrences in global between 2015 and 2023",
+    "reference_response": "You requested wildfire occurrences data in global (2015–2023) in XLSX format. Relevant datasets include: (1) 'Wildfire Occurrences Dataset 1 XLSX' – multidimensional records matching the request. (2) 'Wildfire Occurrences Dataset 2 XLSX' – alternative source in XLSX format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide GEOJSON datasets of surface temperature anomalies in Europe between 1980 and 1990",
+    "reference_response": "You requested surface temperature anomalies data in Europe (1980–1990) in GEOJSON format. Relevant datasets include: (1) 'Surface Temperature Anomalies Dataset 1 GEOJSON' – multidimensional records matching the request. (2) 'Surface Temperature Anomalies Dataset 2 GEOJSON' – alternative source in GEOJSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of precipitation totals in Asia between 1990 and 2000",
+    "reference_response": "You requested precipitation totals data in Asia (1990–2000) in CSV format. Relevant datasets include: (1) 'Precipitation Totals Dataset 1 CSV' – multidimensional records matching the request. (2) 'Precipitation Totals Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of deforestation areas in South America between 2000 and 2010",
+    "reference_response": "You requested deforestation areas data in South America (2000–2010) in JSON format. Relevant datasets include: (1) 'Deforestation Areas Dataset 1 JSON' – multidimensional records matching the request. (2) 'Deforestation Areas Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide NETCDF datasets of sea surface height anomalies in North America between 2010 and 2020",
+    "reference_response": "You requested sea surface height anomalies data in North America (2010–2020) in NETCDF format. Relevant datasets include: (1) 'Sea Surface Height Anomalies Dataset 1 NETCDF' – multidimensional records matching the request. (2) 'Sea Surface Height Anomalies Dataset 2 NETCDF' – alternative source in NETCDF format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of solar radiation in Africa between 2015 and 2023",
+    "reference_response": "You requested solar radiation data in Africa (2015–2023) in CSV format. Relevant datasets include: (1) 'Solar Radiation Dataset 1 CSV' – multidimensional records matching the request. (2) 'Solar Radiation Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of earthquake events in Arctic between 1980 and 1990",
+    "reference_response": "You requested earthquake events data in Arctic (1980–1990) in CSV format. Relevant datasets include: (1) 'Earthquake Events Dataset 1 CSV' – multidimensional records matching the request. (2) 'Earthquake Events Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of ozone measurements in Antarctica between 1990 and 2000",
+    "reference_response": "You requested ozone measurements data in Antarctica (1990–2000) in JSON format. Relevant datasets include: (1) 'Ozone Measurements Dataset 1 JSON' – multidimensional records matching the request. (2) 'Ozone Measurements Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLS datasets of population density in Pacific Ocean between 2000 and 2010",
+    "reference_response": "You requested population density data in Pacific Ocean (2000–2010) in XLS format. Relevant datasets include: (1) 'Population Density Dataset 1 XLS' – multidimensional records matching the request. (2) 'Population Density Dataset 2 XLS' – alternative source in XLS format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLSX datasets of vegetation indices in Atlantic Ocean between 2010 and 2020",
+    "reference_response": "You requested vegetation indices data in Atlantic Ocean (2010–2020) in XLSX format. Relevant datasets include: (1) 'Vegetation Indices Dataset 1 XLSX' – multidimensional records matching the request. (2) 'Vegetation Indices Dataset 2 XLSX' – alternative source in XLSX format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide GEOJSON datasets of sea level rise in global between 2015 and 2023",
+    "reference_response": "You requested sea level rise data in global (2015–2023) in GEOJSON format. Relevant datasets include: (1) 'Sea Level Rise Dataset 1 GEOJSON' – multidimensional records matching the request. (2) 'Sea Level Rise Dataset 2 GEOJSON' – alternative source in GEOJSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of glacier mass balance in Europe between 1980 and 1990",
+    "reference_response": "You requested glacier mass balance data in Europe (1980–1990) in CSV format. Relevant datasets include: (1) 'Glacier Mass Balance Dataset 1 CSV' – multidimensional records matching the request. (2) 'Glacier Mass Balance Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of soil moisture in Asia between 1990 and 2000",
+    "reference_response": "You requested soil moisture data in Asia (1990–2000) in JSON format. Relevant datasets include: (1) 'Soil Moisture Dataset 1 JSON' – multidimensional records matching the request. (2) 'Soil Moisture Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide NETCDF datasets of land surface albedo in South America between 2000 and 2010",
+    "reference_response": "You requested land surface albedo data in South America (2000–2010) in NETCDF format. Relevant datasets include: (1) 'Land Surface Albedo Dataset 1 NETCDF' – multidimensional records matching the request. (2) 'Land Surface Albedo Dataset 2 NETCDF' – alternative source in NETCDF format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of carbon emissions in North America between 2010 and 2020",
+    "reference_response": "You requested carbon emissions data in North America (2010–2020) in CSV format. Relevant datasets include: (1) 'Carbon Emissions Dataset 1 CSV' – multidimensional records matching the request. (2) 'Carbon Emissions Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of river discharge in Africa between 2015 and 2023",
+    "reference_response": "You requested river discharge data in Africa (2015–2023) in CSV format. Relevant datasets include: (1) 'River Discharge Dataset 1 CSV' – multidimensional records matching the request. (2) 'River Discharge Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of lake surface area in Arctic between 1980 and 1990",
+    "reference_response": "You requested lake surface area data in Arctic (1980–1990) in JSON format. Relevant datasets include: (1) 'Lake Surface Area Dataset 1 JSON' – multidimensional records matching the request. (2) 'Lake Surface Area Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLS datasets of aerosol optical depth in Antarctica between 1990 and 2000",
+    "reference_response": "You requested aerosol optical depth data in Antarctica (1990–2000) in XLS format. Relevant datasets include: (1) 'Aerosol Optical Depth Dataset 1 XLS' – multidimensional records matching the request. (2) 'Aerosol Optical Depth Dataset 2 XLS' – alternative source in XLS format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLSX datasets of land use change in Pacific Ocean between 2000 and 2010",
+    "reference_response": "You requested land use change data in Pacific Ocean (2000–2010) in XLSX format. Relevant datasets include: (1) 'Land Use Change Dataset 1 XLSX' – multidimensional records matching the request. (2) 'Land Use Change Dataset 2 XLSX' – alternative source in XLSX format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide GEOJSON datasets of ice cover extent in Atlantic Ocean between 2010 and 2020",
+    "reference_response": "You requested ice cover extent data in Atlantic Ocean (2010–2020) in GEOJSON format. Relevant datasets include: (1) 'Ice Cover Extent Dataset 1 GEOJSON' – multidimensional records matching the request. (2) 'Ice Cover Extent Dataset 2 GEOJSON' – alternative source in GEOJSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of wildfire occurrences in global between 2015 and 2023",
+    "reference_response": "You requested wildfire occurrences data in global (2015–2023) in CSV format. Relevant datasets include: (1) 'Wildfire Occurrences Dataset 1 CSV' – multidimensional records matching the request. (2) 'Wildfire Occurrences Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of surface temperature anomalies in Europe between 1980 and 1990",
+    "reference_response": "You requested surface temperature anomalies data in Europe (1980–1990) in JSON format. Relevant datasets include: (1) 'Surface Temperature Anomalies Dataset 1 JSON' – multidimensional records matching the request. (2) 'Surface Temperature Anomalies Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide NETCDF datasets of precipitation totals in Asia between 1990 and 2000",
+    "reference_response": "You requested precipitation totals data in Asia (1990–2000) in NETCDF format. Relevant datasets include: (1) 'Precipitation Totals Dataset 1 NETCDF' – multidimensional records matching the request. (2) 'Precipitation Totals Dataset 2 NETCDF' – alternative source in NETCDF format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of deforestation areas in South America between 2000 and 2010",
+    "reference_response": "You requested deforestation areas data in South America (2000–2010) in CSV format. Relevant datasets include: (1) 'Deforestation Areas Dataset 1 CSV' – multidimensional records matching the request. (2) 'Deforestation Areas Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of sea surface height anomalies in North America between 2010 and 2020",
+    "reference_response": "You requested sea surface height anomalies data in North America (2010–2020) in CSV format. Relevant datasets include: (1) 'Sea Surface Height Anomalies Dataset 1 CSV' – multidimensional records matching the request. (2) 'Sea Surface Height Anomalies Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of solar radiation in Africa between 2015 and 2023",
+    "reference_response": "You requested solar radiation data in Africa (2015–2023) in JSON format. Relevant datasets include: (1) 'Solar Radiation Dataset 1 JSON' – multidimensional records matching the request. (2) 'Solar Radiation Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLS datasets of earthquake events in Arctic between 1980 and 1990",
+    "reference_response": "You requested earthquake events data in Arctic (1980–1990) in XLS format. Relevant datasets include: (1) 'Earthquake Events Dataset 1 XLS' – multidimensional records matching the request. (2) 'Earthquake Events Dataset 2 XLS' – alternative source in XLS format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLSX datasets of ozone measurements in Antarctica between 1990 and 2000",
+    "reference_response": "You requested ozone measurements data in Antarctica (1990–2000) in XLSX format. Relevant datasets include: (1) 'Ozone Measurements Dataset 1 XLSX' – multidimensional records matching the request. (2) 'Ozone Measurements Dataset 2 XLSX' – alternative source in XLSX format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide GEOJSON datasets of population density in Pacific Ocean between 2000 and 2010",
+    "reference_response": "You requested population density data in Pacific Ocean (2000–2010) in GEOJSON format. Relevant datasets include: (1) 'Population Density Dataset 1 GEOJSON' – multidimensional records matching the request. (2) 'Population Density Dataset 2 GEOJSON' – alternative source in GEOJSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of vegetation indices in Atlantic Ocean between 2010 and 2020",
+    "reference_response": "You requested vegetation indices data in Atlantic Ocean (2010–2020) in CSV format. Relevant datasets include: (1) 'Vegetation Indices Dataset 1 CSV' – multidimensional records matching the request. (2) 'Vegetation Indices Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of sea level rise in global between 2015 and 2023",
+    "reference_response": "You requested sea level rise data in global (2015–2023) in JSON format. Relevant datasets include: (1) 'Sea Level Rise Dataset 1 JSON' – multidimensional records matching the request. (2) 'Sea Level Rise Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide NETCDF datasets of glacier mass balance in Europe between 1980 and 1990",
+    "reference_response": "You requested glacier mass balance data in Europe (1980–1990) in NETCDF format. Relevant datasets include: (1) 'Glacier Mass Balance Dataset 1 NETCDF' – multidimensional records matching the request. (2) 'Glacier Mass Balance Dataset 2 NETCDF' – alternative source in NETCDF format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of soil moisture in Asia between 1990 and 2000",
+    "reference_response": "You requested soil moisture data in Asia (1990–2000) in CSV format. Relevant datasets include: (1) 'Soil Moisture Dataset 1 CSV' – multidimensional records matching the request. (2) 'Soil Moisture Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of land surface albedo in South America between 2000 and 2010",
+    "reference_response": "You requested land surface albedo data in South America (2000–2010) in CSV format. Relevant datasets include: (1) 'Land Surface Albedo Dataset 1 CSV' – multidimensional records matching the request. (2) 'Land Surface Albedo Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of carbon emissions in North America between 2010 and 2020",
+    "reference_response": "You requested carbon emissions data in North America (2010–2020) in JSON format. Relevant datasets include: (1) 'Carbon Emissions Dataset 1 JSON' – multidimensional records matching the request. (2) 'Carbon Emissions Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLS datasets of river discharge in Africa between 2015 and 2023",
+    "reference_response": "You requested river discharge data in Africa (2015–2023) in XLS format. Relevant datasets include: (1) 'River Discharge Dataset 1 XLS' – multidimensional records matching the request. (2) 'River Discharge Dataset 2 XLS' – alternative source in XLS format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLSX datasets of lake surface area in Arctic between 1980 and 1990",
+    "reference_response": "You requested lake surface area data in Arctic (1980–1990) in XLSX format. Relevant datasets include: (1) 'Lake Surface Area Dataset 1 XLSX' – multidimensional records matching the request. (2) 'Lake Surface Area Dataset 2 XLSX' – alternative source in XLSX format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide GEOJSON datasets of aerosol optical depth in Antarctica between 1990 and 2000",
+    "reference_response": "You requested aerosol optical depth data in Antarctica (1990–2000) in GEOJSON format. Relevant datasets include: (1) 'Aerosol Optical Depth Dataset 1 GEOJSON' – multidimensional records matching the request. (2) 'Aerosol Optical Depth Dataset 2 GEOJSON' – alternative source in GEOJSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of land use change in Pacific Ocean between 2000 and 2010",
+    "reference_response": "You requested land use change data in Pacific Ocean (2000–2010) in CSV format. Relevant datasets include: (1) 'Land Use Change Dataset 1 CSV' – multidimensional records matching the request. (2) 'Land Use Change Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of snow cover extent in Atlantic Ocean between 2010 and 2020",
+    "reference_response": "You requested snow cover extent data in Atlantic Ocean (2010–2020) in JSON format. Relevant datasets include: (1) 'Snow Cover Extent Dataset 1 JSON' – multidimensional records matching the request. (2) 'Snow Cover Extent Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide NETCDF datasets of wildfire occurrences in global between 2015 and 2023",
+    "reference_response": "You requested wildfire occurrences data in global (2015–2023) in NETCDF format. Relevant datasets include: (1) 'Wildfire Occurrences Dataset 1 NETCDF' – multidimensional records matching the request. (2) 'Wildfire Occurrences Dataset 2 NETCDF' – alternative source in NETCDF format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of surface temperature anomalies in Europe between 1980 and 1990",
+    "reference_response": "You requested surface temperature anomalies data in Europe (1980–1990) in CSV format. Relevant datasets include: (1) 'Surface Temperature Anomalies Dataset 1 CSV' – multidimensional records matching the request. (2) 'Surface Temperature Anomalies Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of precipitation totals in Asia between 1990 and 2000",
+    "reference_response": "You requested precipitation totals data in Asia (1990–2000) in CSV format. Relevant datasets include: (1) 'Precipitation Totals Dataset 1 CSV' – multidimensional records matching the request. (2) 'Precipitation Totals Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of deforestation areas in South America between 2000 and 2010",
+    "reference_response": "You requested deforestation areas data in South America (2000–2010) in JSON format. Relevant datasets include: (1) 'Deforestation Areas Dataset 1 JSON' – multidimensional records matching the request. (2) 'Deforestation Areas Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLS datasets of sea surface height anomalies in North America between 2010 and 2020",
+    "reference_response": "You requested sea surface height anomalies data in North America (2010–2020) in XLS format. Relevant datasets include: (1) 'Sea Surface Height Anomalies Dataset 1 XLS' – multidimensional records matching the request. (2) 'Sea Surface Height Anomalies Dataset 2 XLS' – alternative source in XLS format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLSX datasets of solar radiation in Africa between 2015 and 2023",
+    "reference_response": "You requested solar radiation data in Africa (2015–2023) in XLSX format. Relevant datasets include: (1) 'Solar Radiation Dataset 1 XLSX' – multidimensional records matching the request. (2) 'Solar Radiation Dataset 2 XLSX' – alternative source in XLSX format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide GEOJSON datasets of earthquake events in South America between 1980 and 1990",
+    "reference_response": "You requested earthquake events data in South America (1980–1990) in GEOJSON format. Relevant datasets include: (1) 'Earthquake Events Dataset 1 GEOJSON' – multidimensional records matching the request. (2) 'Earthquake Events Dataset 2 GEOJSON' – alternative source in GEOJSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of ozone measurements in Antarctica between 1990 and 2000",
+    "reference_response": "You requested ozone measurements data in Antarctica (1990–2000) in CSV format. Relevant datasets include: (1) 'Ozone Measurements Dataset 1 CSV' – multidimensional records matching the request. (2) 'Ozone Measurements Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of population density in Pacific Ocean between 2000 and 2010",
+    "reference_response": "You requested population density data in Pacific Ocean (2000–2010) in JSON format. Relevant datasets include: (1) 'Population Density Dataset 1 JSON' – multidimensional records matching the request. (2) 'Population Density Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide NETCDF datasets of vegetation indices in Atlantic Ocean between 2010 and 2020",
+    "reference_response": "You requested vegetation indices data in Atlantic Ocean (2010–2020) in NETCDF format. Relevant datasets include: (1) 'Vegetation Indices Dataset 1 NETCDF' – multidimensional records matching the request. (2) 'Vegetation Indices Dataset 2 NETCDF' – alternative source in NETCDF format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of sea level rise in global between 2015 and 2023",
+    "reference_response": "You requested sea level rise data in global (2015–2023) in CSV format. Relevant datasets include: (1) 'Sea Level Rise Dataset 1 CSV' – multidimensional records matching the request. (2) 'Sea Level Rise Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of glacier mass balance in Europe between 1980 and 1990",
+    "reference_response": "You requested glacier mass balance data in Europe (1980–1990) in CSV format. Relevant datasets include: (1) 'Glacier Mass Balance Dataset 1 CSV' – multidimensional records matching the request. (2) 'Glacier Mass Balance Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of soil moisture in Asia between 1990 and 2000",
+    "reference_response": "You requested soil moisture data in Asia (1990–2000) in JSON format. Relevant datasets include: (1) 'Soil Moisture Dataset 1 JSON' – multidimensional records matching the request. (2) 'Soil Moisture Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLS datasets of land surface albedo in South America between 2000 and 2010",
+    "reference_response": "You requested land surface albedo data in South America (2000–2010) in XLS format. Relevant datasets include: (1) 'Land Surface Albedo Dataset 1 XLS' – multidimensional records matching the request. (2) 'Land Surface Albedo Dataset 2 XLS' – alternative source in XLS format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLSX datasets of carbon emissions in North America between 2010 and 2020",
+    "reference_response": "You requested carbon emissions data in North America (2010–2020) in XLSX format. Relevant datasets include: (1) 'Carbon Emissions Dataset 1 XLSX' – multidimensional records matching the request. (2) 'Carbon Emissions Dataset 2 XLSX' – alternative source in XLSX format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide GEOJSON datasets of river discharge in Africa between 2015 and 2023",
+    "reference_response": "You requested river discharge data in Africa (2015–2023) in GEOJSON format. Relevant datasets include: (1) 'River Discharge Dataset 1 GEOJSON' – multidimensional records matching the request. (2) 'River Discharge Dataset 2 GEOJSON' – alternative source in GEOJSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of lake surface area in Arctic between 1980 and 1990",
+    "reference_response": "You requested lake surface area data in Arctic (1980–1990) in CSV format. Relevant datasets include: (1) 'Lake Surface Area Dataset 1 CSV' – multidimensional records matching the request. (2) 'Lake Surface Area Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of aerosol optical depth in Antarctica between 1990 and 2000",
+    "reference_response": "You requested aerosol optical depth data in Antarctica (1990–2000) in JSON format. Relevant datasets include: (1) 'Aerosol Optical Depth Dataset 1 JSON' – multidimensional records matching the request. (2) 'Aerosol Optical Depth Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide NETCDF datasets of land use change in Pacific Ocean between 2000 and 2010",
+    "reference_response": "You requested land use change data in Pacific Ocean (2000–2010) in NETCDF format. Relevant datasets include: (1) 'Land Use Change Dataset 1 NETCDF' – multidimensional records matching the request. (2) 'Land Use Change Dataset 2 NETCDF' – alternative source in NETCDF format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of snow cover extent in Atlantic Ocean between 2010 and 2020",
+    "reference_response": "You requested snow cover extent data in Atlantic Ocean (2010–2020) in CSV format. Relevant datasets include: (1) 'Snow Cover Extent Dataset 1 CSV' – multidimensional records matching the request. (2) 'Snow Cover Extent Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of wildfire occurrences in global between 2015 and 2023",
+    "reference_response": "You requested wildfire occurrences data in global (2015–2023) in CSV format. Relevant datasets include: (1) 'Wildfire Occurrences Dataset 1 CSV' – multidimensional records matching the request. (2) 'Wildfire Occurrences Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of surface temperature anomalies in Europe between 1980 and 1990",
+    "reference_response": "You requested surface temperature anomalies data in Europe (1980–1990) in JSON format. Relevant datasets include: (1) 'Surface Temperature Anomalies Dataset 1 JSON' – multidimensional records matching the request. (2) 'Surface Temperature Anomalies Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLS datasets of precipitation totals in Asia between 1990 and 2000",
+    "reference_response": "You requested precipitation totals data in Asia (1990–2000) in XLS format. Relevant datasets include: (1) 'Precipitation Totals Dataset 1 XLS' – multidimensional records matching the request. (2) 'Precipitation Totals Dataset 2 XLS' – alternative source in XLS format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLSX datasets of deforestation areas in South America between 2000 and 2010",
+    "reference_response": "You requested deforestation areas data in South America (2000–2010) in XLSX format. Relevant datasets include: (1) 'Deforestation Areas Dataset 1 XLSX' – multidimensional records matching the request. (2) 'Deforestation Areas Dataset 2 XLSX' – alternative source in XLSX format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of sea surface height anomalies in North America between 2010 and 2020",
+    "reference_response": "You requested sea surface height anomalies data in North America (2010–2020) in CSV format. Relevant datasets include: (1) 'Sea Surface Height Anomalies Dataset 1 CSV' – multidimensional records matching the request. (2) 'Sea Surface Height Anomalies Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of solar radiation in Africa between 2015 and 2023",
+    "reference_response": "You requested solar radiation data in Africa (2015–2023) in CSV format. Relevant datasets include: (1) 'Solar Radiation Dataset 1 CSV' – multidimensional records matching the request. (2) 'Solar Radiation Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of earthquake events in Arctic between 1980 and 1990",
+    "reference_response": "You requested earthquake events data in Arctic (1980–1990) in JSON format. Relevant datasets include: (1) 'Earthquake Events Dataset 1 JSON' – multidimensional records matching the request. (2) 'Earthquake Events Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide NETCDF datasets of ozone measurements in Antarctica between 1990 and 2000",
+    "reference_response": "You requested ozone measurements data in Antarctica (1990–2000) in NETCDF format. Relevant datasets include: (1) 'Ozone Measurements Dataset 1 NETCDF' – multidimensional records matching the request. (2) 'Ozone Measurements Dataset 2 NETCDF' – alternative source in NETCDF format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of population density in Pacific Ocean between 2000 and 2010",
+    "reference_response": "You requested population density data in Pacific Ocean (2000–2010) in CSV format. Relevant datasets include: (1) 'Population Density Dataset 1 CSV' – multidimensional records matching the request. (2) 'Population Density Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of vegetation indices in Atlantic Ocean between 2010 and 2020",
+    "reference_response": "You requested vegetation indices data in Atlantic Ocean (2010–2020) in CSV format. Relevant datasets include: (1) 'Vegetation Indices Dataset 1 CSV' – multidimensional records matching the request. (2) 'Vegetation Indices Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of sea level rise in global between 2015 and 2023",
+    "reference_response": "You requested sea level rise data in global (2015–2023) in JSON format. Relevant datasets include: (1) 'Sea Level Rise Dataset 1 JSON' – multidimensional records matching the request. (2) 'Sea Level Rise Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLS datasets of glacier mass balance in Europe between 1980 and 1990",
+    "reference_response": "You requested glacier mass balance data in Europe (1980–1990) in XLS format. Relevant datasets include: (1) 'Glacier Mass Balance Dataset 1 XLS' – multidimensional records matching the request. (2) 'Glacier Mass Balance Dataset 2 XLS' – alternative source in XLS format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLSX datasets of soil moisture in Asia between 1990 and 2000",
+    "reference_response": "You requested soil moisture data in Asia (1990–2000) in XLSX format. Relevant datasets include: (1) 'Soil Moisture Dataset 1 XLSX' – multidimensional records matching the request. (2) 'Soil Moisture Dataset 2 XLSX' – alternative source in XLSX format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide GEOJSON datasets of land surface albedo in South America between 2000 and 2010",
+    "reference_response": "You requested land surface albedo data in South America (2000–2010) in GEOJSON format. Relevant datasets include: (1) 'Land Surface Albedo Dataset 1 GEOJSON' – multidimensional records matching the request. (2) 'Land Surface Albedo Dataset 2 GEOJSON' – alternative source in GEOJSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of carbon emissions in North America between 2010 and 2020",
+    "reference_response": "You requested carbon emissions data in North America (2010–2020) in CSV format. Relevant datasets include: (1) 'Carbon Emissions Dataset 1 CSV' – multidimensional records matching the request. (2) 'Carbon Emissions Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of river discharge in Africa between 2015 and 2023",
+    "reference_response": "You requested river discharge data in Africa (2015–2023) in JSON format. Relevant datasets include: (1) 'River Discharge Dataset 1 JSON' – multidimensional records matching the request. (2) 'River Discharge Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide NETCDF datasets of lake surface area in Arctic between 1980 and 1990",
+    "reference_response": "You requested lake surface area data in Arctic (1980–1990) in NETCDF format. Relevant datasets include: (1) 'Lake Surface Area Dataset 1 NETCDF' – multidimensional records matching the request. (2) 'Lake Surface Area Dataset 2 NETCDF' – alternative source in NETCDF format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of aerosol optical depth in Antarctica between 1990 and 2000",
+    "reference_response": "You requested aerosol optical depth data in Antarctica (1990–2000) in CSV format. Relevant datasets include: (1) 'Aerosol Optical Depth Dataset 1 CSV' – multidimensional records matching the request. (2) 'Aerosol Optical Depth Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide CSV datasets of land use change in Pacific Ocean between 2000 and 2010",
+    "reference_response": "You requested land use change data in Pacific Ocean (2000–2010) in CSV format. Relevant datasets include: (1) 'Land Use Change Dataset 1 CSV' – multidimensional records matching the request. (2) 'Land Use Change Dataset 2 CSV' – alternative source in CSV format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide JSON datasets of snow cover extent in Atlantic Ocean between 2010 and 2020",
+    "reference_response": "You requested snow cover extent data in Atlantic Ocean (2010–2020) in JSON format. Relevant datasets include: (1) 'Snow Cover Extent Dataset 1 JSON' – multidimensional records matching the request. (2) 'Snow Cover Extent Dataset 2 JSON' – alternative source in JSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLS datasets of wildfire occurrences in global between 2015 and 2023",
+    "reference_response": "You requested wildfire occurrences data in global (2015–2023) in XLS format. Relevant datasets include: (1) 'Wildfire Occurrences Dataset 1 XLS' – multidimensional records matching the request. (2) 'Wildfire Occurrences Dataset 2 XLS' – alternative source in XLS format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide XLSX datasets of surface temperature anomalies in Europe between 1980 and 1990",
+    "reference_response": "You requested surface temperature anomalies data in Europe (1980–1990) in XLSX format. Relevant datasets include: (1) 'Surface Temperature Anomalies Dataset 1 XLSX' – multidimensional records matching the request. (2) 'Surface Temperature Anomalies Dataset 2 XLSX' – alternative source in XLSX format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide GEOJSON datasets of precipitation totals in Asia between 1990 and 2000",
+    "reference_response": "You requested precipitation totals data in Asia (1990–2000) in GEOJSON format. Relevant datasets include: (1) 'Precipitation Totals Dataset 1 GEOJSON' – multidimensional records matching the request. (2) 'Precipitation Totals Dataset 2 GEOJSON' – alternative source in GEOJSON format. These were chosen for their coverage of the specified theme, region, time period, and requested file format"
+  },
+  {
+    "query": "Provide monthly surface temperature anomalies in Europe from 1980 to 2020",
+    "reference_response": "ERA5-Land or GISTEMP datasets provide monthly surface temperature anomalies across Europe for 1980–2020"
+  },
+  {
+    "query": "Provide global sea surface temperature anomalies between 1990 and 2010",
+    "reference_response": "NOAA CoralTemp and NASA GISS datasets describe global SST anomalies for 1990–2010"
+  },
+  {
+    "query": "Provide average precipitation rates in South America for the 2000–2015 period",
+    "reference_response": "GPM or TRMM datasets provide precipitation rates across South America between 2000 and 2015"
+  },
+  {
+    "query": "Provide monthly air temperature and humidity over France in 2019",
+    "reference_response": "ERA5 reanalysis data contains monthly mean air temperature and humidity fields over France for 2019"
+  },
+  {
+    "query": "Provide NDVI vegetation index over the Sahel region between 1998 and 2020",
+    "reference_response": "MODIS NDVI or Copernicus Global Land Service datasets describe vegetation greenness over the Sahel from 1998 to 2020"
+  },
+  {
+    "query": "Provide CO2 atmospheric concentration over Europe for 2010–2022",
+    "reference_response": "Copernicus CAMS atmospheric datasets provide CO₂ concentrations across Europe for 2010–2022"
+  },
+  {
+    "query": "Provide Sea level anomalies in the Pacific Ocean since 1993",
+    "reference_response": "AVISO or Copernicus Marine Service datasets provide sea level anomaly time series for the Pacific Ocean since 1993"
+  },
+  {
+    "query": "Provide Snow cover extent in the Northern Hemisphere during 2005–2015",
+    "reference_response": "NOAA Climate Data Records and MODIS snow cover products describe NH snow extent for 2005–2015"
+  },
+  {
+    "query": "Provide Land surface temperature in Africa for 2015",
+    "reference_response": "MODIS LST or ERA5-Land datasets provide land surface temperature observations for Africa in 2015"
+  },
+  {
+    "query": "Provide ozone concentration over the United States in 2020",
+    "reference_response": "EPA Air Quality System and Copernicus CAMS provide ozone data across the US for 2020"
+  },
+  {
+    "query": "Provide Chlorophyll concentration in the Mediterranean Area in summer 2018",
+    "reference_response": "Copernicus Marine Service or MODIS-Aqua datasets describe chlorophyll concentration in the Mediterranean area during summer 2018"
+  },
+  {
+    "query": "Provide Soil moisture anomalies in India from 2010 to 2020",
+    "reference_response": "ESA CCI Soil Moisture or SMAP datasets provide soil moisture anomalies across India between 2010 and 2020"
+  },
+  {
+    "query": "Provide NO2 pollution over China in 2021",
+    "reference_response": "TROPOMI Sentinel-5P datasets provide nitrogen dioxide (NO₂) pollution data across China in 2021"
+  },
+  {
+    "query": "Provide Land cover classification for the Amazon basin in 2019",
+    "reference_response": "Copernicus Global Land Cover or MODIS MCD12Q1 datasets provide land cover classification for the Amazon basin in 2019"
+  },
+  {
+    "query": "Provide Annual mean wind speed at 10m over Europe between 2000 and 2020",
+    "reference_response": "ERA5 reanalysis datasets provide annual mean 10m wind speed data over Europe for 2000–2020"
+  },
+  {
+    "query": "Provide Evapotranspiration over North Africa from 2003 to 2015",
+    "reference_response": "MOD16A2 and GLEAM datasets provide evapotranspiration estimates across North Africa from 2003 to 2015"
+  },
+  {
+    "query": "Provide Surface radiation fluxes over Australia in 2010",
+    "reference_response": "CERES and ERA5 datasets provide surface shortwave and longwave radiation fluxes for Australia in 2010"
+  },
+  {
+    "query": "Provide Arctic sea ice extent for the winter season of 2022",
+    "reference_response": "NSIDC and Copernicus Climate Change Service datasets describe Arctic sea ice extent for winter 2022"
+  },
+  {
+    "query": "Provide PM2.5 concentrations in major Asian cities in 2019",
+    "reference_response": "WHO Air Quality Database and Copernicus CAMS provide PM2.5 concentrations for Asian cities in 2019"
+  },
+  {
+    "query": "Provide Surface albedo over Greenland from 2000 to 2020",
+    "reference_response": "MODIS MCD43A3 and CERES datasets describe surface albedo variations over Greenland from 2000 to 2020"
+  }
+]

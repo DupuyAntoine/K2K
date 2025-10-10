@@ -1,0 +1,76 @@
+{
+  "id": "af42edfc-ad5e-4cd1-a9d9-255f1f3a63bb",
+  "domain": "earthObservation",
+  "messages": [
+    {
+      "sender": "user",
+      "text": "Provide CSV datasets of aerosol optical depth in Antarctica between 1990 and 2000"
+    },
+    {
+      "sender": "bot",
+      "text": "You are looking for datasets containing aerosol optical depth measurements in Antarctica, specifically for the period between 1990 and 2000, and you would like these datasets to be in CSV format. After conducting a search based on your criteria, several relevant datasets were found, although none perfectly match all your specifications, particularly the temporal and spatial resolution, and the format. \n\nHere are a few datasets that could be useful for your research, considering their relevance to aerosol optical depth and geographical focus, even if they don't fully align with your specified time frame or format:\n\n1. **NIMFR: derived total & aerosol optical depth from 1st Michalsky algorithm** - This dataset, while not specifically mentioning Antarctica, deals with aerosol optical depth, which is a key parameter for your search. The data might require additional filtering or processing to isolate the Antarctic region and to match your desired time frame. The dataset can be found at [http://www.archive.arm.gov/discovery/#v/results/s/s::nimfraod1mich](http://www.archive.arm.gov/discovery/#v/results/s/s::nimfraod1mich).\n\n2. **Shortwave Array Spectroradiometer-Hemispheric, NIR Aerosol Optical Depths** and **Shortwave Array Spectroradiometer-Hemispheric, VIS Aerosol Optical Depths** - These datasets provide aerosol optical depths in the near-infrared and visible spectrum, respectively. Like the first option, these might need to be adjusted or filtered for the Antarctic region and your specific time frame. You can access these datasets at [http://www.archive.arm.gov/discovery/#v/results/s/s::sasheniraod](http://www.archive.arm.gov/discovery/#v/results/s/s::sasheniraod) and [http://www.archive.arm.gov/discovery/#v/results/s/s::sashevisaod](http://www.archive.arm.gov/discovery/#v/results/s/s::sashevisaod), respectively.\n\n3. **High Mountain Asia MODIS Aerosol Optical Depth V001** - Although focused on High Mountain Asia, this dataset includes aerosol optical depth measurements from MODIS Level 3 data, which could potentially be useful for broader studies on aerosol optical depth, including comparisons or model validations. However, it does not directly match your geographical focus on Antarctica. You can find this dataset through [https://scholar.google.com/scholar?q=10.5067%2FD0SO1YA0B9EY](https://scholar.google.com/scholar?q=10.5067%2FD0SO1YA0B9EY).\n\n4. **Earth Observatory Aerosol Optical Depth** - This resource provides information on aerosol optical depth globally but does not directly offer downloadable CSV files tailored to your specific requirements. It's more of an informational resource that discusses aerosols and their effects. You can visit the Earth Observatory at [http://earthobservatory.nasa.gov/GlobalMaps/view.php?d1=MODAL2_M_AER_OD&eocn=home&eoci=globalmaps](http://earthobservatory.nasa.gov/GlobalMaps/view.php?d1=MODAL2_M_AER_OD&eocn=home&eoci=globalmaps).\n\n5. **MODIS/Aqua L3 Value-added Aerosol Optical Depth - NRT**, **MODIS/Terra L3 Value-added Aerosol Optical Depth - NRT**, and **MODIS/Terra+Aqua L3 Value-added Aerosol Optical Depth - NRT** - These datasets offer near-real-time aerosol optical depth data from the MODIS instruments on the Terra and Aqua satellites. While they are not limited to Antarctica and are in near-real-time (which might not perfectly align with your 1990-2000 requirement), they are valuable for studying aerosol optical depths globally, including over Antarctica, if you're looking to extend your study beyond the initial time frame or need more current data for comparison. These can be accessed through [https://earthdata.nasa.gov/earth-observation-data/near-real-time/download-nrt-data/modis-nrt](https://earthdata.nasa.gov/earth-observation-data/near-real-time/download-nrt-data/modis-nrt).\n\nGiven the specifics of your request and the available datasets, it seems there might be a need for either adjusting your search criteria slightly or considering post-processing of available datasets to better align with your needs. If you could provide more details on the producer or specific dataset/source you're interested in, or if you're open to adjusting your temporal or spatial criteria, I might be able to offer more precise guidance or suggestions."
+    }
+  ],
+  "files": [
+    {
+      "description": "No description found",
+      "semantic_score": 0.8356743454933167,
+      "title": "NIMFR: derived total & aerosol optical depth from 1st Michalsky algorithm",
+      "url": "http://www.archive.arm.gov/discovery/#v/results/s/s::nimfraod1mich"
+    },
+    {
+      "description": "No description found",
+      "semantic_score": 0.8348239064216614,
+      "title": "Shortwave Array Spectroradiometer-Hemispheric, NIR Aerosol Optical Depths",
+      "url": "http://www.archive.arm.gov/discovery/#v/results/s/s::sasheniraod"
+    },
+    {
+      "description": "No description found",
+      "semantic_score": 0.8345441818237305,
+      "title": "Shortwave Array Spectroradiometer-Hemispheric, VIS Aerosol Optical Depths",
+      "url": "http://www.archive.arm.gov/discovery/#v/results/s/s::sashevisaod"
+    },
+    {
+      "description": "This data set contains monthly mean MODIS Level 3 data from aboard the Aqua and Terra satellites. The parameters provided in this data set are aerosol optical depth (AOD) and Angstrom exponent (AE) at a spatial resolution of 1º by 1º.",
+      "semantic_score": 0.8099798560142517,
+      "title": "High Mountain Asia MODIS Aerosol Optical Depth V001",
+      "url": "https://scholar.google.com/scholar?q=10.5067%2FD0SO1YA0B9EY"
+    },
+    {
+      "description": "Tiny solid and liquid particles suspended in the atmosphere are called aerosols. Windblown dust, sea salts, volcanic ash, smoke from wildfires, and pollution from factories are all examples of aerosols. Depending upon their size, type, and location, aerosols can either cool the surface, or warm it. They can help clouds to form, or they can inhibit cloud formation. And if inhaled, some aerosols can be harmful to people’s health.",
+      "semantic_score": 0.8065371513366699,
+      "title": "Earth Observatory Aerosol Optical Depth",
+      "url": null
+    },
+    {
+      "description": "Tiny solid and liquid particles suspended in the atmosphere are called aerosols. Windblown dust, sea salts, volcanic ash, smoke from wildfires, and pollution from factories are all examples of aerosols. Depending upon their size, type, and location, aerosols can either cool the surface, or warm it. They can help clouds to form, or they can inhibit cloud formation. And if inhaled, some aerosols can be harmful to people’s health.",
+      "semantic_score": 0.8065371513366699,
+      "title": "Earth Observatory Aerosol Optical Depth",
+      "url": "http://earthobservatory.nasa.gov/GlobalMaps/view.php?d1=MODAL2_M_AER_OD&eocn=home&eoci=globalmaps"
+    },
+    {
+      "description": "The NASA Ames Airborne Tracking 14-channel Sunphotometer (AATS-14) was operated successfully aboard the University of Washington CV-580 for 24 data flights during the dry-season airborne campaign from August 13 to September 25, 2000. Flights originated from Pietersburg, South Africa; Kasane, Botswana; and Walvis Bay, Namibia. The AATS-14 instrument measures the transmission of the direct solar beam at 14 discrete wavelengths (350-1558 nm) from which we derived spectral aerosol optical depths (AOD) and columnar water vapor (CWV). Flying at different altitudes over a fixed location allows derivation of layer AOD and CWV. Data taken during vertical profiles allows derivation of aerosol extinction and water vapor density.",
+      "semantic_score": 0.8019095659255981,
+      "title": "SAFARI 2000 Airborne Sunphotometer Aerosol Optical Depth and Water Vapor Data",
+      "url": "https://search.earthdata.nasa.gov/search?q=ames_sunphotometer_643&ac=true"
+    },
+    {
+      "description": "MODIS was launched aboard the Terra satellite on December 18, 1999 (10:30 am equator crossing time) as part of NASA's Earth Observing System (EOS) mission. MODIS with its 2330 km viewing swath width provides almost daily global coverage. It acquires data in 36 high spectral resolution bands between 0.415 to 14.235 micron with spatial resolutions of 250m(2 bands), 500m(5 bands),and 1000m (29 bands). MODIS sensor counts, calibrated radiances, geolocation products and all derived geophysical atmospheric and ocean products are archived at various DAACs and has been made available to public since April 2000.The shortname for this level-3 MODIS aerosol product is MYDAODHD. The Naval Research Laboratory and the University of North Dakota developed this value-added aerosol optical depth dataset based on MODIS Level 2 aerosol products. The MYDAODHD is a gridded product and is specifically designed for quantitative applications including data assimilation and model validation. It is available through LANCE-MODIS. It offers several enhancements over the MODIS Level 2 data on which it is based. These enhancements include stringent filtering to reduce outliers, eliminate cloud contamination, and exclude conditions where aerosol detection is likely to be inaccurate; reduction of systematic biases over land and ocean by empirical corrections; reduction of random variation in AOD values by spatial averaging; quantitative estimation of uncertainty for each AOD data point.The MxDAODHD granules are produced every six hours, and time-stamped 00:00, 06:00, 12:00, and 18:00 (all times UTC). Each granule includes MODIS observations from +/-3 hours from the timestamp (e.g. 12:00 product includes MODIS data from 09:00-15:00 UTC). Production is initiated as soon as the Level 2 inputs become available in the LANCE system.See the LANCE-MODIS page for more dataset information: https://earthdata.nasa.gov/earth-observation-data/near-real-time/download-nrt-data/modis-nrt",
+      "semantic_score": 0.7808812856674194,
+      "title": "MODIS/Aqua L3 Value-added Aerosol Optical Depth - NRT",
+      "url": "https://earthdata.nasa.gov/earth-observation-data/near-real-time/download-nrt-data/modis-nrt"
+    },
+    {
+      "description": "MODIS was launched aboard the Terra satellite on December 18, 1999 (10:30 am equator crossing time) as part of NASA's Earth Observing System (EOS) mission. MODIS with its 2330 km viewing swath width provides almost daily global coverage. It acquires data in 36 high spectral resolution bands between 0.415 to 14.235 micron with spatial resolutions of 250m(2 bands), 500m(5 bands),and 1000m (29 bands). MODIS sensor counts, calibrated radiances, geolocation products and all derived geophysical atmospheric and ocean products are archived at various DAACs and has been made available to public since April 2000.The shortname for this level-3 MODIS aerosol product is MODAODHD. The Naval Research Laboratory and the University of North Dakota developed this value-added aerosol optical depth dataset based on MODIS Level 2 aerosol products. MODAODHD is a gridded product and is specifically designed for quantitative applications including data assimilation and model validation. It is available through LANCE-MODIS. It offers several enhancements over the MODIS Level 2 data on which it is based. These enhancements include stringent filtering to reduce outliers, eliminate cloud contamination, and exclude conditions where aerosol detection is likely to be inaccurate; reduction of systematic biases over land and ocean by empirical corrections; reduction of random variation in AOD values by spatial averaging; quantitative estimation of uncertainty for each AOD data point.The MxDAODHD granules are produced every six hours, and time-stamped 00:00, 06:00, 12:00, and 18:00 (all times UTC). Each granule includes MODIS observations from +/-3 hours from the timestamp (e.g. 12:00 product includes MODIS data from 09:00-15:00 UTC). Production is initiated as soon as the Level 2 inputs become available in the LANCE system.See the LANCE-MODIS page for more dataset information: https://earthdata.nasa.gov/earth-observation-data/near-real-time/download-nrt-data/modis-nrt",
+      "semantic_score": 0.7808772325515747,
+      "title": "MODIS/Terra L3 Value-added Aerosol Optical Depth - NRT",
+      "url": "https://earthdata.nasa.gov/earth-observation-data/near-real-time/download-nrt-data/modis-nrt"
+    },
+    {
+      "description": "MODIS was launched aboard the Terra satellite on December 18, 1999 (10:30 am equator crossing time) as part of NASA's Earth Observing System (EOS) mission. MODIS with its 2330 km viewing swath width provides almost daily global coverage. It acquires data in 36 high spectral resolution bands between 0.415 to 14.235 micron with spatial resolutions of 250m(2 bands), 500m(5 bands),and 1000m (29 bands). MODIS sensor counts, calibrated radiances, geolocation products and all derived geophysical atmospheric and ocean products are archived at various DAACs and has been made available to public since April 2000.The shortname for this level-3 MODIS aerosol product is MCDAODHD. The Naval Research Laboratory and the University of North Dakota developed this value-added aerosol optical depth dataset based on MODIS Level 2 aerosol products. MCDAODHD is a gridded product and is specifically designed for quantitative applications including data assimilation and model validation. It is available through LANCE-MODIS. It offers several enhancements over the MODIS Level 2 data on which it is based. These enhancements include stringent filtering to reduce outliers, eliminate cloud contamination, and exclude conditions where aerosol detection is likely to be inaccurate; reduction of systematic biases over land and ocean by empirical corrections; reduction of random variation in AOD values by spatial averaging; quantitative estimation of uncertainty for each AOD data point.The MxDAODHD granules are produced every six hours, and time-stamped 00:00, 06:00, 12:00, and 18:00 (all times UTC). Each granule includes MODIS observations from +/-3 hours from the timestamp (e.g. 12:00 product includes MODIS data from 09:00-15:00 UTC). Production is initiated as soon as the Level 2 inputs become available in the LANCE system.See the LANCE-MODIS page for more dataset information: https://earthdata.nasa.gov/earth-observation-data/near-real-time/download-nrt-data/modis-nrt",
+      "semantic_score": 0.7807922959327698,
+      "title": "MODIS/Terra+Aqua L3 Value-added Aerosol Optical Depth - NRT",
+      "url": "https://earthdata.nasa.gov/earth-observation-data/near-real-time/download-nrt-data/modis-nrt"
+    }
+  ]
+}

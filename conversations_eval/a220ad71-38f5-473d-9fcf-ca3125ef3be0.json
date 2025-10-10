@@ -1,0 +1,76 @@
+{
+  "id": "a220ad71-38f5-473d-9fcf-ca3125ef3be0",
+  "domain": "earthObservation",
+  "messages": [
+    {
+      "sender": "user",
+      "text": "Provide NETCDF datasets of snow cover extent in Atlantic Ocean between 2010 and 2020"
+    },
+    {
+      "sender": "bot",
+      "text": "Based on your request for NETCDF datasets of snow cover extent in the Atlantic Ocean between 2010 and 2020, I've conducted a search to find relevant datasets that match your criteria. \n\nThe search results yielded several datasets related to snow cover extent, although not all are specifically focused on the Atlantic Ocean. Here are a few datasets that might be of interest to you, along with a brief description of what each contains and why they were selected:\n\n1. **Rutgers Northern Hemisphere 24 km Weekly Snow Cover Extent, September 1980 Onward, Version 1**: This dataset provides weekly snow cover extent for the Northern Hemisphere in NetCDF format from September 1980 through the most recent processing at a 24 km resolution. While it covers a broader area than just the Atlantic Ocean, it includes data for the region and is available in the desired NETCDF format. You can find it at [https://noaadata.apps.nsidc.org/NOAA/G10035/](https://noaadata.apps.nsidc.org/NOAA/G10035/).\n\n2. **Northern Hemisphere EASE-Grid Snow Cover and Sea Ice Extent**: This dataset offers monthly North American snow cover extent derived from weekly values. Although focused on North America, parts of this dataset may cover areas of the Atlantic Ocean relevant to your search. It's available at [http://www.esrl.noaa.gov/psd/data/data.snowcover.html](http://www.esrl.noaa.gov/psd/data/data.snowcover.html).\n\n3. **MEaSUREs Northern Hemisphere Terrestrial Snow Cover Extent Daily 25km EASE-Grid 2.0 V001**: This dataset provides daily snow cover extent for the Northern Hemisphere at a 25 km resolution. It includes data that might be relevant for parts of the Atlantic Ocean, especially areas near land masses. You can access it via [https://scholar.google.com/scholar?q=10.5067%2FMEASURES%2FCRYOSPHERE%2Fnsidc-0530.001](https://scholar.google.com/scholar?q=10.5067%2FMEASURES%2FCRYOSPHERE%2Fnsidc-0530.001).\n\n4. **ISLSCP II Northern Hemisphere Monthly Snow Cover Extent**: This dataset contains monthly snow cover extent data, which, while not exclusively focused on the Atlantic Ocean, covers the Northern Hemisphere and could be useful for your research. It's available at [https://search.earthdata.nasa.gov/search?q=snow_cover_xdeg_982&ac=true](https://search.earthdata.nasa.gov/search?q=snow_cover_xdeg_982&ac=true).\n\nIf none of these datasets precisely match your requirements, it might be helpful to refine your search criteria, such as specifying a particular region within the Atlantic Ocean or considering datasets that cover slightly broader or narrower time frames. Additionally, checking the websites of major climate and Earth observation data providers like NASA, NOAA, or the National Snow and Ice Data Center (NSIDC) might yield more targeted results.\n\nPlease let me know if you need further assistance or have any follow-up questions!"
+    }
+  ],
+  "files": [
+    {
+      "description": "This data set provides weekly snow cover extent for the Northern Hemisphere in NetCDF format from September 1980 through most recent processing at a 24 km resolution.",
+      "semantic_score": 0.8289044499397278,
+      "title": "Rutgers Northern Hemisphere 24 km Weekly Snow Cover Extent, September 1980 Onward, Version 1",
+      "url": "https://noaadata.apps.nsidc.org/NOAA/G10035/"
+    },
+    {
+      "description": "Monthly North American snow sover extent derived from weekly values",
+      "semantic_score": 0.8234554529190063,
+      "title": "Northern Hemisphere EASE-Grid Snow Cover and Sea Ice Extent",
+      "url": "http://www.esrl.noaa.gov/psd/data/data.snowcover.html"
+    },
+    {
+      "description": "This data set contains time series of monthly snow cover extent (SCE) for North America, Eurasia, and the Northern Hemisphere from 1915 to 1997, based on snow cover reconstruction and NOAA satellite data. In addition, the data set contains time series of annual variation in areally-averaged monthly snow depth and (SWE) for the North American grid domain used to derive the snow cover index.",
+      "semantic_score": 0.8122932314872742,
+      "title": "Reconstructed North American, Eurasian, and Northern Hemisphere Snow Cover Extent, 1915-1997, Version 1",
+      "url": "https://noaadata.apps.nsidc.org/NOAA/G02131/"
+    },
+    {
+      "description": "This data set contains reconstructed monthly North American snow extent values for November through March, 1900-1993. Investigators used a combination of satellite and station observations and based the reconstruction on linear regressions between the two types of observations. The data also includes standard errors of estimates as well as the observed values upon which the regressions were based.",
+      "semantic_score": 0.8070579767227173,
+      "title": "Reconstructed North American Snow Extent, 1900-1993, Version 1",
+      "url": "https://noaadata.apps.nsidc.org/NOAA/G02130/"
+    },
+    {
+      "description": "The main parameters for this data set are snow cover and sea ice extent; both parameters are derived from SMMR and DMSP-F8, -F11, -F13, and -F17 SSM/I and SSMIS brightness temperature data. These data are provided on the Northern Hemisphere EASE-Grid 2.0 projection and at a grid cell size of 25 x 25 km. This product is designed to provide a consistent weekly time series of snow cover from October 1966 through January 2023 and sea ice from October 1978 through January 2023.",
+      "semantic_score": 0.8030720353126526,
+      "title": "Northern Hemisphere EASE-Grid 2.0 Weekly Snow Cover and Sea Ice Extent, Version 4",
+      "url": "https://daacdata.apps.nsidc.org/pub/DATASETS/nsidc0046_weekly_snow_seaice/"
+    },
+    {
+      "description": "This data set, part of the NASA Making Earth System Data Records for Use in Research Environments (MEaSUREs) program, offers users 25 km Northern Hemisphere snow cover extent represented by four different variables. Three of the snow cover variables are derived from the Interactive Multisensor Snow and Ice Mapping System, MODIS Cloud Gap Filled Snow Cover, and passive microwave brightness temperatures, respectively. The fourth variable merges the three source products into a single representation of snow cover.",
+      "semantic_score": 0.7963398098945618,
+      "title": "MEaSUREs Northern Hemisphere Terrestrial Snow Cover Extent Daily 25km EASE-Grid 2.0 V001",
+      "url": "https://scholar.google.com/scholar?q=10.5067%2FMEASURES%2FCRYOSPHERE%2Fnsidc-0530.001"
+    },
+    {
+      "description": "This data set, part of the NASA Making Earth System Data Records for Use in Research Environments (MEaSUREs) program, offers users weekly 100 km Northern Hemisphere snow cover extent represented by three different variables. Two of the variables are derived from individual source products: the NOAA/NCDC Northern Hemisphere Snow Cover Extent Climate Data Record and Defense Meteorological Satellite Program (DMSP) passive microwave brightness temperatures, respectively. The third variable merges the other two into a single representation of snow cover.",
+      "semantic_score": 0.7945969104766846,
+      "title": "MEaSUREs Northern Hemisphere Terrestrial Snow Cover Extent Weekly 100km EASE-Grid 2.0 V001",
+      "url": "https://scholar.google.com/scholar?q=10.5067%2FMEASURES%2FCRYOSPHERE%2Fnsidc-0531.001"
+    },
+    {
+      "description": "This ISLSCP data set is derived from the National Snow and Ice Data Center (NSIDC) Northern Hemisphere EASE-Grid Weekly Snow Cover and Sea Ice Extent product which combines snow cover and sea ice extent at weekly intervals for October 1978 through June 2001, and snow cover alone from 1966 through June 2001. The original data set was the first representation of combined snow and sea ice measurements derived from satellite observations for the period of record. Designed to facilitate study of Northern Hemisphere seasonal fluctuations of snow cover and sea ice extent, the original NSIDC data set also includes monthly climatologies describing average extent, probability of occurrence, and variance.This data set shows the extent of snow on the land at a variety of scales (1.0 degree, 0.5 degree, 0.25 degree). The values represent the percentage of days in each month where snow was present -- 100 means 100% of the month, 80 means 80% of the month, etc. There are 4 .zip files provided. Missing data is represented by -99 for water and -88 for land. The data were originally in a yearly tabular format. The file was converted to multi-scale maps by plotting each point in the tabular data onto a map of -99 (water) and -88 (land) created from the standard ISLSCP II Land/Sea Mask.",
+      "semantic_score": 0.7896018624305725,
+      "title": "ISLSCP II Northern Hemisphere Monthly Snow Cover Extent",
+      "url": "https://search.earthdata.nasa.gov/search?q=snow_cover_xdeg_982&ac=true"
+    },
+    {
+      "description": "This dataset provides estimates of maximum snow cover extent (SCE) and snow depth for each 8-day composite period from 2001 to 2017 at 1 km resolution across Alaska. The study area covers the majority land area of Alaska except for areas covered by perennial ice/snow or open water. A downscaling scheme was used in which Modern-Era Retrospective Analysis for Research and Applications, Version 2 (MERRA-2) global reanalysis 0.5 degree snow depth data were interpolated to a finer 1 km spatial grid.  In the methods used, the downscaling scheme incorporated MODIS SCE (MOD10A2) to better account for the influence of local topography on the 1km snow distribution patterns.  For MODIS cloud-contaminated pixels, persistent and patchy cloud cover conditions were improved by applying an elevation-based spatial filtering algorithm to predict snow occurrence.  Cloud-free MODIS SCE data were then used to downscale MERRA-2 snow depth data.  For each snow-covered 1 km pixel indicated by the MODIS data, the snow depth was estimated based on the snow depth of the neighboring MERRA-2 0.5 grid cell, with weights predicted using a spatial filter.",
+      "semantic_score": 0.7879661917686462,
+      "title": "ABoVE: High Resolution Cloud-Free Snow Cover Extent and Snow Depth, Alaska, 2001-2017",
+      "url": "https://search.earthdata.nasa.gov/search?q=Snow_Cover_Extent_and_Depth_1757&ac=true"
+    },
+    {
+      "description": "This data set includes: (1) fine-scale snow and land cover maps from two mountainous study sites in the Western U.S., produced using machine-learning models trained to extract land cover data from WorldView-2 and WorldView-3 stereo panchromatic and multispectral images; (2) binary snow maps derived from the land cover maps; and (3) 30 m and 465 m fractional snow-covered area (fSCA) maps, produced via downsampling of the binary snow maps. The land cover classification maps feature between three and six classes common to mountainous regions and integral for accurate stereo snow depth mapping: illuminated snow, shaded snow, vegetation, exposed surfaces, surface water, and clouds. Also included are Landsat and MODSCAG fSCA map products. The source imagery for these data are the Maxar WorldView-2 and Maxar WorldView-3 Level-1B 8-band multispectral images, orthorectified and converted to top-of-atmosphere reflectance. These Level-1B images are available under the NGA NextView/EnhancedView license.",
+      "semantic_score": 0.7808173298835754,
+      "title": "Land Cover Classification, Snow Cover, and Fractional Snow-Covered Area Maps from Maxar WorldView Satellite Images V001",
+      "url": "https://scholar.google.com/scholar?q=10.5067%2FUSXB6X9CD4Q2"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "ed20d2f5-5573-4f88-8a72-8436f1fa1a10",
+  "domain": "earthObservation",
+  "messages": [
+    {
+      "sender": "user",
+      "text": "Provide XLSX datasets of solar radiation in Africa between 2015 and 2023"
+    },
+    {
+      "sender": "bot",
+      "text": "You are looking for datasets related to solar radiation in Africa, specifically in the XLSX format, covering the period from 2015 to 2023. Based on your request, I've searched through available datasets and found a few that might be relevant to your query.\n\nUnfortunately, none of the datasets I found specifically match your criteria of being in XLSX format and focused solely on Africa. However, I can suggest some datasets that contain solar radiation data and might be useful for your research:\n\n1. **National Solar Radiation Database (NSRDB)**: This database, provided by the National Renewable Energy Laboratory (NREL), contains serially complete collections of hourly and half-hourly values of solar radiation measurements, including global horizontal, direct normal, and diffuse horizontal irradiance, along with meteorological data. Although it's primarily focused on the United States, it does include data for international locations. You can find more information at [https://developer.nrel.gov/docs/solar/nsrdb/](https://developer.nrel.gov/docs/solar/nsrdb/).\n\n2. **Baseline Solar Radiation Network (BSRN)**: BSRN provides high-quality measurements of solar radiation. While not exclusively focused on Africa, BSRN has stations worldwide, including in Africa, that measure solar irradiance. The data might not be in XLSX format initially, but it could be converted. For more details, visit [http://www.archive.arm.gov/discovery/#v/results/s/s::bsrn](http://www.archive.arm.gov/discovery/#v/results/s/s::bsrn).\n\n3. **Solar and Infrared Radiation Station (SIRS)**: This dataset also includes measurements of solar radiation, although it might require filtering to extract data specifically for Africa. The data is available at [http://www.archive.arm.gov/discovery/#v/results/s/s::sirs](http://www.archive.arm.gov/discovery/#v/results/s/s::sirs).\n\nTo better assist you, could you please provide more information on the specific solar radiation measurements you're interested in (e.g., global horizontal, direct normal irradiance) or if there's a particular African region you're focusing on? This would help in narrowing down the search for more targeted datasets.\n\nIf you're looking for datasets in XLSX format specifically, you might need to convert the data from the sources mentioned above or look into datasets from other providers that offer solar radiation data in the desired format. \n\nPlease let me know if there's any additional information I can provide or if you'd like me to explore other options based on your specific needs."
+    }
+  ],
+  "files": [
+    {
+      "description": "No description found",
+      "semantic_score": 0.8123772740364075,
+      "title": "Solar and Infrared Radiation Station (SIRS): 60-sec data",
+      "url": "http://www.archive.arm.gov/discovery/#v/results/s/s::sirs60s"
+    },
+    {
+      "description": "No description found",
+      "semantic_score": 0.8012712001800537,
+      "title": "Baseline Solar Radiation Network (BSRN): solar irradiances",
+      "url": "http://www.archive.arm.gov/discovery/#v/results/s/s::bsrn"
+    },
+    {
+      "description": "No description found",
+      "semantic_score": 0.8003214001655579,
+      "title": "Baseline Solar Radiation Network (BSRN): calculated solar irradiances",
+      "url": "http://www.archive.arm.gov/discovery/#v/results/s/s::bsrncalc"
+    },
+    {
+      "description": "No description found",
+      "semantic_score": 0.7930999398231506,
+      "title": "Solar and Infrared Radiation Station (SIRS): broadband shortwave and longwave radiation",
+      "url": "http://www.archive.arm.gov/discovery/#v/results/s/s::sirs"
+    },
+    {
+      "description": "The lidar Potential Solar Radiation (SRAD) is the SRAD  data product produced and distributed by the National Park Service, Great Smoky Mountains National Park. Values are watt hours per square meter (WH/m2). Potential is based on entire year of 2014, with a sky size resolution of 400, day interval of 14, and a hour interval of .5.",
+      "semantic_score": 0.7928999662399292,
+      "title": "30-m Potential Solar Radiation (2014)",
+      "url": "https://irma.nps.gov/DataStore/DownloadFile/543497?Reference=2208716"
+    },
+    {
+      "description": "The ARM Enhanced Shortwave Experiment (ARESE) was conducted at the Department of Energy's ARM Southern Great Plains (SGP) Central Facility between September 22, 1995 and November 1, 1995. ARESE used a combination of satellite, aircraft, and ground observations to make highly accurate solar flux measurements at different altitudes throughout the atmospheric column. At the heart of this was a carefully stacked Twin Otter and Egrett cloud sandwich with the Otter at 1500 - 5000 feet and the Egrett at 43,000 feet overflown by an ER-2 flying at 65,000 feet.",
+      "semantic_score": 0.7896135449409485,
+      "title": "ARM Enhanced Shortwave Experiment (ARESE) Solar Radiation Data",
+      "url": "http://eosweb.larc.nasa.gov/project/arese/arese_table"
+    },
+    {
+      "description": "<p>Monthly 30-year \"normal\" dataset covering the conterminous U.S., averaged over the climatological period 1991-2020. Contains spatially gridded average annual daily total clear-sky global shortwave radiation on a horizontal plane at 4km grid cell resolution. Clear sky radiation was modeled with the Image Processing Workbench (IPW) and MERRA-2 satellite data. Distribution of effective cloud transmittance point measurements to the spatial grid was accomplished using the PRISM model. Total shortwave radiation on horizontal and sloped ground surfaces was modeled with IPW, using the clear-sky and transmittance grids as inputs. Terrain data was derived from a 30-arc-sec version of the US National Elevation Database. Modeled values incorporate the effects of elevation, shading, and reflection from nearby terrain on solar radiation. This dataset is available free-of-charge on the PRISM website.</p>",
+      "semantic_score": 0.7863183617591858,
+      "title": "Solar Radiation - Monthly and Annual Normals",
+      "url": "https://geohub.oregon.gov/documents/oregon-geo::solar-radiation-monthly-and-annual-normals"
+    },
+    {
+      "description": "<p>Monthly 30-year \"normal\" dataset covering the conterminous U.S., averaged over the climatological period 1991-2020. Contains spatially gridded average annual monthly mean effective cloud transmittance at 4km grid cell resolution. Clear sky radiation was modeled with the Image Processing Workbench (IPW) and MERRA-2 satellite data. Distribution of effective cloud transmittance point measurements to the spatial grid was accomplished using the PRISM model. Total shortwave radiation on horizontal and sloped ground surfaces was modeled with IPW, using the clear-sky and transmittance grids as inputs. Terrain data was derived from a 30-arc-sec version of the US National Elevation Database. Modeled values incorporate the effects of elevation, shading, and reflection from nearby terrain on solar radiation. This dataset is available free-of-charge on the PRISM website.</p>",
+      "semantic_score": 0.7856308221817017,
+      "title": "Cloud Solar Radiation Transmittance - Monthly and Annual Normals",
+      "url": "https://geohub.oregon.gov/documents/oregon-geo::cloud-solar-radiation-transmittance-monthly-and-annual-normals"
+    },
+    {
+      "description": "The NSRDB is a serially complete collection of hourly and half-hourly values of the three most common measurements of solar radiation—global horizontal, direct normal, and diffuse horizontal irradiance—and meteorological data. The current NSRDB is modeled using multi-channel measurements from geostationary satellites. The older versions of the NSRDB were modeled using cloud and weather information primarily collected at airports. A sufficient number of locations and temporal and spatial scales were used to represent regional solar radiation climates accurately.",
+      "semantic_score": 0.7845282554626465,
+      "title": "National Solar Radiation Database (NSRDB)",
+      "url": "https://developer.nrel.gov/docs/solar/nsrdb/"
+    },
+    {
+      "description": "The National Solar Radiation Database (NSRDB) is a serially complete collection of meteorological and solar irradiance data sets for the United States and a growing list of international locations for 1998-2023. The NSRDB is updated annually and provides foundational information to support U.S. Department of Energy programs, research, industry and the general public.\n\nThe NSRDB provides time-series data at 30-minute resolution of resource averaged over surface cells of 0.038 degrees in both latitude and longitude, or nominally 4 km in size. Additionally time series data at 5 minutes for the US and 10 minutes for North, Central and South America at 2 km resolution are produced from the next generation of GOES satellites and made available from 2019. The solar radiation values represent the resource available to solar energy systems. The data was created using cloud properties which are generated using the AVHRR Pathfinder Atmospheres-Extended (PATMOS-x) algorithms developed by the University of Wisconsin. Fast all-sky radiation model for solar applications (FARMS) in conjunction with the cloud properties, and aerosol optical depth (AOD) and precipitable water vapor (PWV) from ancillary source are used to estimate solar irradiance (GHI, DNI, and DHI). The Global Horizontal Irradiance (GHI) is computed for clear skies using the REST2 model. For cloud scenes identified by the cloud mask, FARMS is used to compute GHI and FARMS DNI is used to compute the Direct Normal Irradiance (DNI). The PATMOS-X model uses radiance images in visible and infrared channels from the Geostationary Operational Environmental Satellite (GOES) series of geostationary weather satellites. Ancillary variables needed to run REST2 and FARMS (e.g., aerosol optical depth, precipitable water vapor, and albedo) are derived from NASA's Modern Era-Retrospective Analysis (MERRA-2) dataset. Temperature and wind speed data are also derived from MERRA-2 and provided for use in NREL's System Advisor Model (SAM) to compute PV generation.",
+      "semantic_score": 0.776555597782135,
+      "title": "National Solar Radiation Database (NSRDB)",
+      "url": "https://registry.opendata.aws/nrel-pds-nsrdb/"
+    }
+  ]
+}

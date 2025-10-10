@@ -1,0 +1,76 @@
+{
+  "id": "49cdc612-19c8-45bb-b384-cb166b26cee8",
+  "domain": "earthObservation",
+  "messages": [
+    {
+      "sender": "user",
+      "text": "Provide Evapotranspiration over North Africa from 2003 to 2015"
+    },
+    {
+      "sender": "bot",
+      "text": "You are looking for Evapotranspiration data specifically over North Africa, covering the period from 2003 to 2015. Unfortunately, the provided datasets do not exactly match your request, as they are either from different regions or do not cover the specified time frame. However, I can suggest some alternatives and provide information on datasets that might be useful for your research, even if they don't perfectly align with your initial request.\n\nThe datasets I've retrieved are mainly from the United States and cover various aspects of evapotranspiration, such as reference evapotranspiration, evaporative fraction, and actual evapotranspiration, primarily in the context of the United States. For instance, the \"Operational Global Actual Evapotranspiration using the SSEBop model\" and \"Daily SSEBop Evapotranspiration Data from 2000 to Present\" could be of interest, although they are not limited to North Africa.\n\nTo better assist you, I would need more specific information about the type of Evapotranspiration data you are looking for (e.g., daily, monthly averages) and the desired format (e.g., CSV, NetCDF). Additionally, knowing if there's a particular producer or dataset you're interested in could help narrow down the search.\n\nFor now, here are a few datasets that might be of general interest, though they don't match your geographical and temporal criteria:\n1. **Operational Global Actual Evapotranspiration using the SSEBop model** - This dataset provides global actual evapotranspiration estimates. While not specific to North Africa, it could be useful for broader research.\n2. **Daily SSEBop Evapotranspiration Data from 2000 to Present** - Offers daily evapotranspiration data, which might be adaptable for studies in North Africa, though it's focused on the CONUS.\n3. **Russian River Integrated Hydrologic Model (RRIHM): Reference Evapotranspiration** - Although specific to the Russian River Watershed, it demonstrates the kind of detailed evapotranspiration data that might be available for other regions.\n\nTo proceed, could you please provide more details about your specific needs, such as the desired data format and any particular dataset or producer you're interested in? This will help in narrowing down the search to find the most relevant data for your research on Evapotranspiration over North Africa from 2003 to 2015."
+    }
+  ],
+  "files": [
+    {
+      "description": "The spreadsheet consists of all the data and statistics used in the publication 'Operational Global Actual Evapotranspiration: Development, Evaluation and Dissemination'.",
+      "semantic_score": 0.836166501045227,
+      "title": "Operational Global Actual Evapotranspiration using the SSEBop model",
+      "url": "https://doi.org/10.5066/P9OUVUUI"
+    },
+    {
+      "description": "This data release provides rasters of actual evapotranspiration (ET) at the Conterminous U.S. (CONUS) scale from October 1895 to September 2018. Data are provided at the annual and monthly time scales at 800 meter spatial resolution. The dataset was produced using ensemble estimation methods described in the associated journal article. The data release also includes associated datasets developed in the production of these ET estimates, including monthly maps of groundwater and surface water irrigation from 1980-2018, as well as data underlying the figures in the associated paper.",
+      "semantic_score": 0.8230966329574585,
+      "title": "Historical Evapotranspiration for the Conterminous U.S.",
+      "url": "https://data.usgs.gov/datacatalog/metadata/USGS.64135576d34eb496d1ce3d2e.xml"
+    },
+    {
+      "description": "Daily SSEBop evapotranspiration at the Moderate Resolution Imaging Spectroradiometer (MODIS) scale was created for the CONUS. These data are published on the USGS earlywarning site (https://earlywarning.usgs.gov/ssebop/modis/daily). The first phase included the creation on historical actual daily ET data from 2000 – 2018. The second phase will create the ET product operationally on a daily time scale.\nThe corresponding data files for each day, geotiff and meta data file, are compressed as a zip file for download. The values for the daily ET data are scaled by a factor of 1000. NoData pixels are indicated as NoData(9999). Daily ETa data are produced at 1 km resolution and are available at: https://earlywarning.usgs.gov/ssebop/modis/daily",
+      "semantic_score": 0.8104050159454346,
+      "title": "Daily SSEBop Evapotranspiration Data from 2000 to Present",
+      "url": "https://earlywarning.usgs.gov/ssebop/modis/daily"
+    },
+    {
+      "description": "Selected evapotranspiration data were collected between 7/8/2010 and 11/2/2012 at two eddy covariance sites and from 6/8/2011 to 11/2/2012 at two additional eddy covariance sites in Kobeh Valley, central Nevada. The data presented in this data release includes 30-minute and daily evapotranspiration and associated energy-balance fluxes, precipitation, soil water content, air and soil temperature, wind speed and direction, humidity, and photosynthetically active radiation data. Data collection and processing methods follow those described in Berger and others (2016). \nBerger, D.L., Mayers, C.J., Garcia, C.A., Buto, S.G., and Huntington, J.M., 2016, Budgets and chemical characterization of groundwater for the Diamond Valley flow system, central Nevada, 2011–12: U.S. Geological Survey Scientific Investigations Report 2016–5055, 83 p., http://dx.doi.org/10.3133/sir20165055 .",
+      "semantic_score": 0.8058415055274963,
+      "title": "Evapotranspiration data, Kobeh Valley, Nevada, 2010–12",
+      "url": "https://data.usgs.gov/datacatalog/metadata/USGS.5b847a41e4b05f6e321b62fe.xml"
+    },
+    {
+      "description": "The Russian River Watershed (RRW) covers about 1,300 square miles (without Santa Rosa Plain) of urban, agricultural, and forested lands in northern Sonoma County and southern Mendocino County, California. Communities in the RRW depend on a combination of Russian River water and groundwater to meet their water-supply demands. Water is used primarily for agricultural irrigation, municipal and private wells supply, and commercial uses - such as for wineries and recreation. Annual rainfall in the RRW is highly variable, making it prone to droughts and flooding from atmospheric river events. In order to better understand surface-water and groundwater issues, the USGS is creating a Coupled Ground-Water and Surface-Water Flow Model (GSFLOW; Markstrom and others, 2008) of the RRW. This model will include climate, geology, surface-water, groundwater, and land-use data.\nThese data are the daily reference evapotranspiration values for two stations in the Russian River watershed for 1910-2017.",
+      "semantic_score": 0.8017100691795349,
+      "title": "Russian River Integrated Hydrologic Model (RRIHM): Reference Evapotranspiration",
+      "url": "https://doi.org/10.5066/P9WQVKSS"
+    },
+    {
+      "description": "This dataset contains Landsat-derived images of Evaporative Fraction (ETf), Reference Evapotranspiration (ETo), and Actual Evapotranspiration (ETa) over a portion of California’s Central Valley for 15 dates in 2016. Each of the 15 images used in this study had three corresponding Tif files representing ETf, ETo, and ETa. Data used in this project was sourced from Landsat 8 Surface Reflectance Tier 1 images processed in Google Earth Engine (GEE). These images contain five visible and near-infrared (VNIR) bands and two short-wave infrared (SWIR) bands processed to orthorectified surface reflectance, and two thermal infrared (TIR) bands processed to orthorectified brightness temperature. To determine thermal properties of images to aid in ET calculation, the TIR Band 10 (B10) containing brightness temperature was chosen to determine Land Surface Temperature (LST).",
+      "semantic_score": 0.7992115020751953,
+      "title": "Crop Specific Landsat Derived Reference Evapotranspiration, Evaporative Fraction, and Actual Evapotranspiration for 2016 in the California Central Valley",
+      "url": "https://doi.org/10.5066/P9OICUG4"
+    },
+    {
+      "description": "With increasing population growth and land-use change, urban communities in the desert southwest are progressively \nlooking to remote basins to supplement existing water supplies.  Recent applications for groundwater appropriations \nfrom Dixie Valley, Nevada, a primarily undeveloped basin neighboring the Carson Desert to the east, have prompted \na reevaluation of the quantity of naturally discharging groundwater. The objective of this study was to develop a new, \nindependent estimate of groundwater discharge by evapotranspiration (ET) from Dixie Valley using a combination of \neddy-covariance evapotranspiration measurements and multispectral satellite imagery. Mean annual groundwater ET \n(ETg) was estimated during October 2009-2011 at four eddy covariance sites.  Two sites were located in phreatophytic \nshrubland dominated by greasewood and two were located on a playa.  Estimates were scaled to the basin level by \ncombining remotely sensed imagery with field reconnaissance and site-scale ETg estimates.  Vegetation index and \nbrightness temperature data were used to partition Dixie Valley into five discharging ET units, and scale actual and \npotential ETg to the basin level. ET units are spatially constrained by a groundwater discharge area which represents \nthe area where discharge from evaporation by open water or bare soil and transpiration from phreatophytic plants \nexceeds the volume of water contributed by precipitation. Each ET unit represents a generalized grouping of vegetation \nand soil conditions that were used as the basis of estimation of total ETg.  ET units were partitioned as: playa lake, \nplaya, sparse shrubland, moderate-to-dense shrubland, and grassland.",
+      "semantic_score": 0.7974896430969238,
+      "title": "Evapotranspiration units for Dixie Valley, Churchill County, Nevada",
+      "url": "https://doi.org/10.5066/P9HE15EZ"
+    },
+    {
+      "description": "The supplemental data presented here contains three raster datasets representing the evapotranspiration (ET) units for northern, southern, and western regions of Harney Basin (raster datasets in .tif format) and one vector dataset of ET-unit observations used to delineate ET units (vector dataset in .shp format). Eleven ET units were identified from ET-unit observations of land cover and include bare soil or playa (1), marsh (2), dry meadow (3), wet meadow (4), open water (5), riparian (6), mixed shrubland (7), phreatophyte shrubland (8), xerophyte shrubland (9), sagebrush shrubland (10), and xerophyte grassland (11). Irrigated areas are excluded from ET units. Unpublished land-cover datasets collected by the U.S. Bureau of Land Management (BLM) and U.S. Fish and Wildlife Service (USFWS) were used, in part, to generate ET-unit observations and are provided (vector datasets in .shp and .csv format) in the sub-child item, Harney Basin Land-Cover Observations.",
+      "semantic_score": 0.7910190224647522,
+      "title": "Evapotranspiration Units Delineated by Region in the Harney Basin Groundwater Evapotranspiration Area and Evapotranspiration-Unit Observations, Southeastern Oregon",
+      "url": "https://data.usgs.gov/datacatalog/metadata/USGS.6092e276d34e791692e41106.xml"
+    },
+    {
+      "description": "There are 100 traces in the simulation. This metadata file is only associated with the first trace (Trace_1), although a similar naming convention is used in each trace folder.\n.\\Reservoir SPEI Results\\: This directory contains a folder for each trace (simulation) and each trace folder contains stochastic precipitation, stochastic potential evapotranspiration, stochastic temperature, and standardized precipitation evapotranspiration index (SPEI) values for Grant Devine Reservoir, Rafferty Reservoir, Lake Darling Reservoir, and Boundary Reservoir (a replicate of Rafferty Reservoir). All data are provided with a monthly time step. SPEI is calculated for a number of previous months and for each reservoir a calculation of SPEI was done with a 3-month, 6-month, and 12-month lag. In addition, the average of the 3-month and 12-month lag was taken, the October value of the average SPEI was assumed to be equal to the SPEI on November 1 of each year and subset to one value per year in the stochastic streamflow dataset. Potential evapotranspiration (PET) and precipitation have units of millimeters.",
+      "semantic_score": 0.7880743145942688,
+      "title": "Traces of stochastic precipitation, stochastic potential evapotranspiration, stochastic temperature, and standardized precipitation evapotranspiration index (SPEI) values",
+      "url": "https://data.usgs.gov/datacatalog/metadata/USGS.605d2a6bd34ec5fa65ebaca1.xml"
+    },
+    {
+      "description": "<div style='text-align:Left;'><p><span style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'>The ETo Zones Map allows users to view the grass-reference evapotranspiration (ETo) Zones for the State of California. The map was developed by DWR and UC Davis in 1999 and divides the State into 18 zones based on long-term monthly average ETo. The ETo values were calculated using data from various data sources, including CIMIS weather stations that had at least five years of archived data. This dataset is the version from 1999.</span><br /></p></div>",
+      "semantic_score": 0.7802138328552246,
+      "title": "i04 CIMIS Reference Evapotranspiration Zones v1999",
+      "url": "https://gis.data.cnra.ca.gov/datasets/bc6b44c93b824ba1883d07cd139d9324_0"
+    }
+  ]
+}
