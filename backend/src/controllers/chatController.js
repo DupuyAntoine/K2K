@@ -92,9 +92,11 @@ export async function handleUserQuery(req, res) {
     const reducedContext = extractAndSelectChunksFromContext(domainContextRaw, message, 10)
 
     let conversation = []
+    let files = []
     try {
       const raw = await fs.readFile(convoPath, 'utf-8')
       conversation = JSON.parse(raw).messages || []
+      files = JSON.parse(raw).files || []
     } catch {
       console.warn(`Nouvelle conversation : ${conversationId}`)
     }
@@ -118,7 +120,7 @@ export async function handleUserQuery(req, res) {
         { sender: 'user', text: message },
         { sender: 'bot', text: result.response }
       ],
-      files: result.files || []
+      files: result.files
     }
 
     await fs.writeFile(convoPath, JSON.stringify(updated, null, 2))

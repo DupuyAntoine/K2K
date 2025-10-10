@@ -3,6 +3,7 @@ import fs from 'fs'
 
 const BASE_DOMAIN_DIR = path.resolve('data')
 
+// Not used anymore
 export async function getDomainContexts(req, res) {
   try {
     const entries = await fs.readdir(BASE_DOMAIN_DIR, { withFileTypes: true })

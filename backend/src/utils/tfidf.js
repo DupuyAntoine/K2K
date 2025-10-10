@@ -127,11 +127,11 @@ export function extractAndSelectChunksFromContext(rawContext, query, topN = 10) 
  * Affiche les scores TF-IDF des chunks pour debug
  */
 function debugChunkScores(scoredChunks, query) {
-  console.log(`\n🔍 TF-IDF scores for query: "${query}"`)
+  console.log(`TF-IDF scores for query: "${query}"`)
   const sorted = scoredChunks
     .filter(s => s.score > 0)
     .sort((a, b) => b.score - a.score)
   sorted.forEach(({ score, text }, i) => {
-    console.log(`  [${i + 1}] Score: ${score.toFixed(4)} — Preview: "${text.slice(0, 80)}..."`)
+    console.log(`[${i + 1}] Score: ${score.toFixed(4)} — Preview: "${text.slice(0, 80)}..."`)
   })
 }

@@ -63,7 +63,7 @@ useEffect(() => {
       }
 
       setMessages((prev) => [...prev, botMsg])
-      setFiles(res.files || [])
+      setFiles((prev) => [...prev, ...res.files])
     } catch (error) {
       setMessages((prev) => [
         ...prev,

@@ -17,7 +17,6 @@ export async function fetchConversation(domain, conversationId) {
 }
 
 export async function createConversation(domain) {
-  console.log(domain)
   const res = await axios.post("http://localhost:4000/api/conversations", {
     domain
   })
