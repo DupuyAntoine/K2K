@@ -4,6 +4,7 @@ from agents.user_intent_agent import UserIntentAgent
 from agents.query_analyst_agent import QueryAnalystAgent
 from agents.data_identification_agent import DataIdentificationAgent
 from agents.response_agent import ResponseConstructionAgent
+from agents.checker_agent import ResponseCheckerAgent
 from agents.model.model import Model
 
 app = Flask('AgentApp')
@@ -19,6 +20,7 @@ user_intent_agent = UserIntentAgent(model="llama-3.3-70b-versatile")
 query_analyst_agent = QueryAnalystAgent(model="llama-3.3-70b-versatile")
 data_identification_agent = DataIdentificationAgent()
 response_agent = ResponseConstructionAgent(model="llama-3.3-70b-versatile")
+checker_agent = ResponseCheckerAgent(model="llama-3.3-70b-versatile")
 model = Model(model_name="llama-3.3-70b-versatile")
 
 # TODO: user query's language recognition is buggy, probably because
@@ -68,7 +70,7 @@ def chat():
         }
       })
 
-    # 1. Analyse de la requête (message + contexte + historique + ontologie)
+    # 1. Analyse de la requête (message + intent + contexte + historique + ontologie)
     analysis = query_analyst_agent.process_query(
       user_query=user_message,
       intent=intent,
@@ -79,7 +81,7 @@ def chat():
 
     files = []
     if intent in ("data_search"):
-      # 2. Extraction des fichiers à partir de l’interaction + contexte
+      # 2. Extraction des fichiers à partir de l’interaction
       files = data_identification_agent.identify_datasets(
         analysis=analysis
       )
@@ -93,12 +95,21 @@ def chat():
       lang=lang
     )
 
+    # 4. Vérification de la réponse (checker)
+    review = checker_agent.check_response(
+      query=user_message,
+      system_response=response_text,
+      analysis=analysis,
+      retrieved_datasets=files
+    )
+
     return jsonify({
       "response": response_text,
       "files": files,
       "logs": {
         "analysis": analysis,
-        "files": files
+        "files": files,
+        "review": review
       }
     })
 

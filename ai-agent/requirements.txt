@@ -4,3 +4,5 @@ groq==0.18.0
 langdetect==1.0.9
 iso639-lang==2.6.3
 requests==2.32.4
+bert-score==0.3.13
+deep-translator==1.11.4
