@@ -1,0 +1,202 @@
+[
+  {
+    "query": "Which datasets provide land surface temperature measurements over Europe between 2010 and 2024?",
+    "reference_response": "You requested land surface temperature data over Europe (2010–2024). Relevant datasets include multiple satellite-based sources providing consistent temporal and spatial coverage. These datasets typically include metadata such as spatial resolution, data frequency, and quality indicators, allowing accurate monitoring of surface temperature dynamics across Europe."
+  },
+  {
+    "query": "Show me satellite data on vegetation cover changes in the Amazon rainforest over the past decade.",
+    "reference_response": "You requested vegetation cover change data for the Amazon rainforest (past decade). Relevant datasets include satellite-based vegetation indices and land cover change products derived from multispectral imagery. They enable the detection of deforestation and regrowth trends across the Amazon Basin."
+  },
+  {
+    "query": "What datasets are available to analyze sea surface temperature anomalies in the North Atlantic?",
+    "reference_response": "You requested sea surface temperature anomaly data for the North Atlantic. Relevant datasets include long-term ocean temperature monitoring products combining satellite radiometry and in-situ measurements. These datasets support climate variability and oceanographic trend analysis."
+  },
+  {
+    "query": "I’m looking for CO₂ and CH₄ concentration datasets observed from space for France since 2015.",
+    "reference_response": "You requested satellite-observed CO₂ and CH₄ concentration data for France (since 2015). Relevant datasets are derived from atmospheric observation missions and provide greenhouse gas concentration measurements at national and regional levels, enabling trend and emission analysis."
+  },
+  {
+    "query": "Which satellite missions provide aerosol optical depth data for urban areas?",
+    "reference_response": "You requested aerosol optical depth data for urban areas. Relevant datasets originate from multispectral satellite missions and offer aerosol concentration estimates with fine spatial resolution, useful for air quality and visibility assessment in cities."
+  },
+  {
+    "query": "Find datasets describing river discharge and precipitation over the Seine basin for the last 20 years.",
+    "reference_response": "You requested datasets describing river discharge and precipitation in the Seine basin (past 20 years). Relevant hydrological and meteorological datasets integrate in-situ measurements and satellite precipitation estimates, enabling river flow and water cycle analysis."
+  },
+  {
+    "query": "Are there open datasets on coastal erosion and shoreline evolution along the Mediterranean coast?",
+    "reference_response": "You requested open datasets on coastal erosion and shoreline evolution for the Mediterranean coast. Relevant datasets combine satellite imagery and topographic data, documenting coastline changes and erosion patterns at decadal scales."
+  },
+  {
+    "query": "What data can be used to map land use changes due to urban expansion in Southeast Asia?",
+    "reference_response": "You requested land use change data related to urban expansion in Southeast Asia. Relevant datasets include land cover classification maps derived from multispectral satellites and urban growth models, enabling long-term monitoring of human-induced changes."
+  },
+  {
+    "query": "Show datasets providing forest cover loss information derived from Sentinel or Landsat missions.",
+    "reference_response": "You requested forest cover loss data derived from Sentinel or Landsat missions. Relevant datasets provide high-resolution deforestation indicators and temporal maps, suitable for ecosystem monitoring and environmental reporting."
+  },
+  {
+    "query": "Which datasets can I use to analyze air quality and PM2.5 concentration in major European cities over the last decade?",
+    "reference_response": "You requested PM2.5 air quality data for major European cities (past decade). Relevant datasets include satellite-based aerosol observations and ground-based monitoring networks providing urban-scale air quality indicators."
+  },
+  {
+    "query": "Find datasets showing NO₂ emissions trends before and after COVID-19 lockdowns.",
+    "reference_response": "You requested NO₂ emission trend datasets covering pre- and post-COVID-19 lockdown periods. Relevant datasets derive from satellite atmospheric sensors and reveal emission variations associated with human activity reductions."
+  },
+  {
+    "query": "What datasets are available to monitor deforestation and forest cover loss in the Amazon region?",
+    "reference_response": "You requested deforestation monitoring datasets for the Amazon region. Relevant sources use time-series satellite imagery to track forest cover loss and regeneration at regional and continental scales."
+  },
+  {
+    "query": "Show datasets describing wetland dynamics and their seasonal variations in Southeast Asia.",
+    "reference_response": "You requested datasets on wetland dynamics in Southeast Asia. Relevant datasets integrate multispectral and radar imagery, offering seasonal and interannual monitoring of wetland extent and condition."
+  },
+  {
+    "query": "Which satellite observations can track groundwater depletion in Northern India?",
+    "reference_response": "You requested datasets for groundwater depletion in Northern India. Relevant products combine satellite gravimetry and hydrological models, estimating water storage changes in aquifers."
+  },
+  {
+    "query": "Find datasets on river discharge and water surface temperature in Europe.",
+    "reference_response": "You requested datasets on river discharge and water surface temperature in Europe. Relevant datasets integrate in-situ hydrological data and satellite-derived thermal measurements for comprehensive water monitoring."
+  },
+  {
+    "query": "What datasets can be used to map land use changes and urban expansion around Toulouse between 2000 and 2025?",
+    "reference_response": "You requested land use change datasets for Toulouse (2000–2025). Relevant sources include Sentinel and Landsat imagery with derived land cover classification maps, suitable for urban growth analysis."
+  },
+  {
+    "query": "Show data sources linking population density with green space availability in metropolitan areas.",
+    "reference_response": "You requested datasets linking population density and green space availability in cities. Relevant datasets merge satellite-derived vegetation indices with demographic data to assess urban environmental quality."
+  },
+  {
+    "query": "Which datasets report volcanic ash plume dispersion after recent eruptions?",
+    "reference_response": "You requested volcanic ash plume dispersion datasets. Relevant satellite-based atmospheric monitoring data provide ash column density, altitude, and transport trajectories after eruptions."
+  },
+  {
+    "query": "Find Earth Observation datasets useful for assessing drought severity in the Mediterranean basin.",
+    "reference_response": "You requested drought severity datasets for the Mediterranean basin. Relevant datasets combine soil moisture, precipitation, and vegetation indices to quantify and map drought events."
+  },
+  {
+    "query": "Which datasets can help analyze long-term surface temperature trends over Europe from 1980 to 2025?",
+    "reference_response": "You requested long-term surface temperature datasets for Europe (1980–2025). Relevant climate reanalysis and satellite data provide homogenized temperature records for trend analysis."
+  },
+  {
+    "query": "Find datasets that track sea level rise and coastal erosion along the Atlantic coast of France.",
+    "reference_response": "You requested sea level rise and coastal erosion data for France’s Atlantic coast. Relevant datasets combine satellite altimetry and shoreline change observations to monitor long-term coastal evolution."
+  },
+  {
+    "query": "What observations are available to assess the impact of heatwaves on vegetation health across Southern Europe?",
+    "reference_response": "You requested datasets to assess vegetation response to heatwaves in Southern Europe. Relevant datasets integrate thermal anomaly and vegetation index data to quantify heat stress effects."
+  },
+  {
+    "query": "Show datasets combining in-situ rainfall measurements with satellite precipitation estimates for Central Africa.",
+    "reference_response": "You requested precipitation datasets for Central Africa combining in-situ and satellite data. Relevant merged products provide improved spatial accuracy for hydrological and climate studies."
+  },
+  {
+    "query": "Which datasets integrate soil moisture field measurements with Sentinel-1 radar observations?",
+    "reference_response": "You requested datasets combining soil moisture field data with Sentinel-1 radar imagery. Relevant datasets enhance spatial and temporal resolution for soil moisture estimation."
+  },
+  {
+    "query": "Find data products merging ground-based air quality sensors with satellite-derived NO₂ concentrations.",
+    "reference_response": "You requested datasets merging ground and satellite NO₂ data. Relevant hybrid products provide improved air quality mapping accuracy across urban and regional scales."
+  },
+  {
+    "query": "What datasets can local authorities use to evaluate flood risk exposure for critical infrastructures?",
+    "reference_response": "You requested flood risk exposure datasets for infrastructure assessment. Relevant sources combine flood extent maps, elevation models, and critical asset databases."
+  },
+  {
+    "query": "Find datasets useful for monitoring agricultural drought and crop yield anomalies in North Africa.",
+    "reference_response": "You requested drought and crop anomaly datasets for North Africa. Relevant datasets integrate vegetation, soil moisture, and precipitation indices to detect agricultural stress."
+  },
+  {
+    "query": "Which datasets support the assessment of renewable energy potential based on solar and wind observations?",
+    "reference_response": "You requested renewable energy potential datasets using solar and wind data. Relevant datasets provide long-term irradiance and wind speed observations for energy site evaluation."
+  },
+  {
+    "query": "Show datasets that can be used to map wildfire occurrence and burnt area extent over the past five years.",
+    "reference_response": "You requested wildfire occurrence and burnt area datasets (past five years). Relevant satellite-based products detect active fires and map post-burned surfaces globally."
+  },
+  {
+    "query": "Which Sentinel-1 datasets can I use to monitor soil moisture variability in agricultural areas?",
+    "reference_response": "You requested Sentinel-1 soil moisture variability datasets for agricultural zones. Relevant products provide radar-derived soil moisture maps with high temporal frequency."
+  },
+  {
+    "query": "Find Sentinel-1 data suitable for detecting ground deformation after the recent earthquake in Turkey.",
+    "reference_response": "You requested Sentinel-1 data for post-earthquake ground deformation in Turkey. Relevant datasets include interferometric products measuring surface displacement with centimeter accuracy."
+  },
+  {
+    "query": "Show Sentinel-2 datasets useful for mapping vegetation health and chlorophyll concentration in coastal zones.",
+    "reference_response": "You requested Sentinel-2 vegetation and chlorophyll datasets for coastal zones. Relevant multispectral products provide indices for monitoring coastal ecosystem health."
+  },
+  {
+    "query": "What Sentinel-2 images can be used to analyze urban heat islands in Paris during summer 2022?",
+    "reference_response": "You requested Sentinel-2 imagery for analyzing Paris urban heat islands (summer 2022). Relevant datasets provide high-resolution surface temperature and land cover information."
+  },
+  {
+    "query": "Find MODIS datasets tracking active fire events and burnt area extent in the Mediterranean region.",
+    "reference_response": "You requested MODIS fire detection datasets for the Mediterranean. Relevant datasets include active fire and burnt area products at daily to monthly resolution."
+  },
+  {
+    "query": "Which MODIS data can provide daily global cloud cover information?",
+    "reference_response": "You requested MODIS global cloud cover datasets. Relevant daily products report cloud fraction and optical properties for atmospheric monitoring."
+  },
+  {
+    "query": "Show Landsat datasets documenting land cover change and deforestation in Central Africa since 1990.",
+    "reference_response": "You requested Landsat datasets for Central African land cover change (since 1990). Relevant products provide consistent deforestation and reforestation maps across decades."
+  },
+  {
+    "query": "Find Landsat data to monitor glacial retreat in the Himalayas over the past 30 years.",
+    "reference_response": "You requested Landsat datasets for Himalayan glacier monitoring (past 30 years). Relevant datasets provide multitemporal imagery for mapping glacier area changes."
+  },
+  {
+    "query": "Which Copernicus Marine datasets provide information on sea surface salinity and ocean currents?",
+    "reference_response": "You requested Copernicus Marine datasets on sea surface salinity and currents. Relevant oceanographic products integrate satellite and model data for marine circulation analysis."
+  },
+  {
+    "query": "Find climate reanalysis datasets from Copernicus suitable for studying precipitation anomalies in Europe.",
+    "reference_response": "You requested Copernicus reanalysis datasets for European precipitation anomalies. Relevant datasets provide long-term, high-resolution gridded climate variables."
+  },
+  {
+    "query": "Which datasets combine satellite imagery and census data to analyze urban sprawl in European capitals?",
+    "reference_response": "You requested datasets combining satellite imagery with census data for urban sprawl analysis. Relevant datasets merge land cover maps and demographic indicators for spatial growth assessment."
+  },
+  {
+    "query": "Find datasets linking air quality observations with health indicators in major French cities.",
+    "reference_response": "You requested datasets linking air quality and health data for French cities. Relevant datasets merge pollution observations with health statistics to assess exposure effects."
+  },
+  {
+    "query": "Show datasets integrating nightlight data from satellites with population density for economic activity mapping.",
+    "reference_response": "You requested datasets combining nightlight and population data. Relevant datasets correlate nighttime illumination intensity with demographic and economic indicators."
+  },
+  {
+    "query": "Which datasets merge Sentinel-2 vegetation indices with ground crop yield statistics?",
+    "reference_response": "You requested datasets merging Sentinel-2 vegetation indices with crop yield data. Relevant sources integrate remote sensing and agricultural statistics for productivity estimation."
+  },
+  {
+    "query": "Find datasets that relate land surface temperature from satellites to soil biodiversity observations.",
+    "reference_response": "You requested datasets linking satellite-derived surface temperature and soil biodiversity. Relevant datasets combine ecological field surveys and remote sensing metrics."
+  },
+  {
+    "query": "Show data products combining land cover maps and protected area boundaries to monitor habitat loss.",
+    "reference_response": "You requested datasets combining land cover and protected area data. Relevant datasets allow assessment of habitat degradation within conservation zones."
+  },
+  {
+    "query": "Which datasets can be used to assess renewable energy potential by combining solar irradiance and wind speed data?",
+    "reference_response": "You requested datasets combining solar irradiance and wind speed for renewable energy assessment. Relevant datasets provide gridded climatological data for site evaluation."
+  },
+  {
+    "query": "Find datasets correlating satellite-derived drought indices with food insecurity reports in Africa.",
+    "reference_response": "You requested datasets linking drought indices and food insecurity in Africa. Relevant datasets integrate EO drought indicators and humanitarian data for risk assessment."
+  },
+  {
+    "query": "Show datasets combining citizen-reported flood events with Sentinel-1 flood extent maps.",
+    "reference_response": "You requested datasets combining citizen flood reports with Sentinel-1 flood maps. Relevant hybrid products enhance flood mapping accuracy and validation."
+  },
+  {
+    "query": "Find open datasets suitable for training an AI model to classify land use changes using Sentinel and OpenStreetMap data.",
+    "reference_response": "You requested open datasets for AI-based land use classification using Sentinel and OpenStreetMap data. Relevant datasets include annotated imagery and vector map layers for supervised learning."
+  },
+  {
+    "query": "Which datasets provide snow cover extent and snow depth measurements in the Alps over the past 20 years?",
+    "reference_response": "You requested snow cover and snow depth datasets for the Alps (past 20 years). Relevant datasets combine satellite-derived snow products and in-situ measurements for hydrological and climate studies."
+  }
+]
